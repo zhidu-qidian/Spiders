@@ -1,0 +1,50 @@
+{
+  "shejipi.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": {
+          "params": {
+            "class_": "meta", 
+            "name": "div"
+          }
+        }, 
+        "author": {
+          "params": {
+            "class_": "author", 
+            "name": "span"
+          }
+        }, 
+        "title": {
+          "params": {
+            "class_": "entry-title", 
+            "name": "h1"
+          }
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "class_": "entry-content", 
+            "name": "div"
+          }
+        }, 
+        "source": "设计癖", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "class_": "date", 
+            "name": "span"
+          }
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "shejipi.com": [
+        "0"
+      ]
+    }
+  }
+}

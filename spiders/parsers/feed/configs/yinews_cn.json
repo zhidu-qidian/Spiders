@@ -1,0 +1,19 @@
+{
+  "domain": "yinews.cn",
+  "list": [
+    {
+      "publish_time": "articleinfo|publishdate",
+      "title" : "articleinfo|title",
+      "url": "articleinfo|shareurl",
+      "skip": null,
+      "abstract": "articleinfo|memo",
+      "author": null,
+      "list":"Data",
+      "filter": null,
+      "publish_site": "accountinfo|wxalias",
+      "keywords": null,
+      "type": "ajax",
+      "crawler": "yinews_cn"
+    }
+  ]
+}

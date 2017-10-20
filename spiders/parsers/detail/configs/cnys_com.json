@@ -1,0 +1,45 @@
+{
+  "cnys.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1"
+          }
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div.readbox > div.reads"
+          }
+        },
+        "source":{
+          "method": "select",
+          "params": {
+            "selector": "div.infos > a"
+          }
+        },
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "div.infos"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "cnys.com": [
+        "0"
+      ]
+    }
+  }
+}

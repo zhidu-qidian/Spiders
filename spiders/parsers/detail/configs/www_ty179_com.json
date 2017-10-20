@@ -1,0 +1,39 @@
+{
+  "www.ty179.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "name": "h1"
+          }
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "class": "article-pic", 
+            "name": "div"
+          }
+        }, 
+        "source": "吾道美女网", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "class_": "article-title-1", 
+            "name": "div"
+          }
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "www.ty179.com": [
+        "0"
+      ]
+    }
+  }
+}

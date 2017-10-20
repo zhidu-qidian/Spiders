@@ -1,0 +1,50 @@
+{
+  "gold.xitu.io": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "selector": "h2.entry-title"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.entry-content > div > section"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "掘金", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "small.entry-meta > span:nth-of-type(3)"
+          }, 
+          "method": "select"
+        }, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        }, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "gold.xitu.io": [
+        "0"
+      ]
+    }
+  }
+}

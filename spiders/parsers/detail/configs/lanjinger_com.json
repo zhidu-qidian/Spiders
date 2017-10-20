@@ -1,0 +1,42 @@
+{
+  "lanjinger.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "div.article_title"
+          }
+        },
+        "summary": null,
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "div.article_content_wrap"
+            }
+          }
+        ],
+        "source": "蓝鲸",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "div.content_left"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "lanjinger.com": [
+        "0"
+      ]
+    }
+  }
+}

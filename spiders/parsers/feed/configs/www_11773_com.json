@@ -1,0 +1,41 @@
+{
+  "domain": "www.11773.com", 
+  "list": [
+    {
+      "publish_time": {
+        "params": {
+          "selector": "dd.article_intro > p.atricle_other > em"
+        }, 
+        "method": "select"
+      }, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "dt > a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": {
+        "params": {
+          "selector": "dd.article_intro > p.indent > em"
+        }, 
+        "method": "select"
+      }, 
+      "title": {
+        "params": {
+          "selector": "dt > a"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "dl"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "11773_com"
+    }
+  ]
+}

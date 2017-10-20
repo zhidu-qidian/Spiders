@@ -1,0 +1,50 @@
+{
+  "worldnewsdailyreport.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "selector": "h1.entry-title"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.entry-content"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "worldnewsdailyreport.com", 
+        "editor": null, 
+        "clean": {
+          "params": {
+            "selector": "div.shareaholic-canvas"
+          }, 
+          "method": "select"
+        }, 
+        "date": null, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        }, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "worldnewsdailyreport.com": [
+        "0"
+      ]
+    }
+  }
+}

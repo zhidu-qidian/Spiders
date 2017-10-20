@@ -1,0 +1,69 @@
+{
+  "domain": "souid.com",
+  "list": [
+    {
+      "publish_time": null, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": null, 
+      "title": {
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "div.w_1000 > div:nth-of-type(3) > ul > li,div.w_1000 > div:nth-of-type(3) > ul > dl > dt"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "souid_com_new"
+    },
+    {
+      "publish_time": null,
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "h3 > a"
+        },
+        "method": "select"
+      },
+      "abstract": {
+        "params": {
+          "selector": "p"
+        },
+        "method": "select"
+      },
+      "title": {
+        "params": {
+          "selector": "h3 > a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "div.c-list,div.c-box > div > ul > li"
+        },
+        "method": "select"
+      },
+      "thumb":{
+        "attribute": "src",
+        "params": {
+          "selector": "img"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "souid_com"
+    }
+  ]
+}

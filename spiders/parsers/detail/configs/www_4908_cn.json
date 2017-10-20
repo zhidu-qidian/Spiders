@@ -1,0 +1,54 @@
+{
+  "www.4908.cn": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "class_": "fn", 
+            "name": "h1"
+          }
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "class_": "shortcode-content hreview", 
+            "name": "div"
+          }
+        }, 
+        "source": "奇趣网", 
+        "editor": null, 
+        "clean": [
+          {
+            "params": {
+              "class_": "article-head", 
+              "name": "div"
+            }
+          }, 
+          {
+            "params": {
+              "class_": "pagination", 
+              "name": "div"
+            }
+          }, 
+          {
+            "params": {
+              "class_": "article-foot", 
+              "name": "div"
+            }
+          }
+        ], 
+        "date": null, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "www.4908.cn": [
+        "0"
+      ]
+    }
+  }
+}

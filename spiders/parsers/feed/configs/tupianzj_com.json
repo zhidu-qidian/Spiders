@@ -1,0 +1,84 @@
+{
+  "domain": "tupianzj.com", 
+  "list": [
+    {
+      "publish_time": null, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": null, 
+      "title": {
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "div.item > p"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "tupianzj_com"
+    },
+    {
+      "publish_time": null,
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+      "title": {
+        "params": {
+          "selector": "a > img"
+        },
+        "method": "select",
+                "attribute": "alt"
+      },
+      "list": {
+        "params": {
+          "selector": "ul.d1 > li"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "tupianzj_com_v2"
+    },
+    {
+      "publish_time": null,
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+      "title": {
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "ul.s1b > li > span"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "tupianzj_com_meinv"
+    }
+  ]
+}

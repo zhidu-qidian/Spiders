@@ -1,0 +1,110 @@
+{
+  "domain": "qianzhan.com", 
+  "list": [
+    {
+      "publish_time": null, 
+      "title": {
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "skip": null, 
+      "abstract": null, 
+      "author": null, 
+      "list": {
+        "params": {
+          "selector": "p.tit"
+        }, 
+        "method": "select"
+      }, 
+      "filter": null, 
+      "publish_site": null, 
+      "keywords": null, 
+      "type": "html", 
+      "crawler": "qianzhan"
+    }, 
+    {
+      "publish_time": {
+        "params": {
+          "selector": "div.ml220 > div.mt10 > p.l.h24.lh24.mr15.cb.f14 > span"
+        }, 
+        "method": "select"
+      }, 
+      "title": {
+        "params": {
+          "selector": "div.ml220 > p.f22 > a"
+        }, 
+        "method": "select"
+      }, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "div.ml220 > p.f22 > a"
+        }, 
+        "method": "select"
+      }, 
+      "skip": null, 
+      "abstract": {
+        "params": {
+          "selector": "div.ml220 > p.lh24.mh48.mt10.f14.c6"
+        }, 
+        "method": "select"
+      }, 
+      "author": null, 
+      "list": {
+        "params": {
+          "selector": "li.ptb20.bb1e.clf"
+        }, 
+        "method": "select"
+      }, 
+      "filter": null, 
+      "publish_site": null, 
+      "keywords": null, 
+      "type": "html", 
+      "crawler": "qianzhan_3w"
+    }, 
+    {
+      "publish_time": null, 
+      "title": {
+        "params": {
+          "selector": "h2 > a"
+        }, 
+        "method": "select"
+      }, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "skip": null, 
+      "abstract": {
+        "params": {
+          "selector": "p"
+        }, 
+        "method": "select"
+      }, 
+      "author": null, 
+      "list": {
+        "params": {
+          "selector": "ul#ulNewsList > li"
+        }, 
+        "method": "select"
+      }, 
+      "filter": null, 
+      "publish_site": null, 
+      "keywords": null, 
+      "type": "html", 
+      "crawler": "qianzhan_ent"
+    }
+  ]
+}

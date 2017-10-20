@@ -1,0 +1,39 @@
+{
+  "www.wmtuku.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "name": "h1"
+          }
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "class_": "pp hh", 
+            "name": "div"
+          }
+        }, 
+        "source": "完美图库", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "class_": "type", 
+            "name": "div"
+          }
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "www.wmtuku.com": [
+        "0"
+      ]
+    }
+  }
+}

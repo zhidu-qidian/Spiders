@@ -1,0 +1,49 @@
+{
+  "weiyangx.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": {
+          "params": {
+            "selector": "div.wp-link-pages"
+          },
+          "method": "select"
+        },
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "h1"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": {
+          "params": {
+            "selector": "article.wyt-post-content"
+          },
+          "method": "select"
+        },
+        "source":null,
+        "editor": null,
+        "clean": [
+          {"params": {"selector": "div.uk-hidden-large"}, "method": "select"},
+          {"params": {"selector": "div.wyt-post-header-noimg"}, "method": "select"},
+          {"params": {"selector": "div.wyt-post-content-meta"}, "method": "select"},
+          {"params": {"selector": "div.uk-article-meta"}, "method": "select"},
+          {"params": {"selector": "div.wyt-post-header"}, "method": "select"},
+          {"params": {"selector": "img:nth-of-type(1)"}, "method": "select"}
+
+        ],
+        "date":null,
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "weiyangx.com": [
+        "0"
+      ]
+
+    }
+  }
+}

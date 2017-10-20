@@ -1,0 +1,20 @@
+{
+  "domain": "hexun.com", 
+  "list": [
+    {
+      "publish_time": "entitytime", 
+      "title": "title", 
+      "url": "entityurl", 
+      "skip": null, 
+      "abstract": null, 
+      "author": null, 
+      "list": "result", 
+      "filter": null, 
+      "publish_site": null, 
+      "fields": null, 
+      "keywords": null, 
+      "type": "ajax", 
+      "crawler": "hexun_com"
+    }
+  ]
+}

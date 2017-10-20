@@ -1,0 +1,106 @@
+{
+  "luoo.net": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "params": {
+            "selector": "a.vol-author"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "span.vol-title"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div#volCoverWrapper"
+            }, 
+            "method": "select"
+          }, 
+          {
+            "params": {
+              "selector": "div.vol-desc"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "luoo.net", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "span.vol-date"
+          }, 
+          "method": "select"
+        }, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        }, 
+        "before": null
+      }, 
+      "1": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "params": {
+            "selector": "p.essay-meta > span"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "h1.essay-title"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.essay-content"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "luoo.net", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "p.essay-meta"
+          }, 
+          "method": "select"
+        }, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        }, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "luoo.net": [
+        "0", 
+        "1"
+      ]
+    }
+  }
+}

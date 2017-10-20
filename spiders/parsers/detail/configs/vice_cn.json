@@ -1,0 +1,123 @@
+{
+  "vice.cn": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": {
+          "method": "select",
+          "params": {
+            "selector": "div.social-share"
+          }
+        },
+        "author": {
+          "method": "select",
+          "params": {
+            "selector": "div.details > div.byline > a"
+          }
+        },
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": ".article-title"
+          }
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div.article-body"
+          }
+        },
+        "source": "VICE",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "span.published"
+          }
+        },
+        "tags": null,
+        "before": null
+      },
+      "1": {
+        "extractor": null,
+        "after": null,
+        "author": {
+          "method": "select",
+          "params": {
+            "selector": "div.details > div.byline > a"
+          }
+        },
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1.id-title > span"
+          }
+        },
+        "summary": null,
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "div.article-content"
+            }
+          }
+        ],
+        "source": "VICE",
+        "editor": null,
+        "clean": null,
+        "date": null,
+        "tags": null,
+        "before": null
+      },
+      "2": {
+        "extractor": null,
+        "after": null,
+        "author": {
+          "method": "select",
+          "params": {
+            "selector": "span.author"
+          }
+        },
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1.article-title"
+          }
+        },
+        "summary": null,
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "div.article-content"
+            }
+          }
+        ],
+        "source": "VICE",
+        "editor": null,
+        "clean": null,
+        "date": {
+            "method": "select",
+            "params": {
+              "selector": "div.article-meta"
+            }
+          },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "i-d.vice.cn": [
+        "1"
+      ],
+      "thecreatorsproject.vice.cn": [
+        "2"
+      ],
+      "vice.cn": [
+        "0"
+      ]
+    }
+  }
+}

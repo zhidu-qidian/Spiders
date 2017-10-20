@@ -1,0 +1,17 @@
+{
+  "domain": "xueqiu.com", 
+  "list": [
+    {
+      "publish_time":"data|created_at",
+      "author":"data|user|screen_name",
+      "url": "https://xueqiu.com{0}",
+      "fields":["data|target"],
+      "abstract":"data|description" ,
+      "title":"data|title",
+      "list":"list",
+      "type":"ajax",
+      "keywords": null, 
+      "crawler": "xueqiu_com"
+    }
+  ]
+}

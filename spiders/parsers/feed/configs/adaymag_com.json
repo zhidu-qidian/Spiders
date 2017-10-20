@@ -1,0 +1,36 @@
+{
+  "domain": "adaymag.com", 
+  "list": [
+    {
+      "publish_time": null, 
+      "title": {
+        "attribute": "title", 
+        "params": {
+          "selector": "h5.entry-title > a"
+        }, 
+        "method": "select"
+      }, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "h5.entry-title > a"
+        }, 
+        "method": "select"
+      }, 
+      "skip": null, 
+      "abstract": null, 
+      "author": null, 
+      "list": {
+        "params": {
+          "selector": "article"
+        }, 
+        "method": "select"
+      }, 
+      "filter": null, 
+      "publish_site": null, 
+      "keywords": null, 
+      "type": "html", 
+      "crawler": "adaymag"
+    }
+  ]
+}

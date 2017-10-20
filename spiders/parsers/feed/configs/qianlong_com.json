@@ -1,0 +1,36 @@
+{
+  "domain": "qianlong.com",
+  "list": [
+    {
+      "publish_time": null,
+      "title" : {
+        "params": {
+          "selector": "a.title"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a.title"
+        },
+        "method": "select"
+      },
+      "thumb": {"params": {"selector": "a.pic > img"}, "method": "select", "attribute": "src"},
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "div#mainContent > ul > li"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "qianlong_com"
+    }
+  ]
+}

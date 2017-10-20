@@ -1,0 +1,40 @@
+{
+  "domain": "b12.cn",
+  "list": [
+    {
+      "publish_time": null,
+      "title" : {
+        "params": {
+          "selector": "div.contain-right > p.title > a"
+        },
+        "method": "select"
+      },
+      "url": {
+         "attribute": "href",
+        "params": {
+          "selector": "div.contain-right > p.title > a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": {
+        "params": {
+          "selector": "div.contain-right > p.brief"
+        },
+        "method": "select"
+      },
+      "author": null,
+      "list": {
+        "params": {
+          "selector": " div#site-content > section.article-list"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "b12_cn"
+    }
+  ]
+}

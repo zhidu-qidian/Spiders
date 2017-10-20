@@ -1,0 +1,85 @@
+{
+  "huanqiu.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": {
+          "params": {
+            "class_": "reTopics", 
+            "name": "div"
+          }
+        }, 
+        "author": null,
+        "title": {
+          "params": {
+            "name": "h1"
+          }
+        }, 
+        "summary": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "description"
+            }
+          }
+        }, 
+        "content": {
+          "params": {
+            "id": "text"
+          }
+        }, 
+        "source": {
+          "attribute": "title",
+          "params": {"selector": "#source_baidu"},
+          "method": "select"
+        },
+        "editor": null, 
+        "clean": [
+          {
+            "params": {
+              "name": "img", 
+              "attrs": {
+                "src": "http://a3.peoplecdn.cn/a7f5e844e54faf51ad7656367cf08c2a.jpg"
+              }
+            }
+          }
+        ], 
+        "date": {
+          "attribute": "content",
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "publishdate"
+            }
+          }
+        },
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        }, 
+        "before": null
+      },
+      "1": {
+        "extractor": "huanqiuphoto",
+        "after": null,
+        "author": null,
+        "title": {"params": {"selector": "h1.hd > strong"}, "method": "select"},
+        "summary": null,
+        "content": null,
+        "source": {"params": {"selector": "li.from span"}, "method": "select"},
+        "editor": null,
+        "clean": null,
+        "date": {"params": {"selector": "li.time span"}, "method": "select"},
+        "tags": null,
+        "before": null
+      }
+    }, 
+    "match": {"huanqiu.com": ["0", "1"]}
+  }
+}

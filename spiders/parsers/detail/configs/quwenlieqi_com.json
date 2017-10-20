@@ -1,0 +1,47 @@
+{
+  "quwenlieqi.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "h1.article-title"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": [
+          {
+            "params": {
+              "selector": "article#articleContent > div.slideup"
+            },
+            "method": "select"
+          }
+        ],
+        "source": "趣闻猎奇",
+        "editor": null,
+        "clean": {
+            "params": {
+              "selector": "p.copy_info"
+            },
+            "method": "select"
+          },
+        "date": {
+          "params": {
+            "selector": "div.article-meta > time.new"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "quwenlieqi.com": [
+        "0"
+      ]
+    }
+  }
+}

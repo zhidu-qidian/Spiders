@@ -1,0 +1,65 @@
+{
+  "domain": "yzz.cn",
+  "list": [
+    {
+      "publish_time": null,
+      "title": {
+        "params": {
+          "selector": "div.text > h2 > a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "div.text > a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "div#list_pt > ul > li"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "yzz_cn"
+    },
+    {
+      "publish_time": null,
+      "title": {
+        "params": {
+          "selector": "h3  a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "h3 a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "div.content div.item"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "yzz_cn_pic"
+    }
+  ]
+}

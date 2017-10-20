@@ -1,0 +1,41 @@
+{
+  "aidzs.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "div.hl_c_title > h2"
+          }
+        },
+        "summary": null,
+        "content": [{
+          "method": "select",
+          "params": {
+            "selector": "div.hl_content > div.hl_c_wcid"
+          }
+        },
+        {
+          "method": "select",
+          "params": {
+            "selector": "div.hl_content > div.hl_body"
+          }
+        }],
+        "source": "异闻网",
+        "editor": null,
+        "clean": null,
+        "date": null,
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "aidzs.com": [
+        "0"
+      ]
+    }
+  }
+}

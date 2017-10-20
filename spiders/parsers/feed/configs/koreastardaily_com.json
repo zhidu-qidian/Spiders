@@ -1,0 +1,50 @@
+{
+  "domain": "koreastardaily.com",
+  "list": [
+    {
+      "publish_time": {
+        "params": {
+          "selector": "h3"
+        },
+        "method": "select"
+      },
+      "title": {
+        "params": {
+          "selector": "h2 > a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "h2 > a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": {
+        "params": {
+          "selector": "div.yui-u.first.list-text > p"
+        },
+        "method": "select"
+      },
+      "author": {
+        "params": {
+          "selector": "h3 > a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "div.yui-u.list-desc"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "koreastar"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "mmmono.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "params": {
+            "selector": "h3.name > a"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "h1.h-title"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.inner"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "mmmono.com", 
+        "editor": null, 
+        "clean": null, 
+        "date": null, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        }, 
+        "before": {
+          "params": {
+            "selector": "span.desc.meow-user"
+          }, 
+          "method": "select"
+        }
+      }
+    }, 
+    "match": {
+      "mmmono.com": [
+        "0"
+      ]
+    }
+  }
+}

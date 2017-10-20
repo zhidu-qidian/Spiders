@@ -1,0 +1,48 @@
+{
+  "liwushuo.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "selector": "h1.title"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.cover"
+            }, 
+            "method": "select"
+          }, 
+          {
+            "params": {
+              "selector": "div.content"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "礼物说", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "div.date.il-block"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "liwushuo.com": [
+        "0"
+      ]
+    }
+  }
+}

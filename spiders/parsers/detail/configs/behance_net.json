@@ -1,0 +1,53 @@
+{
+  "behance.net": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "params": {
+            "selector": "div.profile-list > div.profile-list-info > div.profile-list-name > a"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "div#project-name"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "picture"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "Bēhance", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "attribute": "data-timestamp", 
+          "params": {
+            "selector": "div.project-published > span"
+          }, 
+          "method": "select"
+        }, 
+        "tags": {
+          "params": {
+            "selector": "ul.project-fields-list"
+          }, 
+          "method": "select"
+        }, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "behance.net": [
+        "0"
+      ]
+    }
+  }
+}

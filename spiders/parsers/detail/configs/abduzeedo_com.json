@@ -1,0 +1,45 @@
+{
+  "abduzeedo.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "selector": "h1"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.col-10.body"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "abduzeedo.com", 
+        "editor": null, 
+        "clean": null, 
+        "date": null, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        }, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "abduzeedo.com": [
+        "0"
+      ]
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "dgtle.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": {
+          "method": "select",
+          "params": {
+            "selector": "div.mporf > p > a"
+          }
+        },
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1 > a"
+          }
+        },
+        "summary": null,
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "div#view_content"
+            }
+          }
+        ],
+        "source": "数字尾巴",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "div.cr_catdates"
+          }
+        },
+        "tags": {
+          "attribute": "content",
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        },
+        "before": null
+      }
+    },
+    "match": {
+      "dgtle.com": [
+        "0"
+      ]
+    }
+  }
+}

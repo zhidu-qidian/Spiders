@@ -1,0 +1,45 @@
+{
+  "dig.chouti.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "selector": "div#pic_header > p"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.img_box"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "dig.chouti.com", 
+        "editor": null, 
+        "clean": null, 
+        "date": null, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        }, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "dig.chouti.com": [
+        "0"
+      ]
+    }
+  }
+}

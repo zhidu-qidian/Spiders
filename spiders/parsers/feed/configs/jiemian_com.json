@@ -1,0 +1,69 @@
+{
+  "domain": "jiemian.com", 
+  "list": [
+    {
+      "publish_time": null, 
+      "title": {
+        "attribute": "alt", 
+        "params": {
+          "selector": "a > img"
+        }, 
+        "method": "select"
+      }, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      },
+      "thumb": {"params": {"selector": "a > img"}, "method": "select", "attribute": "src"},
+      "skip": null, 
+      "abstract": null, 
+      "author": null, 
+      "list": {
+        "params": {
+          "selector": "div.news-img"
+        }, 
+        "method": "select"
+      }, 
+      "filter": null, 
+      "publish_site": null, 
+      "keywords": null, 
+      "type": "html", 
+      "crawler": "jiemian"
+    },
+    {
+      "publish_time": null,
+      "title": {
+        "attribute": "title",
+        "params": {
+          "selector": "div.news-position div.news-header h3 a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "div.news-img a"
+        },
+        "method": "select"
+      },
+      "thumb": {"params": {"selector": "div.news-img a > img"}, "method": "select", "attribute": "src"},
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "ul#js-news-slide > li > div.news-view"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "jiemian_banner"
+    }
+  ]
+}

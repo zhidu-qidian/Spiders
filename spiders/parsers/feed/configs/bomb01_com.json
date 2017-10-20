@@ -1,0 +1,35 @@
+{
+  "domain": "bomb01.com",
+  "list": [
+    {
+      "publish_time": null,
+      "title" : {
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "h2.grid"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "bomb01_com"
+    }
+  ]
+}

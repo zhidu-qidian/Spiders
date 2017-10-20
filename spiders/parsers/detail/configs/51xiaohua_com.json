@@ -1,0 +1,35 @@
+{
+  "51xiaohua.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1"
+          }
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div#nrbody"
+          }
+        },
+        "source": "51笑话网",
+        "editor": null,
+        "clean": null,
+        "date": null,
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "51xiaohua.com": [
+        "0"
+      ]
+    }
+  }
+}

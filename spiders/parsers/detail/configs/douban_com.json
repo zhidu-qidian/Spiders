@@ -1,0 +1,157 @@
+{
+  "douban.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "params": {
+            "selector": "div.card > section.header  > div.user-title > span"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "div.card > section.header > h1"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div#content"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "豆瓣网", 
+        "editor": null, 
+        "clean": null, 
+        "date": null, 
+        "tags": null, 
+        "before": null
+      }, 
+      "1": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "params": {
+            "selector": "div.post-container > div.meta > a"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "h1.title"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div#content"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "豆瓣网：一刻", 
+        "editor": null, 
+        "clean": null, 
+        "date": null, 
+        "tags": null, 
+        "before": null
+      }, 
+      "2": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "params": {
+            "property": "v:reviewer"
+          }, 
+          "method": "find"
+        }, 
+        "title": {
+          "params": {
+            "property": "v:summary"
+          }, 
+          "method": "find"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "property": "v:description"
+            }, 
+            "method": "find"
+          }
+        ], 
+        "source": "豆瓣网：读书", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "property": "v:dtreviewed"
+          }, 
+          "method": "find"
+        }, 
+        "tags": null, 
+        "before": null
+      }, 
+      "3": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "selector": "div#event-info > div.event-info > h1"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.poster"
+            }, 
+            "method": "select"
+          }, 
+          {
+            "params": {
+              "selector": "div#link-report"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "豆瓣网：同城", 
+        "editor": null, 
+        "clean": [
+          {
+            "params": {
+              "selector": "a#foldDescHook"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "date": null, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "moment.douban.com": [
+        "1"
+      ], 
+      "book.douban.com": [
+        "2"
+      ], 
+      "douban.com/event/": [
+        "3"
+      ], 
+      "m.douban.com": [
+        "0"
+      ]
+    }
+  }
+}

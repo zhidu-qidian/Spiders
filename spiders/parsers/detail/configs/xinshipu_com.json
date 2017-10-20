@@ -1,0 +1,25 @@
+{
+  "xinshipu.com": {
+    "configs": {
+      "0": {
+        "extractor": "xinshipu",
+        "after": null,
+        "author": null,
+        "title": null,
+        "summary": null,
+        "content": {},
+        "source": "心食谱",
+        "editor": null,
+        "clean": null,
+        "date": null,
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "xinshipu.com": [
+        "0"
+      ]
+    }
+  }
+}

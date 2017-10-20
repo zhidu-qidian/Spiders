@@ -1,0 +1,39 @@
+{
+  "waou.com.mo": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "name": "h1"
+          }
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div.editor"
+          }
+        },
+        "source": "新华澳报",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "params": {
+            "class_": "mc_hits",
+            "name": "div"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "waou.com.mo": [
+        "0"
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "domain": "gamersky.com", 
+  "conf": {
+    "START": 2, 
+    "NUMBER": {
+      "params": {
+        "selector": "div.page_css > a"
+      }, 
+      "type": "last", 
+      "method": "select"
+    }, 
+    "TEMPLATE": {
+      "join": false, 
+      "template": "_%s.shtml"
+    }
+  }
+}

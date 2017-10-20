@@ -1,0 +1,41 @@
+{
+  "domain": "yam.com",
+  "list": [
+    {
+      "publish_time": {
+        "params": {
+          "selector": "time"
+        },
+        "method": "select"
+      },
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "abstract": {
+        "params": {
+          "selector": "p"
+        },
+        "method": "select"
+      },
+      "title": {
+        "params": {
+          "selector": "h3"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "div#pixList > div.imgWrap.masonry-brick"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "dq_yam_com"
+    }
+  ]
+}

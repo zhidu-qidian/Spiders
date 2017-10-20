@@ -1,0 +1,32 @@
+{
+  "domain": "yicai.com", 
+  "list": [
+    {
+      "publish_time": null, 
+      "title": {
+        "method": "select"
+      }, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "skip": null, 
+      "abstract": null, 
+      "author": null, 
+      "list": {
+        "params": {
+          "selector": "dd > h3"
+        }, 
+        "method": "select"
+      }, 
+      "filter": null, 
+      "publish_site": null, 
+      "keywords": null, 
+      "type": "html", 
+      "crawler": "yicai"
+    }
+  ]
+}

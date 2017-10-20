@@ -1,0 +1,29 @@
+{
+  "domain": "wenweipo.com", 
+  "list": [
+    {
+      "publish_time": null, 
+      "title": {
+        "method": "select"
+      }, 
+      "url": {
+        "attribute": "href", 
+        "method": "select"
+      }, 
+      "skip": null, 
+      "abstract": null, 
+      "author": null, 
+      "list": {
+        "params": {
+          "selector": "a.sub_fg16"
+        }, 
+        "method": "select"
+      }, 
+      "filter": null, 
+      "publish_site": null, 
+      "keywords": null, 
+      "type": "html", 
+      "crawler": "wenweipo_com"
+    }
+  ]
+}

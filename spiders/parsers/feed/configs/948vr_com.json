@@ -1,0 +1,81 @@
+{
+  "domain": "948vr.com",
+  "list": [
+    {
+      "publish_time": {
+        "params": {
+          "selector": "time"
+        },
+        "method": "select"
+      },
+      "title": {
+        "params": {
+          "selector": "h2 > a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "h2 > a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "div.main-col > div.blog-post"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "hollandone_com"
+    },
+        {
+      "publish_time": {
+        "params": {
+          "selector": "div.ginfo"
+        },
+        "method": "select"
+      },
+      "title": {
+        "params": {
+          "selector": "div.ginfo > b > a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "div.ginfo > b > a "
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": {
+        "params": {
+          "selector": "div.ginfo > p"
+        },
+        "method": "select"
+      },
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "div.downlist.boxbg > ul > li"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "948vr_com"
+    }
+
+  ]
+}

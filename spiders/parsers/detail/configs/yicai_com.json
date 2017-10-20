@@ -1,0 +1,47 @@
+{
+  "yicai.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "name": "h1"
+          }
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "class_": "m-text", 
+            "name": "div"
+          }
+        }, 
+        "source": {
+          "params": {
+            "selector": "h2 > i"
+          }, 
+          "method": "select"
+        }, 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "h2 > span:nth-of-type(2)"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "www.yicai.com": [
+        "0"
+      ], 
+      "m.yicai.com": [
+        "0"
+      ]
+    }
+  }
+}

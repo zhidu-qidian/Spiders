@@ -1,0 +1,18 @@
+{
+  "domain": "youth.cn",
+  "conf": {
+    "START": 2,
+    "NUMBER": {
+      "attribute": "href",
+      "params": {
+        "selector": "div.fy  a"
+      },
+      "type": "last",
+      "method": "select"
+    },
+    "TEMPLATE": {
+      "join": false,
+      "template": "_%s.htm"
+    }
+  }
+}

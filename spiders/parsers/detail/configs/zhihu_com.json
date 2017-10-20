@@ -1,0 +1,82 @@
+{
+  "zhihu.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "params": {
+            "selector": "span.author"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "div.img-wrap > h1"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.question > h2"
+            }, 
+            "method": "select"
+          }, 
+          {
+            "params": {
+              "selector": "div.content"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "知乎日报", 
+        "editor": null, 
+        "clean": null, 
+        "date": null, 
+        "tags": null, 
+        "before": null
+      }, 
+      "1": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "params": {
+            "selector": "div#zh-question-answer-wrap > div > div.answer-head > div.zm-item-answer-author-info > span > span.author-link-line > a"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "div#zh-question-title > h2 > a"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div#zh-question-answer-wrap > div > div.zm-item-rich-text > div.zm-editable-content"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "知乎", 
+        "editor": null, 
+        "clean": null, 
+        "date": null, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "zhihu.com": [
+        "1"
+      ], 
+      "daily.zhihu.com": [
+        "0"
+      ]
+    }
+  }
+}

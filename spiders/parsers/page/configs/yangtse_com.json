@@ -1,0 +1,17 @@
+{
+  "domain": "yangtse.com",
+  "conf": {
+    "NUMBER": {
+      "type": "last",
+      "method": "select",
+      "params": {
+        "selector": "div#fenye > a > b"
+      }
+    },
+    "TEMPLATE": {
+      "join": false,
+      "template": "_%s.shtml"
+    },
+    "START": 2
+  }
+}

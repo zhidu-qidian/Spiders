@@ -1,0 +1,55 @@
+{
+  "huangjiwei.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "params": {
+            "selector": "span.author.vcard > a"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "h1.entry-title"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.clearfix.entry-content"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "huangjiwei.com", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "span.posted-on > a > time"
+          }, 
+          "method": "select"
+        }, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        }, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "huangjiwei.com": [
+        "0"
+      ]
+    }
+  }
+}

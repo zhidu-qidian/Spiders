@@ -1,0 +1,17 @@
+{
+  "domain": "www.85814.com", 
+  "conf": {
+    "START": 1, 
+    "NUMBER": {
+      "params": {
+        "selector": "h1 > em"
+      }, 
+      "method": "select"
+    }, 
+    "TEMPLATE": {
+      "separator": null, 
+      "join": false, 
+      "template": "_%s"
+    }
+  }
+}

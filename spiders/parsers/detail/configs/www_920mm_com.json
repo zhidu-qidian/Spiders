@@ -1,0 +1,36 @@
+{
+  "www.920mm.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "name": "h2"
+          }
+        }, 
+        "summary": null, 
+        "content": {
+          "nth": 1, 
+          "params": {
+            "class_": "lm", 
+            "name": "div"
+          }, 
+          "method": "find_all"
+        }, 
+        "source": "性感美女屋", 
+        "editor": null, 
+        "clean": null, 
+        "date": null, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "www.920mm.com": [
+        "0"
+      ]
+    }
+  }
+}

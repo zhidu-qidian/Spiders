@@ -1,0 +1,36 @@
+{
+  "xinhuanet.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {"params": {"selector": "div.h-title"}, "method": "select"},
+        "summary": null,
+        "content": {"params": {"selector": "div#p-detail"}, "method": "select"},
+        "source": {
+          "params": {
+            "id": "source", 
+            "name": "em"
+          }
+        }, 
+        "editor": null, 
+        "clean": [
+          {"params": {"selector": "div#p-detail > div.lb"}, "method": "select"},
+          {"params": {"selector": "iframe.video-frame"}, "method": "select"},
+          {"params": {"selector": "span.tj"}, "method": "select"},
+          {"params": {"selector": "div.zan-wap"}, "method": "select"},
+          {"params": {"selector": "div.p-tags"}, "method": "select"}
+        ],
+        "date": {"params": {"selector": "span.h-time"}, "method": "select"},
+        "tags": null,
+        "before": null
+      }
+    }, 
+    "match": {
+      "xinhuanet.com": [
+        "0"
+      ]
+    }
+  }
+}

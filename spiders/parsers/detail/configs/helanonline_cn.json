@@ -1,0 +1,43 @@
+{
+  "helanonline.cn": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1.node-title"
+          }
+        },
+        "summary": null,
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "div.field.field-name-body > div > div"
+            }
+          }
+        ],
+        "source": "荷兰在线",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "span.date"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "helanonline.cn": [
+        "0"
+      ]
+    }
+  }
+}
+

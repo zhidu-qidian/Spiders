@@ -1,0 +1,38 @@
+{
+  "ituba.cc": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1"
+          }
+        },
+        "summary": null,
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "#ArticlePicBox1 > a"
+            }
+          }
+        ],
+        "source": "爱图吧",
+        "editor": null,
+        "clean": null,
+        "date": null,
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "ituba.cc": [
+        "0"
+      ]
+    }
+  }
+}
+

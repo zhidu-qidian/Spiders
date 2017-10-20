@@ -1,0 +1,101 @@
+{
+  "yidianzixun.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": {
+          "params": {
+            "class_": "report", 
+            "name": "div"
+          }
+        }, 
+        "author": null, 
+        "title": {
+          "params": {
+            "name": "h2"
+          }
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "class_": "content-bd", 
+            "name": "div"
+          }
+        }, 
+        "source": {
+          "params": {
+            "name": "span", 
+            "id": "source-name"
+          }
+        }, 
+        "editor": null, 
+        "clean": null, 
+        "date": null, 
+        "tags": null, 
+        "before": null
+      },
+      "1": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {"params": {"name": "h1", "class_": "yidian-title"}},
+        "summary": null,
+        "content": {"params": {"name": "div", "class_": "yidian-content"}},
+        "source": {
+          "method": "select",
+          "params": {"selector": "div.yidian-info > span:nth-of-type(1)"}
+        },
+        "editor": null,
+        "clean": [{"params": {"name": "img", "attrs": {"alt_src": "http://i.thsi.cn/images/mhexin/v2/yidianad.png"}}}],
+        "date": {
+          "method": "select",
+          "params": {"selector": "div.yidian-info > span:nth-of-type(2)"}
+        },
+        "tags": null,
+        "before": null
+      },
+      "2": {
+        "extractor": null,
+        "after": {
+          "params": {
+            "class_": "report",
+            "name": "div"
+          }
+        },
+        "author": null,
+        "title": {
+          "params": {
+            "name": "h2"
+          }
+        },
+        "summary": null,
+        "content": {
+          "params": {
+            "class_": "video-wrapper",
+            "name": "div"
+          }
+        },
+        "source": {
+          "params": {
+            "name": "span",
+            "id": "source-name"
+          }
+        },
+        "editor": null,
+        "clean": null,
+        "date": null,
+        "tags": null,
+        "before": null
+      }
+    }, 
+    "match": {"yidianzixun.com": ["0","2"]},
+    "outer": {
+      "yidian": ["1"],
+      "yidianzixun": ["1"],
+      "ydzx": ["1"],
+      "/dna/m/H5": ["1"],
+      "/newsyi/show/type/1/id/": ["1"],
+      "_yd.htm": ["1"]
+    }
+  }
+}

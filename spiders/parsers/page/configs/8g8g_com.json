@@ -1,0 +1,17 @@
+{
+  "domain": "8g8g.com",
+  "conf": {
+    "START": 2,
+    "NUMBER": {
+      "params": {
+        "selector": "div.lurd-pager > a"
+      },
+      "type":"last",
+      "method": "select"
+    },
+    "TEMPLATE": {
+      "join": false,
+      "template": "_%s.html"
+    }
+  }
+}

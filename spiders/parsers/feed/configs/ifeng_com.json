@@ -1,0 +1,322 @@
+{
+  "domain": "ifeng.com",
+  "list": [
+    {
+      "publish_time": null,
+      "title": {
+        "attribute": "title",
+        "params": {
+          "selector": "h2 > a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "h2 > a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "div.box_list"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "ifeng_box"
+    },
+    {
+      "publish_time": null,
+      "title": {
+        "attribute": "title",
+        "params": {
+          "selector": "h3 > a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "h3 > a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "div.juti_new > div.juti_list"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "ifeng_juti"
+    },
+    {
+      "publish_time": null,
+      "title": {
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "div.newsList > ul > li"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "ifeng_list"
+    },
+    {
+      "publish_time": null,
+      "title": {
+        "attribute": "title",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "div.zheng_list"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "ifeng_zheng"
+    },
+    {
+      "publish_time": null,
+      "title": {
+        "params": {
+          "selector": "h2 > a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "h2 > a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "div.CtListCon > div.CtListConBox"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "ifeng_lp"
+    },
+    {
+      "publish_time": null,
+      "title": {
+        "params": {
+          "selector": "h1 > a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "h1 > a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": {
+        "attribute": "href",
+        "params": {
+          "selector": "p"
+        },
+        "method": "select"
+      },
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "div.box_01_a"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "ifeng_health_hot"
+    },
+    {
+      "publish_time": null,
+      "title": {
+        "params": {
+          "selector": "p.p7 > a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "p.p7 > a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "date":{
+        "params": {
+          "selector": ""
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "ul.pictxt15 > li"
+        },
+        "method": "select"
+      },
+      "thumb": {
+        "attribute": "src",
+        "params": {
+          "selector": "img"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "ifeng_sport_express"
+    },
+    {
+      "publish_time": null,
+      "title": {
+        "params": {
+          "selector": "h3 > a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "h3 > a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "date":{
+        "params": {
+          "selector": "span"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "div.picList > div"
+        },
+        "method": "select"
+      },
+      "thumb": {
+        "attribute": "src",
+        "params": {
+          "selector": "img"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "ifeng_ent_photo"
+    },
+        {
+      "publish_time": {
+        "params": {
+          "selector": "span.source > em"
+        },
+        "method": "select"
+      },
+      "title": {
+        "params": {
+          "selector": "a.tit"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a.tit"
+        },
+        "method": "select"
+      },
+          "thumb":{
+        "attribute": "src",
+        "params": {
+          "selector": "img"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "div.v2c-lst-li"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "ifeng_youji"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "3jy.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1"
+          }
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div#content"
+          }
+        },
+        "source": "叽歪笑话",
+        "editor": null,
+        "clean": null,
+        "date": null,
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "3jy.com": [
+        "0"
+      ]
+    }
+  }
+}

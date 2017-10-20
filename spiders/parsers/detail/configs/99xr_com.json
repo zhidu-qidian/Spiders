@@ -1,0 +1,40 @@
+{
+  "99xr.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1"
+          }
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div.substance"
+          }
+        },
+        "source": "久久养生",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "span.writor"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "99xr.com": [
+        "0"
+      ]
+    }
+  }
+}

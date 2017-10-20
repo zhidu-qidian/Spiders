@@ -1,0 +1,40 @@
+{
+  "tupian.nrsfh.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "class_": "title", 
+            "name": "div"
+          }
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "id": "bigpic", 
+            "name": "div"
+          }
+        }, 
+        "source": null, 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "class_": "info", 
+            "name": "div"
+          }
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "tupian.nrsfh.com": [
+        "0"
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "scontent.cdninstagram.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "selector": "head > title"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "html"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "cdninstagram", 
+        "editor": null, 
+        "clean": null, 
+        "date": null, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "scontent.cdninstagram.com": [
+        "0"
+      ]
+    }
+  }
+}

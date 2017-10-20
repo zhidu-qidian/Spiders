@@ -1,0 +1,51 @@
+{
+  "pingwest.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "class_": "title", 
+            "name": "h1"
+          }
+        }, 
+        "summary": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "description"
+            }
+          }
+        }, 
+        "content": {
+          "params": {
+            "name": "div", 
+            "id": "sc-container"
+          }
+        }, 
+        "source": "品玩", 
+        "editor": null, 
+        "clean": null, 
+        "date": null, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        }, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "pingwest.com": [
+        "0"
+      ]
+    }
+  }
+}

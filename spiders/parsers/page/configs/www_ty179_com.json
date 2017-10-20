@@ -1,0 +1,16 @@
+{
+  "domain": "www.ty179.com", 
+  "conf": {
+    "START": 2, 
+    "NUMBER": {
+      "params": {
+        "selector": "div.article-paper > ul > li > a"
+      }, 
+      "method": "select"
+    }, 
+    "TEMPLATE": {
+      "join": false, 
+      "template": "_%s.html"
+    }
+  }
+}

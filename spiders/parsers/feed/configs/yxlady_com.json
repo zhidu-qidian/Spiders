@@ -1,0 +1,38 @@
+{
+  "domain": "yxlady.com",
+  "list": [
+    {
+      "publish_time": null, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "h3.list-title > a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": null,
+      "thumb":{
+        "attribute": "src",
+        "params": {
+          "selector": "div.list-img > a > img"
+        },
+        "method": "select"
+      },
+      "title": {
+        "params": {
+          "selector": "h3.list-title > a"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "article.newlist > ul > li"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "yxlady_com"
+    }
+  ]
+}

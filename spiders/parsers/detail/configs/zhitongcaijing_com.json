@@ -1,0 +1,40 @@
+{
+  "zhitongcaijing.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "div.index-m h1"
+          }
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div.textMain"
+          }
+        },
+        "source": "智通财经网",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "span.float-l.margin-l30"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "zhitongcaijing.com": [
+        "0"
+      ]
+    }
+  }
+}

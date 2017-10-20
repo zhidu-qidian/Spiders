@@ -1,0 +1,37 @@
+{
+  "domain": "cnbeta.com",
+  "list": [
+    {
+      "publish_time": {
+        "params": {
+          "selector": "time"
+        },
+        "method": "select"
+      },
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "abstract":null,
+      "title": {
+
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "div.swiper-slide > div.cnbeta-hot-big-figure,div.swiper-slide > div.cnbeta-hot-small-figure > div.item"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "cnbeta_com"
+    }
+  ]
+}

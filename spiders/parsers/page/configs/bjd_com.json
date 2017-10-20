@@ -1,0 +1,18 @@
+{
+  "domain": "bjd.com",
+  "conf": {
+    "START": 1,
+    "NUMBER": {
+      "attribute":"href",
+      "params": {
+        "selector": "div.changePage > a"
+      },
+      "type": "last",
+      "method": "select"
+    },
+    "TEMPLATE": {
+      "join": false,
+      "template": "_%s.html"
+    }
+  }
+}

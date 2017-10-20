@@ -1,0 +1,41 @@
+{
+  "domain": "gamersky.com", 
+  "list": [
+    {
+      "publish_time": {
+        "params": {
+          "selector": "div.time"
+        }, 
+        "method": "select"
+      }, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "div.tit > a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": {
+        "params": {
+          "selector": "div.txt"
+        }, 
+        "method": "select"
+      }, 
+      "title": {
+        "params": {
+          "selector": "div.tit > a"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "ul.contentpaging > li > div.con"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "gamersky_com"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "domain": "cri.cn", 
+  "list": [
+    {
+      "publish_time": null, 
+      "title": {
+        "params": {
+          "selector": "div.title > a"
+        }, 
+        "method": "select"
+      }, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "div.title > a"
+        }, 
+        "method": "select"
+      }, 
+      "skip": null,
+      "thumb": {"params": {"selector": "div.pic > a > img"}, "method": "select", "attribute": "src"},
+      "abstract": null, 
+      "author": null, 
+      "list": {
+        "params": {
+          "selector": "div.list-box > ul > li"
+        }, 
+        "method": "select"
+      }, 
+      "filter": null, 
+      "publish_site": null, 
+      "keywords": null, 
+      "type": "html", 
+      "crawler": "cri_cn_i"
+    }
+  ]
+}

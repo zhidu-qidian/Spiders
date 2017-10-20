@@ -1,0 +1,67 @@
+{
+  "chinanews.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "name": "h1"
+          }
+        }, 
+        "summary": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "description"
+            }
+          }
+        }, 
+        "content": {
+          "params": {
+            "class_": "left_zw", 
+            "name": "div"
+          }
+        }, 
+        "source": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "author"
+            }
+          }
+        }, 
+        "editor": null, 
+        "clean": {
+          "params": {
+            "name": "table"
+          }
+        }, 
+        "date": {
+          "params": {
+            "class_": "left-t", 
+            "name": "div"
+          }
+        }, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        }, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "chinanews.com": [
+        "0"
+      ]
+    }
+  }
+}

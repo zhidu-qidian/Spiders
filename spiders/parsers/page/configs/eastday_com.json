@@ -1,0 +1,17 @@
+{
+  "domain": "eastday.com",
+  "conf": {
+    "START": 2,
+    "NUMBER": {
+      "params": {
+        "selector": "div.pagination > a"
+      },
+      "type": "sum",
+      "method": "select"
+    },
+    "TEMPLATE": {
+      "join": false,
+      "template": "-%s.html"
+    }
+  }
+}

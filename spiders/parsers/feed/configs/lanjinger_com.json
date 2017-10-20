@@ -1,0 +1,41 @@
+{
+  "domain": "lanjinger.com", 
+  "list": [
+    {
+      "publish_time": {
+        "params": {
+          "selector": "div.item_info"
+        }, 
+        "method": "select"
+      }, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "div.tele_content > a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": {
+        "params": {
+          "selector": "div.tele_content  div.news_brief"
+        }, 
+        "method": "select"
+      }, 
+      "title": {
+        "params": {
+          "selector": "div.tele_content  div.news_title"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "div.telegraph_item"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "lanjinger_com"
+    }
+  ]
+}

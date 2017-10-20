@@ -1,0 +1,17 @@
+{
+  "domain": "china.com.cn",
+  "conf": {
+    "START": 2,
+    "NUMBER": {
+      "params": {
+        "selector": "div#autopage > center "
+      },
+      "type": "last",
+      "method": "select"
+    },
+    "TEMPLATE": {
+      "join": false,
+      "template": "_%s.htm"
+    }
+  }
+}

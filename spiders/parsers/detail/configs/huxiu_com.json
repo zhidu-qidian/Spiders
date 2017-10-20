@@ -1,0 +1,66 @@
+{
+  "huxiu.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": {
+          "method": "select",
+          "params": {
+            "selector": "span.author-name > a"
+          }
+        },
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1.t-h1"
+          }
+        },
+        "summary": {
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "description"
+            }
+          },
+          "attribute": "content"
+        },
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div#article_content,div.article-content-wrap"
+          }
+        },
+        "source": "虎嗅",
+        "editor": null,
+        "clean": {
+          "method": "select",
+          "params": {
+            "selector": "div.neirong-shouquan-public"
+          }
+        },
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "span.article-time"
+          }
+        },
+        "tags": {
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "keywords"
+            }
+          },
+          "attribute": "content"
+        },
+        "before": null
+      }
+    },
+    "match": {
+      "huxiu.com": [
+        "0"
+      ]
+    }
+  }
+}

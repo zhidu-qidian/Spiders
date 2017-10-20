@@ -1,0 +1,19 @@
+{
+  "domain": "btime.com",
+  "list": [
+    {
+      "publish_time": "data|pdate",
+      "title" : "data|title",
+      "url": "open_url",
+      "skip": null,
+      "abstract": "data|summary",
+      "author": null,
+      "list": "data",
+      "filter": null,
+      "publish_site": "data|source",
+      "keywords": null,
+      "type": "ajax",
+      "crawler": "btime_com"
+    }
+  ]
+}

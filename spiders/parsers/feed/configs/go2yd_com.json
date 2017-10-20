@@ -1,0 +1,18 @@
+{
+  "domain": "go2yd.com",
+  "list": [
+    {
+      "publish_time": "date",
+      "author": "source",
+      "url": "url",
+      "abstract": null,
+      "comment_id": "docid",
+      "title": "title",
+      "list": "result",
+      "thumb": "image",
+      "keywords": "dislike_reasons",
+      "type": "ajax",
+      "crawler": "yidianzixun_jkys"
+    }
+  ]
+}

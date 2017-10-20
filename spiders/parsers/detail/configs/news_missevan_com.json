@@ -1,0 +1,56 @@
+{
+  "news.missevan.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "name": "div", 
+            "id": "articletitle"
+          }
+        }, 
+        "summary": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "description"
+            }
+          }
+        }, 
+        "content": {
+          "params": {
+            "name": "div", 
+            "id": "articlecontent"
+          }
+        }, 
+        "source": "MissEvan", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "name": "div", 
+            "id": "articleinfo"
+          }
+        }, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        }, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "news.missevan.com": [
+        "0"
+      ]
+    }
+  }
+}

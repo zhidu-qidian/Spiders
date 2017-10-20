@@ -1,0 +1,32 @@
+{
+  "domain": "ituba.cc", 
+  "list": [
+    {
+      "publish_time": null, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": null, 
+      "title": {
+        "attribute": "title", 
+        "params": {
+          "selector": "a:nth-of-type(3)"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "div#NewList > ul.ListTitle > li.Pic"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "ituba_cc"
+    }
+  ]
+}

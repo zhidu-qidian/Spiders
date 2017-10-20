@@ -1,0 +1,102 @@
+{
+  "18183.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1"
+          }
+        },
+        "summary": {
+          "params": {
+            "selector": "div.la_article > div.txtinfo"
+          },
+          "method": "select"
+        },
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div.arc-body,div.cbody,div.w-artileWrap,div.article_box"
+          }
+        },
+        "source": null,
+        "editor": null,
+        "clean": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "tbody"
+            }
+          }
+        ],
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "p.coninfo"
+          }
+        },
+        "tags": null,
+        "before": null
+      },
+      "1":{
+        "extractor": null,
+        "after": null,
+        "author": {
+          "nth": 1,
+          "params": {
+            "selector": "div.la_article > p.tit_bk_fx > span"
+          },
+          "method": "select"
+        },
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "div.content_detail > h1"
+          }
+        },
+        "summary": {
+          "params": {
+            "selector": "div.txtinfo"
+          },
+          "method": "select"
+        },
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div.article_box , div.content_p"
+          }
+        },
+        "source": null,
+        "editor": null,
+        "clean": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "tbody"
+            }
+          }
+        ],
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "p.tit_bk_fx > span:nth-of-type(3)"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "xin.18183.com":[
+        "1"
+      ],
+      "18183.com": [
+        "0"
+      ]
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "dsuu.cc": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "div.title-head h1"
+          }
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div.entry > div.content"
+          }
+        },
+        "source": "趣味集",
+        "editor": null,
+        "clean": null,
+        "date": null,
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "dsuu.cc": [
+        "0"
+      ]
+    }
+  }
+}

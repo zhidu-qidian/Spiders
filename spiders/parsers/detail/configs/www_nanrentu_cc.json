@@ -1,0 +1,56 @@
+{
+  "www.nanrentu.cc": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "class_": "newstitle", 
+            "name": "div"
+          }
+        }, 
+        "summary": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "description"
+            }
+          }
+        }, 
+        "content": {
+          "params": {
+            "class_": "picshowtop", 
+            "name": "div"
+          }
+        }, 
+        "source": "男人图", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "class_": "source_left", 
+            "name": "div"
+          }
+        }, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        }, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "www.nanrentu.cc": [
+        "0"
+      ]
+    }
+  }
+}

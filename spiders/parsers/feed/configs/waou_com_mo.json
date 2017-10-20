@@ -1,0 +1,36 @@
+{
+  "domain": "waou.com.mo", 
+  "list": [
+    {
+      "publish_time": {
+        "params": {
+          "selector": "td:nth-of-type(1) > span"
+        }, 
+        "method": "select"
+      }, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "td:nth-of-type(2) > a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": null, 
+      "title": {
+        "params": {
+          "selector": "td:nth-of-type(2) > a > span"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "div.main_newslist > table > tr"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "waou_com_mo"
+    }
+  ]
+}

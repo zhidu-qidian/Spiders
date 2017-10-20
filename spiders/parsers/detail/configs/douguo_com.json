@@ -1,0 +1,64 @@
+{
+  "douguo.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": {
+          "params": {
+            "selector": "div.retew > div.sdquan"
+          }, 
+          "method": "select"
+        }, 
+        "author": {
+          "attribute": "title", 
+          "params": {
+            "selector": "div.auth > a "
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "h1#page_cm_id"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.bokpic > div.bmayi > a"
+            }, 
+            "method": "select"
+          }, 
+          {
+            "params": {
+              "selector": "div.retew "
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "豆果美食", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "div.auth > span"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": {
+          "params": {
+            "selector": "div.retew > div.xtip"
+          }, 
+          "method": "select"
+        }
+      }
+    }, 
+    "match": {
+      "douguo.com": [
+        "0"
+      ]
+    }
+  }
+}

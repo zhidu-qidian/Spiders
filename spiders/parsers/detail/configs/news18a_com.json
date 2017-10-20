@@ -1,0 +1,45 @@
+{
+  "news18a.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author":{
+          "method": "select",
+          "params": {
+            "selector": "span.ina_author"
+          }
+        },
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "p > b"
+          }
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div.ina_content"
+          }
+        },
+        "source": "网通社",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "span.ina_data"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "auto.news18a.com": [
+        "0"
+      ]
+    }
+  }
+}

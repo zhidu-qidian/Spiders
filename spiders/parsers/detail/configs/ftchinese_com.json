@@ -1,0 +1,59 @@
+{
+  "ftchinese.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "class_": "story-headline", 
+            "name": "h1"
+          }
+        }, 
+        "summary": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "description"
+            }
+          }
+        }, 
+        "content": [
+          {
+            "params": {
+              "class_": "story-lead", 
+              "name": "div"
+            }
+          }, 
+          {
+            "params": {
+              "class_": "story-body", 
+              "name": "div"
+            }
+          }
+        ], 
+        "source": "FT中文网", 
+        "editor": null, 
+        "clean": null, 
+        "date": null, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        }, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "ftchinese.com": [
+        "0"
+      ]
+    }
+  }
+}

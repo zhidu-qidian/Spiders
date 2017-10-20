@@ -1,0 +1,43 @@
+{
+  "nanrenwo.net": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "div.article-content > h1"
+          }
+        },
+        "summary": null,
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "div.article-content > article"
+            }
+          }
+        ],
+        "source": "男人窝",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "span.time"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "m.nanrenwo.net": [
+        "0"
+      ]
+    }
+  }
+}
+

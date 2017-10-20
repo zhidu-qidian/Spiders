@@ -1,0 +1,39 @@
+{
+  "www.uumnt.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "name": "h1"
+          }
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "class_": "bg-white p15 center imgac clearfix", 
+            "name": "div"
+          }
+        }, 
+        "source": "优优美图", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "class_": "icon-timer", 
+            "name": "span"
+          }
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "www.uumnt.com": [
+        "0"
+      ]
+    }
+  }
+}

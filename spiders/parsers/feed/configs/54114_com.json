@@ -1,0 +1,35 @@
+{
+  "domain": "54114.com",
+  "list": [
+    {
+      "publish_time": null,
+      "title": {
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": " div.media-body-title"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "54114_com"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "domain": "opgirl.cn",
+  "list": [
+
+    {
+      "publish_time": null,
+      "title": "title",
+      "url": "http://www.opgirl.cn/picture/list?gid={0}&pl=0&strategy=1",
+      "abstract": null,
+      "author": null,
+      "list": "data",
+      "filter": null,
+      "publish_site": null,
+      "fields": [
+        "id"
+      ],
+      "keywords": null,
+      "type": "ajax",
+      "crawler": "opgirl_cn"
+    }
+  ]
+}

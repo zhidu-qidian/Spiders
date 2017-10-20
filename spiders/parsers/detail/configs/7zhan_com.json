@@ -1,0 +1,42 @@
+{
+  "7zhan.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "h1"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": [
+          {
+            "params": {
+              "selector": "div.content-main"
+            },
+            "method": "select"
+          }
+        ],
+        "source": "奇站",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "params": {
+            "selector": "p.prot"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "7zhan.com": [
+        "0"
+      ]
+    }
+  }
+}

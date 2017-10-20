@@ -1,0 +1,45 @@
+{
+  "domain": "178.com",
+  "list": [
+    {
+      "publish_time": {
+        "params": {
+          "selector": "div.article-section-info > p.meta > span.article-date"
+        },
+        "method": "select"
+      },
+      "title" : {
+        "params": {
+          "selector": "div.article-section-info > h2.title > a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "div.article-section-info > h2.title > a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": {
+        "params": {
+          "selector": "div.article-section-info > p.digest"
+        },
+        "method": "select"
+      },
+      "author": null,
+      "list": {
+        "params": {
+          "selector": " div.article-section"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "178_com"
+    }
+  ]
+}

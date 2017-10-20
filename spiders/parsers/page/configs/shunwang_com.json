@@ -1,0 +1,17 @@
+{
+  "domain": "shunwang.com",
+  "conf": {
+    "START": 2,
+    "NUMBER": {
+      "params": {
+        "selector": "table.page > tr > td"
+      },
+      "type":"last",
+      "method": "select"
+    },
+    "TEMPLATE": {
+      "join": false,
+      "template": "_%s.shtml"
+    }
+  }
+}

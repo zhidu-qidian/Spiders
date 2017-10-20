@@ -1,0 +1,50 @@
+{
+  "199it.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "selector": "h1.entry-title"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.entry-content"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "199it.com", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "div#meta-hidden > p > table > tbody > tr > td:nth-of-type(2)"
+          }, 
+          "method": "select"
+        }, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        }, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "199it.com": [
+        "0"
+      ]
+    }
+  }
+}

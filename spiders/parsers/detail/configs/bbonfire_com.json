@@ -1,0 +1,103 @@
+{
+  "bbonfire.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "selector": "head > title"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.scroller"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "OnFire", 
+        "editor": null, 
+        "clean": {
+          "params": {
+            "selector": "div.scroller-i.app"
+          }, 
+          "method": "select"
+        }, 
+        "date": null, 
+        "tags": null, 
+        "before": null
+      }, 
+      "1": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "selector": "head > title"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div#albumScroller"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "OnFire", 
+        "editor": null, 
+        "clean": null, 
+        "date": null, 
+        "tags": null, 
+        "before": null
+      }, 
+      "2": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "selector": "h1.news-title"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.news-content"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "OnFire", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "div.news-info"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "bbonfire.com": [
+        "1", 
+        "2"
+      ], 
+      "oss.bbonfire.com": [
+        "0"
+      ]
+    }
+  }
+}

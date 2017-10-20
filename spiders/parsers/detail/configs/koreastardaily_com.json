@@ -1,0 +1,52 @@
+{
+  "koreastardaily.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": {
+          "params": {
+            "selector": "p.copyright"
+          },
+          "method": "select"
+        },
+        "author": {
+          "params": {
+            "selector": "div#content-title > h2 > a.author-link"
+          },
+          "method": "select"
+        },
+        "title": {
+          "params": {
+            "selector": "div#content-title > h1"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": [
+          {
+            "params": {
+              "selector": "div#content-body"
+            },
+            "method": "select"
+          }
+        ],
+        "source": "韩星网",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "params": {
+            "selector": "div#content-title > h2"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "koreastardaily.com": [
+        "0"
+      ]
+    }
+  }
+}

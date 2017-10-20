@@ -1,0 +1,82 @@
+{
+  "laoqianzhuang.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "div.atc-head > h1"
+          }
+        },
+        "summary": {
+          "method": "select",
+          "params": {
+            "selector": "div.summary"
+          }
+        },
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div#atc-content"
+          }
+        },
+        "source": "老钱庄",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "span#pubtime_baidu"
+          }
+        },
+        "tags": null,
+        "before": null
+      },
+      "1": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1 > a,h1"
+          }
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "object#mainContent"
+          }
+        },
+        "source": "老钱庄",
+        "editor": null,
+        "clean":{
+          "method": "select",
+          "params": {
+            "selector": "div[id]"
+          }
+        },
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "time"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "laoqianzhuang.com": [
+        "0"
+      ],
+      "m.laoqianzhuang.com": [
+        "1"
+      ]
+    }
+  }
+}

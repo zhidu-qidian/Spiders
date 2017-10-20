@@ -1,0 +1,36 @@
+{
+  "domain": "yoyojie.com", 
+  "list": [
+    {
+      "publish_time": null, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "div.list-content-info > h3 > a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": {
+        "params": {
+          "selector": "div.list-content-info > div.list-content-summary"
+        }, 
+        "method": "select"
+      }, 
+      "title": {
+        "params": {
+          "selector": "div.list-content-info > h3 > a"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "div#list > div.list-border > div.list-content > ul > li"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "yoyojie_com"
+    }
+  ]
+}

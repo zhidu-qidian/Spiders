@@ -1,0 +1,37 @@
+{
+  "juekong.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1"
+          }
+        },
+        "summary": null,
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "div#wz_body > a"
+            }
+          }
+        ],
+        "source": "绝空",
+        "editor": null,
+        "clean": null,
+        "date": null,
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "juekong.com": [
+        "0"
+      ]
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "pmcaff.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "params": {
+            "selector": "div.detail > span:nth-of-type(1) > a"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "h1"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.article-body > article"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "www.pmcaff.com", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "attribute": "title", 
+          "params": {
+            "selector": "span.pub-time"
+          }, 
+          "method": "select"
+        }, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        }, 
+        "before": null
+      }, 
+      "1": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "params": {
+            "selector": "div.panel-heading > a:nth-of-type(1) > b"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "h1"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.panel-body > div.content"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "www.pmcaff.com", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "attribute": "title", 
+          "params": {
+            "selector": "span.pub-time"
+          }, 
+          "method": "select"
+        }, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        }, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "pmcaff.com": [
+        "0"
+      ], 
+      "pmcaff.com/discuss/": [
+        "1"
+      ]
+    }
+  }
+}

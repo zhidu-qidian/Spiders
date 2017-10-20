@@ -1,0 +1,45 @@
+{
+  "moviesoon.com": {
+    "configs": {
+      "0": {
+        "extractor": "moviesoon",
+        "after": {
+          "params": {
+            "class_": "wumii-hook", 
+            "name": "div"
+          }
+        }, 
+        "author": null, 
+        "title": {
+          "params": {
+            "class_": "baslik", 
+            "name": "h2"
+          }
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "class_": "post", 
+            "name": "div"
+          }
+        }, 
+        "source": null, 
+        "editor": null, 
+        "clean": null, 
+        "date": null, 
+        "tags": null, 
+        "before": {
+          "params": {
+            "class_": "bqts", 
+            "name": "div"
+          }
+        }
+      }
+    }, 
+    "match": {
+      "moviesoon.com": [
+        "0"
+      ]
+    }
+  }
+}

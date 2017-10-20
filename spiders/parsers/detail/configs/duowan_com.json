@@ -1,0 +1,60 @@
+{
+  "duowan.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "article > h1"
+          },
+          "method": "select"
+        },
+        "summary": {
+          "params": {
+            "selector": "blockquote.summary > p"
+          },
+          "method": "select"
+        },
+        "content": {
+          "params": {
+            "selector": "div#text"
+          },
+          "method": "select"
+        },
+        "source": null,
+        "editor": null,
+        "clean": null,
+        "date": {
+          "nth": 0,
+          "params": {
+            "selector": "address > span"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": null
+      },
+      "1": {
+        "extractor": "duowanphoto",
+        "after": null,
+        "author": null,
+        "summary": null,
+        "content": null,
+        "source": null,
+        "editor": null,
+        "clean": null,
+        "date": null,
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "duowan.com": [
+        "0",
+        "1"
+      ]
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "people.com.cn": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": {
+          "method": "select",
+          "params": {
+            "selector": "div.zdfy"
+          }
+        },
+        "author": {
+          "method": "select",
+          "params": {
+            "selector": "p.author"
+          }
+        },
+        "title": {
+          "params": {
+            "name": "h1"
+          }
+        },
+        "summary": {
+          "attribute": "content",
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "description"
+            }
+          }
+        },
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div#p_content,div.text,div.box_con"
+          }
+        },
+        "source": {
+          "params": {
+            "selector": "div.box01 > div.fl > a"
+          },
+          "method": "select"
+        },
+        "editor": null,
+        "clean": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "div.otitle"
+            }
+          }
+        ],
+        "date": {
+          "attribute": "content",
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "publishdate"
+            }
+          }
+        },
+        "tags": {
+          "attribute": "content",
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        },
+        "before": {
+          "method": "select",
+          "params": {
+            "selector": "h2"
+          }
+        }
+      },
+      "1": {
+        "extractor": null,
+        "after": {
+          "method": "select",
+          "params": {
+            "selector": "div.zdfy"
+          }
+        },
+        "author": null,
+        "title": {
+          "params": {
+            "name": "h1"
+          }
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div#picG"
+          }
+        },
+        "source": "新华社",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "div#picG"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "people.com.cn": [
+        "0",
+        "1"
+      ],
+      "pic.people.com.cn": [
+        "1"
+      ]
+    }
+  }
+}

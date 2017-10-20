@@ -1,0 +1,52 @@
+{
+  "gamersky.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": {
+          "params": {
+            "selector": "div.page_css"
+          }, 
+          "method": "select"
+        }, 
+        "author": null, 
+        "title": {
+          "params": {
+            "selector": "h1"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "selector": "div.Mid2L_con"
+          }, 
+          "method": "select"
+        }, 
+        "source": null, 
+        "editor": {
+          "nth": 3, 
+          "params": {
+            "selector": "div.Mid2L_title > div.detail > span"
+          }, 
+          "method": "select"
+        }, 
+        "clean": null, 
+        "date": {
+          "nth": 0, 
+          "params": {
+            "selector": "div.Mid2L_title > div.detail > span"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "gamersky.com": [
+        "0"
+      ]
+    }
+  }
+}

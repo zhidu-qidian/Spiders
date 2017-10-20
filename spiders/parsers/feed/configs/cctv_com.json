@@ -1,0 +1,59 @@
+{
+  "domain": "cctv.com",
+  "list": [
+    {
+      "publish_time": "dateTime",
+      "title": "title",
+      "url": "url",
+      "skip": null,
+      "abstract": "description",
+      "author": null,
+      "list": "rollData",
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "ajax",
+      "crawler": "cctv_com"
+    },
+    {
+      "publish_time": null,
+      "thumb":{
+        "attribute": "src",
+        "method": "select",
+        "params": {
+          "selector": "img"
+        }
+      },
+      "title": {
+        "method": "select",
+        "params": {
+          "selector": "h3 > a"
+        }
+      },
+      "url": {
+        "attribute": "href",
+        "method": "select",
+        "params": {
+          "selector": "p > a"
+        }
+      },
+      "skip": null,
+      "abstract": {
+        "method": "select",
+        "params": {
+          "selector": "p > a"
+        }
+      },
+      "author": null,
+      "list": {
+        "method": "select",
+        "params": {
+          "selector": "div.bg_bottom_owner > div:nth-of-type(10) li "
+        }
+      },
+      "filter": null,
+      "keywords": null,
+      "crawler": "cctv_food_msdss"
+    }
+  ]
+}

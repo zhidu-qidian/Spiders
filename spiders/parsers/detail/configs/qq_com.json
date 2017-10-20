@@ -1,0 +1,547 @@
+{
+  "qq.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "h1"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": [
+          {
+            "params": {
+              "selector": "div#Cnt-Main-Article-QQ"
+            },
+            "method": "select"
+          }
+        ],
+        "source": {
+          "params": {
+            "selector": "span.a_source"
+          },
+          "method": "select"
+        },
+        "editor": null,
+        "clean": [
+          {
+            "params": {
+              "selector": "div"
+            },
+            "method": "select"
+          },
+          {
+            "params": {
+              "selector": "iframe"
+            },
+            "method": "select"
+          }
+        ],
+        "date": {
+          "params": {
+            "selector": "span.a_time"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": null
+      },
+      "1": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "h1"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": [
+          {
+            "params": {
+              "selector": "div#Cnt-Main-Article-QQ"
+            },
+            "method": "select"
+          }
+        ],
+        "source": {
+          "params": {
+            "selector": "span.a_source"
+          },
+          "method": "select"
+        },
+        "editor": null,
+        "clean": [
+          {
+            "params": {
+              "selector": "div"
+            },
+            "method": "select"
+          },
+          {
+            "params": {
+              "text": "（此视频与原文内容无关，仅供延伸阅读）",
+              "name": "p"
+            }
+          },
+          {
+            "params": {
+              "selector": "iframe"
+            },
+            "method": "select"
+          }
+        ],
+        "date": {
+          "params": {
+            "selector": "span.a_time"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": null
+      },
+      "2": {
+        "missing": {"params": {"name": "iframe", "class_": "vote_iframe js_editor_vote_card"}},
+        "extractor": null,
+        "after": null,
+        "author": {
+          "params": {"selector": "em.rich_media_meta_text"},
+          "method": "select",
+          "nth": 1
+        },
+        "title": {
+          "params": {
+            "id": "activity-name"
+          }
+        },
+        "summary": null,
+        "content": {
+          "params": {
+            "id": "js_content"
+          }
+        },
+        "source": {
+          "params": {
+            "id": "post-user"
+          }
+        },
+        "editor": null,
+        "clean": null,
+        "date": {
+          "params": {
+            "id": "post-date"
+          }
+        },
+        "tags": null,
+        "before": null
+      },
+      "3": {
+        "missing": {"params": {"name": "div", "class_": "video"}},
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "class_": "title",
+            "name": "p"
+          }
+        },
+        "summary": null,
+        "content": {
+          "params": {
+            "name": "div",
+            "id": "content"
+          }
+        },
+        "source": {
+          "params": {
+            "selector": "span.article_src , div.chlname > a"
+          },
+          "method": "select"
+        },
+        "editor": null,
+        "clean": null,
+        "date": {
+          "params": {
+            "selector": "div.desc"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": {
+          "params": {
+            "selector": "div.cardBoxWrap"
+          },
+          "method": "select"
+        }
+      },
+      "4": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "name": "h1"
+          }
+        },
+        "summary": {
+          "attribute": "content",
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "Description"
+            }
+          }
+        },
+        "content": {
+          "params": {
+            "name": "div",
+            "id": "Cnt-Main-Article-QQ"
+          }
+        },
+        "source": {
+          "params": {
+            "name": "span",
+            "attrs": {
+              "bosszone": "jgname"
+            }
+          }
+        },
+        "editor": null,
+        "clean": [
+          {
+            "params": {
+              "class_": "rv-root-v2 rv-js-root",
+              "name": "div"
+            }
+          },
+          {
+            "params": {
+              "text": "更多精彩内容欢迎搜索关注微信公众号：腾讯财经（financeapp）。 ",
+              "name": "strong"
+            }
+          },
+          {
+            "params": {
+              "name": "img",
+              "attrs": {
+                "src": "http://mat1.gtimg.com/finance/cj/2.png"
+              }
+            }
+          },
+          {
+            "params": {
+              "text": "版权声明：本文系腾讯体育独家稿件，未经授权，不得转载，否则将追究法律责任。",
+              "name": "strong"
+            }
+          },
+          {
+            "params": {
+              "name": "img",
+              "attrs": {
+                "src": "http://img1.gtimg.com/sports/pics/hv1/133/3/2052/133432198.jpg"
+              }
+            }
+          },
+          {
+            "params": {
+              "name": "img",
+              "attrs": {
+                "src": "http://img1.gtimg.com/sports/pics/hv1/34/45/2054/133572859.png"
+              }
+            }
+          },
+          {
+            "params": {
+              "text": "（此视频与原文内容无关，仅供延伸阅读）",
+              "name": "p"
+            }
+          },
+          {
+            "params": {
+              "text": "欢迎收听“腾讯健康”官方微信：",
+              "name": "strong"
+            }
+          },
+          {
+            "params": {
+              "text": "扫描下方二维码添加；或在微信上搜索“腾讯健康”（英文ID：qq-health）。",
+              "name": "strong"
+            }
+          },
+          {
+            "params": {
+              "name": "img",
+              "attrs": {
+                "src": "http://img1.gtimg.com/health/pics/hv1/87/129/1307/85020657.jpg"
+              }
+            }
+          },
+          {
+            "params": {
+              "text": "（编者注：所配视频与本文内容无关，仅供延展阅读）",
+              "name": "p"
+            }
+          },
+          {
+            "params": {
+              "name": "img",
+              "attrs": {
+                "src": "http://mat1.gtimg.com/auto/dayuzhang/a.jpg"
+              }
+            }
+          },
+          {
+            "params": {
+              "text": "精彩视频推荐",
+              "name": "strong"
+            }
+          },
+          {
+            "params": {
+              "text": "推广：热点之下另有内幕，新闻之外别有洞天，了解TMT江湖隐秘故事，关注微信公众号“腾讯深网”：qqshenwang",
+              "name": "strong"
+            }
+          },
+          {
+            "params": {
+              "name": "img",
+              "attrs": {
+                "src": "http://img1.gtimg.com/tech/pics/hv1/134/130/2063/134179859.jpg"
+              }
+            }
+          },
+          {
+            "method": "select",
+            "params": {
+              "selector": "iframe"
+            }
+          }
+        ],
+        "date": [
+          {
+            "params": {
+              "class_": "article-time",
+              "name": "span"
+            }
+          },
+          {
+            "params": {
+              "class_": "a_time",
+              "name": "span"
+            }
+          },
+          {
+            "params": {
+              "class_": "pubTime",
+              "name": "span"
+            }
+          }
+        ],
+        "tags": {
+          "attribute": "content",
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        },
+        "before": null
+      },
+      "5": {
+        "extractor": null,
+        "after": null,
+        "author": {
+          "params": {
+            "selector": "span#bjname"
+          },
+          "method": "select"
+        },
+        "title": {
+          "params": {
+            "selector": "h1"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": [
+          {
+            "params": {
+              "selector": "div#articleContent"
+            },
+            "method": "select"
+          }
+        ],
+        "source": "腾讯评论",
+        "editor": null,
+        "clean": null,
+        "date": null,
+        "tags": null,
+        "before": null
+      },
+      "6": {
+        "extractor": null,
+        "after": null,
+        "author": {
+          "params": {
+            "selector": "div#content > div.src > span:nth-of-type(1)"
+          },
+          "method": "select"
+        },
+        "title": {
+          "params": {
+            "selector": "p.title"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": [
+          {
+            "params": {
+              "selector": "div#content"
+            },
+            "method": "select"
+          }
+        ],
+        "source": "腾讯新闻事实派",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "params": {
+            "selector": "div#content > div.src"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": {
+          "params": {
+            "selector": "div.src"
+          },
+          "method": "select"
+        }
+      },
+      "7": {
+        "extractor": null,
+        "after": null,
+        "author": {
+          "params": {
+            "selector": "div#left > a"
+          },
+          "method": "select"
+        },
+        "title": {
+          "params": {
+            "selector": "h1,h2"
+          },
+          "method": "select"
+        },
+        "summary": {
+          "params": {
+            "selector": "div.daoyu"
+          },
+          "method": "select"
+        },
+        "content": [
+          {
+            "params": {
+              "selector": "div.daoyu"
+            },
+            "method": "select"
+          },
+          {
+            "params": {
+              "selector": "div.focus"
+            },
+            "method": "select"
+          },
+          {
+            "params": {
+              "selector": "div#articleContent"
+            },
+            "method": "select"
+          },
+          {
+            "params": {
+              "selector": "div.summary"
+            },
+            "method": "select"
+          }
+        ],
+        "source": "腾讯大家",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "params": {
+            "selector": "span.publishtime"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": null
+      },
+      "8": {
+        "extractor": null,
+        "after": null,
+        "author": {
+          "params": {
+            "selector": "span.username"
+          },
+          "method": "select"
+        },
+        "title": {
+          "params": {
+            "selector": "div.post-head > h2.title"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": [
+          {
+            "params": {
+              "selector": "div#post_content_wrapper > div:nth-of-type(2)"
+            },
+            "method": "select"
+          }
+
+        ],
+        "source": "兴趣部落",
+        "editor": null,
+        "clean": null,
+        "date": null,
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "dajia.qq.com":[
+"7"
+      ],
+
+      "kuaibao.qq.com": [
+        "3"
+      ],
+      "ent.qq.com": [
+        "0"
+      ],
+      "weixin.qq.com": [
+        "2"
+      ],
+      "sports.qq.com": [
+        "1"
+      ],
+      "buluo.qq.com": [
+        "8"
+      ],"qq.com": [
+        "4",
+        "5",
+        "6"
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "domain": "nanrenwo.net",
+  "list": [
+        {
+      "publish_time": null,
+      "title": {
+        "attribute": "alt",
+        "params": {
+          "selector": "dt > a > img"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": " dt > a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "div.tabCon > dl "
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": {"params": {"selector": "a.list-name > span"}, "method": "select"},
+      "keywords": null,
+      "type": "html",
+      "crawler": "nanrenwo_net_m"
+    }
+
+  ]
+}

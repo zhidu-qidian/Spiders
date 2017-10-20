@@ -1,0 +1,43 @@
+{
+  "wixiang.com": {
+    "configs": {
+            "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "header > h1"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": [
+          {
+            "params": {
+              "selector": "div.content"
+            },
+            "method": "select"
+          }
+        ],
+        "source": "唯象资讯",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "params": {
+            "selector": "div.info"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": null
+      }
+
+    },
+    "match": {
+      "wixiang.com": [
+        "0"
+      ]
+    }
+  }
+}

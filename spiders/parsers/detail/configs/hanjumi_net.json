@@ -1,0 +1,60 @@
+{
+  "hanjumi.net": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": {
+          "params": {
+            "class_": "article_kuozhan", 
+            "name": "div"
+          }
+        }, 
+        "author": null, 
+        "title": {
+          "params": {
+            "name": "h1"
+          }
+        }, 
+        "summary": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "description"
+            }
+          }
+        }, 
+        "content": {
+          "params": {
+            "class_": "content", 
+            "name": "div"
+          }
+        }, 
+        "source": "韩剧迷", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "div.article_title > span"
+          }, 
+          "method": "select"
+        }, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        }, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "hanjumi.net": [
+        "0"
+      ]
+    }
+  }
+}

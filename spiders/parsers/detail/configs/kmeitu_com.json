@@ -1,0 +1,37 @@
+{
+  "kmeitu.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "title"
+          }
+        },
+        "summary": null,
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "div#big-pic"
+            }
+          }
+        ],
+        "source": "看美图",
+        "editor": null,
+        "clean": null,
+        "date": null,
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "kmeitu.com": [
+        "0"
+      ]
+    }
+  }
+}

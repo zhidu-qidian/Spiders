@@ -1,0 +1,53 @@
+{
+  "nationalgeographic.com.cn": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "selector": "article.left > div.title"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "ul#pictureurls"
+            }, 
+            "method": "select"
+          }, 
+          {
+            "params": {
+              "selector": "div.M-L-pic.del-bottom"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "国家地理中文网", 
+        "editor": {
+          "params": {
+            "selector": "div.left > div.instruction > ul > li:nth-of-type(3)"
+          }, 
+          "method": "select"
+        }, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "article.left > div.instruction > ul > li:nth-of-type(3)"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "nationalgeographic.com.cn": [
+        "0"
+      ]
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "news.cri.cn": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "name": "h1"
+          }
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "id": "abody"
+          }
+        }, 
+        "source": {
+          "params": {
+            "id": "asource"
+          }
+        }, 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "id": "acreatedtime"
+          }
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "news.cri.cn": [
+        "0"
+      ]
+    }
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "ptbus.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "div.articleDet > div.metrics > h2"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": {
+          "params": {
+            "selector": "div.articleDet > div.gmIntro"
+          },
+          "method": "select"
+        },
+        "source": null,
+        "editor": null,
+        "clean": null,
+        "date": {
+          "nth": 0,
+          "params": {
+            "selector": "div.articleDet > div.metrics > p"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": null
+      },
+      "1": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "div.news > h2"
+          }
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div.new_con"
+          }
+        },
+        "source": null,
+        "editor": null,
+        "clean": {
+          "method": "select",
+          "params": {
+            "selector": "table"
+          }
+        },
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "div.info > span:nth-of-type(2)"
+          },
+          "nth": 0
+        },
+        "tags": null,
+        "before": null
+      },
+      "2": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1"
+          }
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div.body"
+          }
+        },
+        "source": null,
+        "editor": null,
+        "clean": {
+          "method": "select",
+          "params": {
+            "selector": "table"
+          }
+        },
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "div.info"
+          },
+          "nth": 0
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "cr.ptbus.com": [
+        "1"
+      ],
+      "ptbus.com": [
+        "0",
+        "2"
+      ]
+    }
+  }
+}

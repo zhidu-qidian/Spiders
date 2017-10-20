@@ -1,0 +1,60 @@
+{
+  "54114.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "div.news_head > h2"
+          }
+        },
+        "summary": null,
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "div.news_content"
+            }
+          }
+        ],
+        "source": {
+          "method": "select",
+          "params": {
+            "selector": "div.artInfo > a"
+          }
+        },
+        "editor": null,
+        "clean": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "iframe"
+            }
+          },
+          {
+            "method": "select",
+            "params": {
+              "selector": "div.tuijianc"
+            }
+          }
+        ],
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "div.artInfo"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "54114.com": [
+        "0"
+      ]
+    }
+  }
+}

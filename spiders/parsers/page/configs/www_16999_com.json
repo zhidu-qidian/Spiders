@@ -1,0 +1,16 @@
+{
+  "domain": "www.16999.com", 
+  "conf": {
+    "START": 2, 
+    "NUMBER": {
+      "params": {
+        "selector": "div.con-5-l > span > em"
+      }, 
+      "method": "select"
+    }, 
+    "TEMPLATE": {
+      "join": false, 
+      "template": "-%s.html"
+    }
+  }
+}

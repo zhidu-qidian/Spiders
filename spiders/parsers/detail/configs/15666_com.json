@@ -1,0 +1,41 @@
+{
+  "15666.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "selector": "div#article > h1"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "selector": "table > tr > td"
+          }, 
+          "method": "select"
+        }, 
+        "source": null, 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "nth": 0, 
+          "params": {
+            "selector": "div#article span"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "15666.com": [
+        "0"
+      ]
+    }
+  }
+}

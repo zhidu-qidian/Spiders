@@ -1,0 +1,114 @@
+{
+  "gamedog.cn": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": {
+          "nth": 2,
+          "params": {
+            "selector": "div.from > span"
+          },
+          "method": "select"
+        },
+        "title": {
+          "params": {
+            "selector": "h1"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": {
+          "params": {
+            "selector": "div.newsdoc"
+          },
+          "method": "select"
+        },
+        "source": null,
+        "editor": null,
+        "clean": null,
+        "date": {
+          "nth": 0,
+          "params": {
+            "selector": "div.from > span"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": null
+      },
+      "1": {
+        "extractor": null,
+        "after": null,
+        "author": {
+          "nth": 2,
+          "params": {
+            "selector": "div.newsa > span"
+          },
+          "method": "select"
+        },
+        "title": {
+          "params": {
+            "selector": "h1.newst1"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": {
+          "params": {
+            "selector": "div.news_neirong"
+          },
+          "method": "select"
+        },
+        "source": null,
+        "editor": null,
+        "clean": null,
+        "date": {
+          "nth": 0,
+          "params": {
+            "selector": "div.newsa > span"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": null
+      },
+      "2": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1"
+          }
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div.neirong"
+          }
+        },
+        "source": null,
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "div.neirong-other > span:nth-of-type(1)"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "gamedog.cn": [
+        "0",
+        "1",
+        "2"
+      ]
+    }
+  }
+}

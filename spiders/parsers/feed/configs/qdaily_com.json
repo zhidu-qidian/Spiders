@@ -1,0 +1,39 @@
+{
+  "domain": "qdaily.com",
+  "list": [
+    {
+      "publish_time": null, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": null, 
+      "title": {
+        "attribute": "alt",
+        "params": {
+          "selector": "a  img"
+        }, 
+        "method": "select"
+      },
+      "thumb":{
+        "attribute": "src",
+        "params": {
+          "selector": "a  img"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "div.packery-container > div"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "qdaily_com"
+    }
+  ]
+}

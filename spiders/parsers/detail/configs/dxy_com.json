@@ -1,0 +1,55 @@
+{
+  "dxy.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "params": {
+            "selector": "span.author > a"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "h1"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.editor-body"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "dxy.com", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "span.time"
+          }, 
+          "method": "select"
+        }, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        }, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "dxy.com": [
+        "0"
+      ]
+    }
+  }
+}

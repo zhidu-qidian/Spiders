@@ -1,0 +1,40 @@
+{
+  "domain": "dsb.cn",
+  "list": [
+    {
+      "publish_time": null,
+      "title" : {
+        "params": {
+          "selector": "div.news_title > strong > a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "div.news_title > strong > a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": {
+        "params": {
+          "selector": "p"
+        },
+        "method": "select"
+      },
+      "author": null,
+      "list": {
+        "params": {
+          "selector": " div.indexArticle-list-con"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "dsb_cn"
+    }
+  ]
+}

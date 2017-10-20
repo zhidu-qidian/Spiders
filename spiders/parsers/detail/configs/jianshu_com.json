@@ -1,0 +1,47 @@
+{
+  "jianshu.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "params": {
+            "selector": "a.author-name > span"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "h1.title"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.show-content"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "简书", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "div.author-info > span:nth-of-type(5)"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "jianshu.com": [
+        "0"
+      ]
+    }
+  }
+}

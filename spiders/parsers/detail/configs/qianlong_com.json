@@ -1,0 +1,40 @@
+{
+  "qianlong.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "h1"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": {"params": {"selector": "div.article-content"}, "method": "select"},
+        "source": {
+          "params": {
+            "selector": "span.source"
+          },
+          "method": "select"
+        },
+        "editor": null,
+        "clean": null,
+        "date": {
+          "params": {
+            "selector": "span.pubDate"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "qianlong.com": [
+        "0"
+      ]
+    }
+  }
+}

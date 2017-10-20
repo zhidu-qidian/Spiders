@@ -1,0 +1,40 @@
+{
+  "jc0088.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "div#articleTitle"
+          }
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div.article_content"
+          }
+        },
+        "source": "雷人网",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "div.article_attr"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "jc0088.com": [
+        "0"
+      ]
+    }
+  }
+}

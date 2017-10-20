@@ -1,0 +1,55 @@
+{
+  "wumaow.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "name": "h1"
+          }
+        }, 
+        "summary": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "description"
+            }
+          }
+        }, 
+        "content": {
+          "params": {
+            "class_": "entry_content", 
+            "name": "div"
+          }
+        }, 
+        "source": "五毛网", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "class_": "time", 
+            "name": "span"
+          }
+        }, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        }, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "wumaow.com": [
+        "0"
+      ]
+    }
+  }
+}

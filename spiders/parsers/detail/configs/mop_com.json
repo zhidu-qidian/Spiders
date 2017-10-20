@@ -1,0 +1,67 @@
+{
+  "mop.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "h1"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": {
+          "params": {
+            "class_": "cont",
+            "name": "div"
+          }
+        },
+        "source": null,
+        "editor": null,
+        "clean": null,
+        "date": null,
+        "tags": null,
+        "before": null
+      },
+      "1": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "div.post-header > h2"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": {
+          "params": {
+            "selector": "div.detail-article"
+          },
+          "method": "select"
+        },
+        "source": "猫扑",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "params": {
+            "selector": "div.post-date"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "mop.com": [
+        "0"
+      ],
+      "tt.mop.com": [
+        "1"
+      ]
+    }
+  }
+}

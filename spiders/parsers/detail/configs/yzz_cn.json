@@ -1,0 +1,46 @@
+{
+  "yzz.cn": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "selector": "h1"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "selector": "table > tr > td"
+          }, 
+          "method": "select"
+        }, 
+        "source": "叶子猪",
+        "editor": null, 
+        "clean":{
+          "params": {
+            "selector": "div.page-number"
+          },
+          "method": "select"
+        },
+        "date": {
+          "nth": 0, 
+          "params": {
+            "selector": "body"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "yzz.cn": [
+        "0"
+      ]
+    }
+  }
+}

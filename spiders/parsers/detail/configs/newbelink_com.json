@@ -1,0 +1,53 @@
+{
+  "newbelink.com": {
+    "configs": {
+            "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "div.inside-tit > h3"
+          },
+          "method": "select"
+        },
+        "summary": {
+            "params": {
+              "selector": "div.txt-con > div.txt1 > p"
+            },
+            "method": "select"
+          },
+        "content": [
+          {
+            "params": {
+              "selector": "div.txt-con > div.con-txt"
+            },
+            "method": "select"
+          }
+        ],
+        "source":{
+          "params": {
+            "selector": "div.inside-con > div.inside-tit > div > div.l > p > span:nth-of-type(3) > a"
+          },
+          "method": "select"
+        },
+        "editor": null,
+        "clean": null,
+        "date": {
+          "params": {
+            "selector": " div.inside-con > div.inside-tit > div > div.l > p > span:nth-of-type(1)"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": null
+      }
+
+    },
+    "match": {
+      "newbelink.com": [
+        "0"
+      ]
+    }
+  }
+}

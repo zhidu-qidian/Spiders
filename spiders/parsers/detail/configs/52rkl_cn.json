@@ -1,0 +1,45 @@
+{
+  "52rkl.cn": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after":  {
+          "params": {
+            "selector": "div#nx"
+          },
+          "method": "select"
+        },
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "h1"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": {
+          "params": {
+            "class_": "article-content",
+            "name": "article"
+          }
+        },
+        "source": null,
+        "editor": null,
+        "clean": null,
+        "date":  {
+          "params": {
+            "selector": "div.article-meta"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "52rkl.cn": [
+        "0"
+      ]
+    }
+  }
+}

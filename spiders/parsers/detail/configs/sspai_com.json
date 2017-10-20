@@ -1,0 +1,47 @@
+{
+  "sspai.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "params": {
+            "selector": "div.nickname > a"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "h1.title"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": " div.main > div.box > div.content"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "少数派sspai.com", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "div.publish-time"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "sspai.com": [
+        "0"
+      ]
+    }
+  }
+}

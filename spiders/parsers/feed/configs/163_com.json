@@ -1,0 +1,558 @@
+{
+  "domain": "163.com",
+  "list": [
+    {
+      "publish_time": "publish_time",
+      "title": "title",
+      "url": "url_163",
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": null,
+      "filter": null,
+      "publish_site": "source",
+      "fields": null,
+      "keywords": null,
+      "type": "ajax",
+      "crawler": "163_com_ajax"
+    },
+    {
+      "publish_time": "ptime",
+      "title": "title",
+      "url": "http://c.3g.163.com/nc/article/{0}/full.html",
+      "skip": [
+        18,
+        -1
+      ],
+      "abstract": "digest",
+      "author": null,
+      "list": null,
+      "filter": null,
+      "publish_site": "source",
+      "fields": [
+        "docid"
+      ],
+      "comment_id": "docid",
+      "keywords": null,
+      "type": "ajax",
+      "crawler": "163_com_app"
+    },
+    {
+      "publish_time": "ptime",
+      "title": "title",
+      "url": "http://c.3g.163.com/nc/article/{0}/full.html",
+      "abstract": "digest",
+      "author": null,
+      "list": 0,
+      "filter": null,
+      "publish_site": "source",
+      "fields": [
+        "docid"
+      ],
+      "comment_id": "docid",
+      "keywords": null,
+      "type": "ajax",
+      "crawler": "163_com_app_s"
+    },
+    {
+      "publish_time": "publish_time",
+      "title": "title",
+      "url": "imgsrc",
+      "skip": [
+        10,
+        -1
+      ],
+      "abstract": "digest",
+      "author": null,
+      "list": null,
+      "filter": null,
+      "publish_site": "source",
+      "fields": null,
+      "keywords": null,
+      "type": "ajax",
+      "crawler": "163_com_detail"
+    },
+    {
+      "publish_time": "ptime",
+      "title": "title",
+      "url": "http://c.3g.163.com/nc/article/{0}/full.html",
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": "list",
+      "filter": "updateDoc",
+      "publish_site": "source",
+      "fields": [
+        "docid"
+      ],
+      "comment_id": "docid",
+      "keywords": null,
+      "type": "ajax",
+      "crawler": "163_com_m_list"
+    },
+    {
+      "publish_time": "ptime",
+      "title": "title",
+      "url": "http://c.3g.163.com/nc/article/{0}/full.html",
+      "skip": [
+        9,
+        -1
+      ],
+      "abstract": "digest",
+      "author": null,
+      "list": 0,
+      "filter": "updateDoc",
+      "publish_site": "source",
+      "fields": [
+        "docid"
+      ],
+      "comment_id": "docid",
+      "keywords": null,
+      "type": "ajax",
+      "crawler": "163_com_local"
+    },
+    {
+      "publish_time": "ptime",
+      "title": "title",
+      "url": "http://c.3g.163.com/nc/article/{0}/full.html",
+      "skip": [
+        18,
+        -1
+      ],
+      "abstract": "digest",
+      "author": null,
+      "list": null,
+      "filter": "updateDoc",
+      "publish_site": "source",
+      "fields": [
+        "docid"
+      ],
+      "comment_id": "docid",
+      "keywords": null,
+      "type": "ajax",
+      "crawler": "163_com_m_skip"
+    },
+    {
+      "publish_time": null,
+      "title": {
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "ul.news-list > li"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "163_com_mhxy"
+    },
+    {
+      "publish_time": "time",
+      "title": "title",
+      "url": "doc_url",
+      "skip": [
+        14,
+        -1
+      ],
+      "abstract": null,
+      "author": null,
+      "list": null,
+      "filter": null,
+      "publish_site": "source",
+      "fields": null,
+      "keywords": null,
+      "type": "ajax",
+      "crawler": "163_com_mobile"
+    },
+    {
+      "publish_time": null,
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+      "title": {
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "ul.idx_cm_list.idx_cm_list_h > li"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "163_com_news_shehui"
+    },
+    {
+      "publish_time": null,
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "h2 > a"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+      "title": {
+        "params": {
+          "selector": "h2 > a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "div.item_top"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "163_com_news"
+    },
+    {
+      "publish_time": null,
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "h2 > a"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+      "title": {
+        "params": {
+          "selector": "h2 > a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "div.news_main_info"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "163_com_jiankang_everyonehealth"
+    },
+    {
+      "publish_time": null,
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "h3 > a"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+      "title": {
+        "params": {
+          "selector": "h3 > a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "ul > li"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "163_com_jiankang_zhuanjia"
+    },
+    {
+      "publish_time": "time",
+      "title": "title",
+      "url": "docurl",
+      "skip": [
+        14,
+        -1
+      ],
+      "abstract": null,
+      "author": null,
+      "list": null,
+      "keywords": null,
+      "type": "ajax",
+      "crawler": "163_com_mi"
+    },
+    {
+      "publish_time": null,
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+      "title": {
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "ul.articleList > li"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "163_com_sports"
+    },
+    {
+      "publish_time": null,
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "h3 > a"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+      "title": {
+        "params": {
+          "selector": "h3 > a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "ul.newsList > li"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "163_com_tech"
+    },
+    {
+      "publish_time": null,
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "h3 > a"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+      "title": {
+        "params": {
+          "selector": "h3 > a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "li"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "163_com_tech_digit"
+    },
+    {
+      "publish_time": null,
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+      "title": {
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "ul.list_f14d li"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "163_com_war"
+    },
+    {
+      "publish_time": "time",
+      "title": "title",
+      "url": "docurl",
+      "skip": [
+        14,
+        -1
+      ],
+      "abstract": null,
+      "author": null,
+      "list": null,
+      "keywords": null,
+      "type": "ajax",
+      "crawler": "163_com_news_world"
+    },
+    {
+      "publish_time": null,
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+      "title": {
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "list":{
+        "params": {
+          "selector": "div.area-half.left div.tabContents.active  td.red,div.area-half.left div.tabContents.active  td.gray"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "163_hot"
+    },
+    {
+      "publish_time": null,
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "h3 > a"
+        },
+        "method": "select"
+      },
+      "abstract": {
+        "params": {
+          "selector": "p"
+        },
+        "method": "select"
+      },
+      "title": {
+        "params": {
+          "selector": "h3 > a"
+        },
+        "method": "select"
+      },
+      "list":{
+        "params": {
+          "selector": "div.focus_title > ul > li"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "163_health_hot"
+    },
+    {
+      "publish_time": "createdate",
+      "title": "setname",
+      "url": "seturl",
+      "skip": [
+        14,
+        -1
+      ],
+      "abstract": "desc",
+      "author": null,
+      "list": null,
+      "filter": null,
+      "publish_site": null,
+      "fields": null,
+      "keywords": null,
+      "type": "ajax",
+      "crawler": "163_com_pic"
+    },
+     {
+      "publish_time": null,
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+      "title": {
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "list":{
+        "params": {
+          "selector": "div.area.areabg1 > div:nth-of-type(1)  div.tabContents.active td"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "163_news_pic"
+    },
+         {
+      "publish_time": null,
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+           "thumb":{
+        "attribute": "src",
+        "params": {
+          "selector": "img"
+        },
+        "method": "select"
+      },
+      "title": {
+        "attribute": "alt",
+        "params": {
+          "selector": "img"
+        },
+        "method": "select"
+      },
+      "list":{
+        "params": {
+          "selector": "div.slide_main > ul > li"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "163_food_slide"
+    }
+
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "domain": "sohu.com",
+  "list": [
+    {
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "div > h3 > a"
+        },
+        "method": "select"
+      },
+      "crawler": "sohu_news",
+      "list": {
+        "params": {
+          "class_": "article-list",
+          "name": "div"
+        }
+      },
+      "title": {
+        "params": {
+          "selector": "div > h3 > a"
+        },
+        "method": "select"
+      }
+    },
+    {
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "crawler": "sohu_zonghe",
+      "list": {
+        "params": {
+          "selector": "div#cut01 > div.col370 > ul > li"
+        },
+        "method": "select"
+      },
+      "title": {
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      }
+    },
+    {
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "crawler": "sohu_flist",
+      "list": {
+        "params": {
+          "selector": "div.f14list > ul > li"
+        },
+        "method": "select"
+      },
+      "title": {
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      }
+    },
+    {
+      "publish_time": null,
+      "title": {
+        "params": {
+          "selector": "div.published > h3 > span.content-title > a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "div.published > h3 > span.content-title > a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "ul.list-box > li"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "sohu_listbox"
+    },
+    {
+      "publish_time": "pbdate",
+      "title": "title",
+      "url": "url",
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": "result",
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "ajax",
+      "crawler": "sohu_ajax"
+    },
+    {
+      "publish_time": "publicTime",
+      "title": "title",
+      "url": "http://www.sohu.com/a/{0}_{1}",
+      "fields": [
+        "id",
+        "authorId"
+      ],
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": null,
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "ajax",
+      "crawler": "sohu_hot"
+    },
+    {
+      "publish_time": null,
+      "title": {
+        "attribute": "title",
+        "params": {
+          "selector": "span.txt > a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "span.txt > a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "div.news-list > ul > li"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": {
+        "attribute": "title",
+        "params": {
+          "selector": "span.from > a"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "type": "html",
+      "crawler": "sohu_sports_hot"
+    },
+    {
+      "publish_time": null,
+      "title": {
+        "params": {
+          "selector": "h4 > a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "h4 > a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "div#main-news div.news-box"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "sohu_food"
+    },
+    {
+      "publish_time": null,
+      "title": {
+        "params": {
+          "selector": "h5 > a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "h5 > a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "thumb": {
+        "attribute": "src",
+        "params": {
+          "selector": "a > img"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "div#contentC > div.pic-ground > ul > li"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "sohu_pic"
+    }
+  ]
+}

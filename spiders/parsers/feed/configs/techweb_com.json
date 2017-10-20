@@ -1,0 +1,41 @@
+{
+  "domain": "techweb.com", 
+  "list": [
+    {
+      "publish_time": {
+        "params": {
+          "selector": "div.disc_share > span.time"
+        }, 
+        "method": "select"
+      }, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "h2 > a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": {
+        "params": {
+          "selector": "div.con_txt > p"
+        }, 
+        "method": "select"
+      }, 
+      "title": {
+        "params": {
+          "selector": "h2 > a"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "div.con_list > div.con_one"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "techweb_com_cn"
+    }
+  ]
+}

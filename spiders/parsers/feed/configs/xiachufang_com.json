@@ -1,0 +1,38 @@
+{
+  "domain": "xiachufang.com",
+  "list": [
+    {
+      "publish_time": null,
+      "author": null,
+      "thumb":{
+        "attribute": "data-src",
+        "params": {
+          "selector": "img"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+      "title": {
+        "params": {
+          "selector": "p.name"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "div.normal-recipe-list > ul > li"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "xiachufang_com"
+    }
+  ]
+}

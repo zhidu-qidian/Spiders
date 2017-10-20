@@ -1,0 +1,40 @@
+{
+  "yaoraotu.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "attribute": "content",
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        },
+        "summary": null,
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "div.bigpic"
+            }
+          }
+        ],
+        "source": null,
+        "editor": null,
+        "clean": null,
+        "date": null,
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "yaoraotu.com": [
+        "0"
+      ]
+    }
+  }
+}

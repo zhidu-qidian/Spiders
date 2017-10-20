@@ -1,0 +1,55 @@
+{
+  "dapenti.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": {
+          "params": {
+            "selector": "ins.adsbygoogle"
+          }, 
+          "method": "select"
+        }, 
+        "author": null, 
+        "title": {
+          "params": {
+            "selector": "title"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.oblog_text"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "dapenti.com", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "span.oblog_text"
+          }, 
+          "method": "select"
+        }, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        }, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "dapenti.com": [
+        "0"
+      ]
+    }
+  }
+}

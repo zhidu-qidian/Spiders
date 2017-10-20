@@ -1,0 +1,40 @@
+{
+  "domain": "newbelink.com",
+  "list": [
+    {
+      "publish_time": null,
+      "title" : {
+        "params": {
+          "selector": "div.txt > h4 > a"
+        },
+        "method": "select"
+      },
+      "url": {
+         "attribute": "href",
+        "params": {
+          "selector": "div.txt > h4 > a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": {
+        "params": {
+          "selector": "div.contain-right > p.brief"
+        },
+        "method": "select"
+      },
+      "author": null,
+      "list": {
+        "params": {
+          "selector": " div.index-news > ul > li"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "newbelink_com"
+    }
+  ]
+}

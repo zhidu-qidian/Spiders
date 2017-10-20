@@ -1,0 +1,46 @@
+{
+  "domain": "zhitongcaijing.com",
+  "list": [
+    {
+      "publish_time": {
+        "params": {
+          "selector": "span.float-l.margin-l30.color-d"
+        },
+        "method": "select"
+      },
+      "author": {
+        "params": {
+          "selector": "span.color-h > a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "abstract": {
+        "params": {
+          "selector": "p"
+        },
+        "method": "select"
+      },
+      "title": {
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "div#newsMain > ul > li,div#newsMain > dl > dd"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "zhitongcaijing_com"
+    }
+  ]
+}

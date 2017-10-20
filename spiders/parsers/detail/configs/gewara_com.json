@@ -1,0 +1,80 @@
+{
+  "gewara.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": {
+          "method": "select",
+          "params": {
+            "selector": "p.positionMenu"
+          }
+        },
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h2.ui_summary_big"
+          }
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div.sec_walaDetail"
+          }
+        },
+        "source": "格瓦拉生活网",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "div.mod_hd"
+          }
+        },
+        "tags": null,
+        "before": null
+      },
+      "1": {
+        "extractor": null,
+        "after": {
+          "method": "select",
+          "params": {
+            "selector": "div.cls"
+          }
+        },
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "div.news_header > h1"
+          }
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div.news_cont "
+          }
+        },
+        "source": "格瓦拉生活网",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "div.news_header"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "gewara.com": [
+        "0",
+        "1"
+      ]
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "hongzhoukan.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "div.article > h1"
+          }
+        },
+        "summary": null,
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "div.article"
+            }
+          }
+        ],
+        "source": "红周刊",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "div.article > h2 "
+          }
+        },
+        "tags": null,
+        "before": {
+            "method": "select",
+            "params": {
+              "selector": "h2"
+            }
+          }
+      }
+    },
+    "match": {
+      "hongzhoukan.com": [
+        "0"
+      ]
+    }
+  }
+}
+

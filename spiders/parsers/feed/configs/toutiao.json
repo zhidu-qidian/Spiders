@@ -1,0 +1,66 @@
+{
+  "domain": "toutiao", 
+  "list": [
+    {
+      "publish_time": "datetime", 
+      "title": "title", 
+      "url": "display_url", 
+      "abstract": "abstract", 
+      "list": "data", 
+      "filter": "_as_=", 
+      "publish_site": "source", 
+      "keywords": "keywords", 
+      "type": "ajax", 
+      "crawler": "toutiao"
+    }, 
+    {
+      "publish_time": null, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": null, 
+      "title": {
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "div.item-inner.y-box > div.normal > div.rbox-inner"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "toutiaohao"
+    }, 
+    {
+      "publish_time": "datetime", 
+      "author": null, 
+      "url": "source_url", 
+      "abstract": "abstract", 
+      "title": "title", 
+      "list": "data", 
+      "keywords": null, 
+      "type": "ajax", 
+      "crawler": "toutiaohao_ajax"
+    },
+    {
+      "publish_site": "content|source",
+      "publish_time": "content|publish_time",
+      "author": "content|source",
+      "url": "content|url",
+      "abstract": "content|abstract",
+      "title": "content|title",
+      "list": "data",
+      "keywords": "content|keywords",
+      "type": "ajax",
+      "crawler": "toutiaoapp"
+    }
+  ]
+}

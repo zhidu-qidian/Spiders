@@ -1,0 +1,16 @@
+{
+  "domain": "tuku.71lady.com", 
+  "conf": {
+    "START": 2, 
+    "NUMBER": {
+      "params": {
+        "selector": "div.dede_pages > ul > li a"
+      }, 
+      "method": "select"
+    }, 
+    "TEMPLATE": {
+      "join": false, 
+      "template": "_%s.html"
+    }
+  }
+}

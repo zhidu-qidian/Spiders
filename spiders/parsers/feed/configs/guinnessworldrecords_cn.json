@@ -1,0 +1,43 @@
+{
+  "domain": "guinnessworldrecords.cn",
+  "list": [
+    {
+      "publish_time": null, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "h3 > a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": {
+        "params": {
+          "selector": "div.article-details > p:nth-of-type(1)"
+        },
+        "method": "select"
+      },
+      "title": {
+        "params": {
+          "selector": "h3 > a"
+        }, 
+        "method": "select"
+      },
+      "thumb": {
+        "attribute": "src",
+        "params": {
+          "selector": "img"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "section.article-list > article"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "guinnessworldrecords_cn"
+    }
+  ]
+}

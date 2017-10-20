@@ -1,0 +1,133 @@
+{
+  "domain": "people.com", 
+  "list": [
+    {
+      "publish_time": {
+        "params": {
+          "selector": "i"
+        }, 
+        "method": "select"
+      }, 
+      "title": {
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "skip": null, 
+      "abstract": null, 
+      "author": null, 
+      "list": {
+        "params": {
+          "selector": "ul.list_14 > li"
+        }, 
+        "method": "select"
+      }, 
+      "publish_site": null, 
+      "keywords": null, 
+      "type": "html", 
+      "crawler": "people"
+    }, 
+    {
+      "publish_time": null, 
+      "title": {
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "skip": null, 
+      "abstract": null, 
+      "author": null, 
+      "list": {
+        "params": {
+          "selector": "ul.list > li"
+        }, 
+        "method": "select"
+      }, 
+      "publish_site": null, 
+      "keywords": null, 
+      "type": "html", 
+      "crawler": "people_it"
+    },
+    {
+      "publish_time": null,
+      "title": {
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "div.ej_list_box > ul > li"
+        },
+        "method": "select"
+      },
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "people_ent"
+    },
+    {
+      "publish_time": null,
+      "title": {
+        "params": {
+          "selector": "strong > a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "strong > a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "thumb":{
+        "attribute": "src",
+        "params": {
+          "selector": "img"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "div.img_box"
+        },
+        "method": "select"
+      },
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "people_photo_fun"
+    }
+  ]
+}

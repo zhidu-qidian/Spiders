@@ -1,0 +1,52 @@
+{
+  "bomb01.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": {
+          "params": {
+            "selector": "div#article div.user"
+          },
+          "method": "select"
+        },
+        "title": {
+          "params": {
+            "selector": "h1.title"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": [
+          {
+            "params": {
+              "selector": "div#content"
+            },
+            "method": "select"
+          }
+        ],
+        "source": "bomb01",
+        "editor": null,
+        "clean": {
+          "params": {
+            "selector": "iframe"
+          },
+          "method": "select"
+        },
+        "date": {
+          "params": {
+            "selector": "div#article div.time"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "bomb01.com": [
+        "0"
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "domain": "jokeji.cn",
+  "list": [
+    {
+      "publish_time": null, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": null, 
+      "title": {
+        "attribute": "alt",
+        "params": {
+          "selector": "img"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "div > ul > li > span"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "jokeji_cn"
+    }
+  ]
+}

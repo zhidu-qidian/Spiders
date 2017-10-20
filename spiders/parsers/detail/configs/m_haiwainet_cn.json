@@ -1,0 +1,40 @@
+{
+  "m.haiwainet.cn": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "name": "h1"
+          }
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "class_": "con", 
+            "id": "con", 
+            "name": "div"
+          }
+        }, 
+        "source": "手机海外网", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "div.abs > span"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "m.haiwainet.cn": [
+        "0"
+      ]
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "youth.cn": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "div.l_tit,div.page_title > h1"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "div.TRS_Editor,div#container"
+            }
+          }
+        ],
+        "source": {
+          "params": {
+            "selector": "span#source_baidu a"
+          },
+          "method": "select"
+        },
+        "editor": null,
+        "clean": null,
+        "date": {
+          "params": {
+            "selector": "span#pubtime_baidu,span#page_right"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "youth.cn": ["0"]
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "domain": "99xr.com",
+  "list": [
+    {
+      "publish_time": null, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": null, 
+      "title": {
+        "attribute": "title", 
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "div.diet > div.left > div.box,div.diet > div.right"
+        }, 
+        "method": "select"
+      },
+      "thumb":{
+        "attribute": "src",
+        "params": {
+          "selector": "img"
+        },
+        "method": "select"
+      },
+      "keywords": null, 
+      "crawler": "99xr_top_pic"
+    }
+  ]
+}

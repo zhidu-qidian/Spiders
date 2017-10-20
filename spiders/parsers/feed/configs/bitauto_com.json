@@ -1,0 +1,43 @@
+{
+  "domain": "bitauto.com",
+  "list": [
+    {
+      "publish_time": {
+        "params": {
+          "selector": "dl > dt"
+        },
+        "method": "select"
+      },
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "p > a"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+      "thumb": {
+        "attribute": "src",
+        "params": {
+          "selector": "img"
+        },
+        "method": "select"
+      },
+      "title": {
+        "params": {
+          "selector": "p > a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "ul#ul_themeList > li"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "bitauto_com"
+    }
+  ]
+}

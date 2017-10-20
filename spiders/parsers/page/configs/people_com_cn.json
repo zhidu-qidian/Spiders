@@ -1,0 +1,17 @@
+{
+  "domain": "people.com.cn",
+  "conf": {
+    "START": 2,
+    "NUMBER": {
+      "params": {
+        "selector": "div.zdfy"
+      },
+      "type": "last",
+      "method": "select"
+    },
+    "TEMPLATE": {
+      "join": false,
+      "template": "-%s.html"
+    }
+  }
+}

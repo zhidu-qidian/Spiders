@@ -1,0 +1,52 @@
+{
+  "kankanews.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "div.nrHeader > h1"
+          },
+          "method": "select"
+        },
+        "summary": {
+          "params": {
+            "selector": "div.tips"
+          },
+          "method": "select"
+        },
+        "content": [
+          {
+            "params": {
+              "selector": "div.textBody"
+            },
+            "method": "select"
+          }
+        ],
+        "source": "看看新闻",
+        "editor": null,
+        "clean": {
+          "params": {
+            "selector": "p#kankan_bq"
+          },
+          "method": "select"
+        },
+        "date": {
+          "params": {
+            "selector": "div.infor > p.time"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "kankanews.com": [
+        "0"
+      ]
+    }
+  }
+}

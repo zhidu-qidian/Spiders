@@ -1,0 +1,40 @@
+{
+  "techweb.com.cn": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "selector": "div.title > h1"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "selector": "div.content_txt"
+          }, 
+          "method": "select"
+        }, 
+        "source": null, 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "div.titleBar > span.date"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "techweb.com.cn": [
+        "0"
+      ]
+    }
+  }
+}

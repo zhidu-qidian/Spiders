@@ -1,0 +1,35 @@
+{
+  "7kk.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "div.userCon > div > strong"
+          }
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div#container"
+          }
+        },
+        "source": "7KK图片",
+        "editor": null,
+        "clean": null,
+        "date": null,
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "7kk.com": [
+        "0"
+      ]
+    }
+  }
+}

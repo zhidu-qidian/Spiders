@@ -1,0 +1,47 @@
+{
+  "2chcn.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "params": {
+            "selector": "div.post-single-info > a"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "h2"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.post-content"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "2ch中文网", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "span.post-info-date"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "2chcn.com": [
+        "0"
+      ]
+    }
+  }
+}

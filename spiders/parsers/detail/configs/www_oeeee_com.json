@@ -1,0 +1,53 @@
+{
+  "www.oeeee.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": {
+          "params": {
+            "class_": "content-page", 
+            "name": "div"
+          }
+        }, 
+        "author": null, 
+        "title": {
+          "params": {
+            "selector": "div.title > h1"
+          }, 
+          "method": "select"
+        }, 
+        "summary": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "description"
+            }
+          }
+        }, 
+        "content": {
+          "params": {
+            "class_": "content", 
+            "name": "div"
+          }
+        }, 
+        "source": "奥一网", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "class_": "time", 
+            "name": "span"
+          }
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "www.oeeee.com": [
+        "0"
+      ]
+    }
+  }
+}

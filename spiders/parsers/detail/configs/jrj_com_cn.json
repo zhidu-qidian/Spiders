@@ -1,0 +1,60 @@
+{
+  "jrj.com.cn": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "name": "h1"
+          }
+        }, 
+        "summary": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "description"
+            }
+          }
+        }, 
+        "content": {
+          "params": {
+            "class_": "texttit_m1", 
+            "name": "div"
+          }
+        }, 
+        "source": "金融界", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "class_": "inftop", 
+            "name": "p"
+          }
+        }, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        }, 
+        "before": {
+          "params": {
+            "class_": "linknew", 
+            "name": "p"
+          }
+        }
+      }
+    }, 
+    "match": {
+      "jrj.com.cn": [
+        "0"
+      ]
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "china.com.cn": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1"
+          }
+        },
+        "summary": null,
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "div#fontzoom"
+            }
+          }
+        ],
+        "source": null,
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "span.fl.time2"
+          }
+        },
+        "tags": null,
+        "before": null
+      },
+      "1": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1"
+          }
+        },
+        "summary": null,
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "div#artbody,div#articleBody,div#artiContent,div.artCon"
+            }
+          }
+        ],
+        "source": null,
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "span#pubtime_baidu"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "china.com.cn": [
+        "0",
+        "1"
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "domain": "yixiuba.com", 
+  "list": [
+    {
+      "publish_time": null, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": null, 
+      "title": {
+        "attribute": "title", 
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "ul > li"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "yixiuba_com"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "domain": "mop.com",
+  "list": [
+    {
+      "publish_time":"publishtime",
+      "author": "username",
+      "url": "http://tt.mop.com/a/{0}",
+      "fields":["htmlname"],
+      "abstract":null,
+      "title": "title",
+      "list": "data",
+      "keywords": null,
+      "type":"ajax",
+      "crawler": "mop_com"
+    }
+  ]
+}

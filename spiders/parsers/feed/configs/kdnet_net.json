@@ -1,0 +1,36 @@
+{
+  "domain": "kdnet.net",
+  "list": [
+    {
+      "publish_time": null,
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "div.cls-point > a"
+        },
+        "method": "select"
+      },
+      "abstract": {
+        "params": {
+          "selector": "div.text-wrap > p"
+        },
+        "method": "select"
+      },
+      "title": {
+        "params": {
+          "selector": "h1"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "ul#list-warp > li"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "kdnet_net"
+    }
+  ]
+}

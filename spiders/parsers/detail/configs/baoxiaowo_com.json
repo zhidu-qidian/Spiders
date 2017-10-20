@@ -1,0 +1,48 @@
+{
+  "baoxiaowo.com": {
+    "configs": {
+            "0": {
+        "extractor": null,
+        "after": {
+          "params": {
+            "selector": "div"
+          },
+          "method": "select"
+        },
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "h1"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": [
+          {
+            "params": {
+              "selector": "div.text"
+            },
+            "method": "select"
+          }
+        ],
+        "source":"爆笑窝",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "params": {
+            "selector": "div.article__nav"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": null
+      }
+
+    },
+    "match": {
+      "baoxiaowo.com": [
+        "0"
+      ]
+    }
+  }
+}

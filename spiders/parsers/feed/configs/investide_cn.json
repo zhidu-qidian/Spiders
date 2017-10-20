@@ -1,0 +1,40 @@
+{
+  "domain": "investide.cn",
+  "list": [
+    {
+      "publish_time": {
+        "params": {
+          "selector": " p.content-time"
+        },
+        "method": "select"
+      },
+      "title" : {
+        "params": {
+          "selector": "div.content-header > a > h2"
+        },
+        "method": "select"
+      },
+      "url": {
+         "attribute": "href",
+        "params": {
+          "selector": "div.content-header > a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": " div.posts > div.content"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "investide_cn"
+    }
+  ]
+}

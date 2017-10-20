@@ -1,0 +1,58 @@
+{
+  "kickstarter.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "params": {
+            "selector": "div.NS_projects__header.center > p > b > a"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "div.NS_projects__header.center > h2.normal.mb2 > a"
+          }, 
+          "method": "select"
+        }, 
+        "summary": {
+          "params": {
+            "selector": "div.mobile-hide > p.f3.mb3.mb5-sm "
+          }, 
+          "method": "select"
+        }, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.full-description"
+            }, 
+            "method": "select"
+          }, 
+          {
+            "params": {
+              "selector": "div.js-risks"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "KickStarter", 
+        "editor": null, 
+        "clean": null, 
+        "date": null, 
+        "tags": {
+          "params": {
+            "selector": "ul.project-fields-list"
+          }, 
+          "method": "select"
+        }, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "kickstarter.com": [
+        "0"
+      ]
+    }
+  }
+}

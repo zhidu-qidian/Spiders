@@ -1,0 +1,90 @@
+{
+  "4399.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "selector": "h1.title"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "selector": "div.content"
+          }, 
+          "method": "select"
+        }, 
+        "source": null, 
+        "editor": null, 
+        "clean": null, 
+        "date": null, 
+        "tags": null, 
+        "before": null
+      }, 
+      "1": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "selector": "div.leftbar h1"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "selector": "div.leftbar div.wz_text"
+          }, 
+          "method": "select"
+        }, 
+        "source": null, 
+        "editor": null, 
+        "clean": null, 
+        "date": null, 
+        "tags": null, 
+        "before": null
+      },
+      "2": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "h1"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": {
+          "params": {
+            "selector": "div.pleft-txt"
+          },
+          "method": "select"
+        },
+        "source": null,
+        "editor": null,
+        "clean": null,
+        "date": {
+          "params": {
+            "selector": " div.pleft-tit > ul.cf > li:nth-of-type(1)"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": null
+      }
+    }, 
+    "match": {
+      "4399.com": [
+        "0", 
+        "1",
+        "2"
+      ]
+    }
+  }
+}

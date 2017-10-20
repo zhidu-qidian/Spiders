@@ -1,0 +1,40 @@
+{
+  "7y7.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": {
+          "params": {
+            "class_": "pic-nub", 
+            "name": "div"
+          }
+        }, 
+        "author": null, 
+        "title": {
+          "params": {
+            "selector": "div.pic-title > h1"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "class_": "pic-bigger", 
+            "name": "div"
+          }
+        }, 
+        "source": "七丽时尚", 
+        "editor": null, 
+        "clean": null, 
+        "date": null, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "7y7.com": [
+        "0"
+      ]
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "domain": "ptbus.com.wzry", 
+  "list": [
+    {
+      "publish_time": {
+        "params": {
+          "selector": "p.info"
+        }, 
+        "method": "select"
+      }, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "h2 > a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": {
+        "params": {
+          "selector": "p"
+        }, 
+        "method": "select"
+      }, 
+      "title": {
+        "params": {
+          "selector": "h2 > a"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "div.item"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "ptbus_com_wzry"
+    }
+  ]
+}

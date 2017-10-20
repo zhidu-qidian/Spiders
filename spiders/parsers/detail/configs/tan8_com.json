@@ -1,0 +1,64 @@
+{
+  "tan8.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "params": {
+            "selector": "div.yuepu_name_0421 > span.brief_color > a > i"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "div.yuepu_name_0421 > h1"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.col_757 > div.yuepu_img_0421"
+            }, 
+            "method": "select"
+          }, 
+          {
+            "params": {
+              "selector": "div.col_757 > p.brief_0421"
+            }, 
+            "method": "select"
+          }, 
+          {
+            "params": {
+              "selector": "div#flash_container123"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "弹琴吧", 
+        "editor": {
+          "params": {
+            "selector": "div.author_img > div.text > a > h3"
+          }, 
+          "method": "select"
+        }, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "div.author_img > div.text > p:nth-of-type(2)"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "tan8.com": [
+        "0"
+      ]
+    }
+  }
+}

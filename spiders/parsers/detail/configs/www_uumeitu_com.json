@@ -1,0 +1,39 @@
+{
+  "www.uumeitu.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "name": "h2"
+          }
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "class_": "content", 
+            "name": "div"
+          }
+        }, 
+        "source": "uumeitu", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "class_": "info", 
+            "name": "div"
+          }
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "www.uumeitu.com": [
+        "0"
+      ]
+    }
+  }
+}

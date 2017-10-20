@@ -1,0 +1,55 @@
+{
+  "chinaautonews.com.cn": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": {
+          "params": {
+            "selector": "div#pages"
+          },
+          "method": "select"
+        },
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "h1"
+          },
+          "method": "select"
+        },
+        "summary": {
+          "params": {
+            "selector": "div.desc"
+          },
+          "method": "select"
+        },
+        "content": {
+          "params": {
+            "selector": "div.detail-content"
+          },
+          "method": "select"
+        },
+        "source": {
+          "params": {
+            "selector": "div.source > a"
+          },
+          "method": "select"
+        },
+        "editor": null,
+        "clean": null,
+        "date": {
+          "params": {
+            "selector": "div.source"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "chinaautonews.com.cn": [
+        "0"
+      ]
+    }
+  }
+}

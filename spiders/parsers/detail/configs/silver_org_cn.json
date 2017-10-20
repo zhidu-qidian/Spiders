@@ -1,0 +1,48 @@
+{
+  "silver.org.cn": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "div.main_lt h1"
+          }
+        },
+        "summary": {
+            "method": "select",
+            "params": {
+              "selector": "div.lt_zy"
+            }
+          },
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "div.lt_edit"
+            }
+          }
+        ],
+        "source": "第一白银网",
+        "editor": null,
+        "clean": null,
+        "date":{
+            "method": "select",
+            "params": {
+              "selector": "div.lt_txt"
+            }
+          },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "silver.org.cn": [
+        "0"
+      ]
+    }
+  }
+}
+

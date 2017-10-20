@@ -1,0 +1,67 @@
+{
+  "domain": "youth.cn", 
+  "list": [
+    {
+      "publish_time": {
+        "params": {
+          "selector": "font"
+        }, 
+        "method": "select"
+      }, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": null, 
+      "title": {
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "div.rdwz > ul.tj3_1  > li"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "youth_cn"
+    }, 
+    {
+      "publish_time": {
+        "params": {
+          "selector": "dd"
+        }, 
+        "method": "select"
+      }, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "dt.list_title > a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": null, 
+      "title": {
+        "params": {
+          "selector": "dt.list_title > a"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "div.listbox > dl"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "youth_cn_game"
+    }
+  ]
+}

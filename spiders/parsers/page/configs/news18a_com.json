@@ -1,0 +1,17 @@
+{
+  "domain": "news18a.com",
+  "conf": {
+    "START": 2,
+    "NUMBER": {
+      "params": {
+        "selector": "div.ina_page > span"
+      },
+      "type":"last",
+      "method": "select"
+    },
+    "TEMPLATE": {
+      "join": false,
+      "template": "_%s.html"
+    }
+  }
+}

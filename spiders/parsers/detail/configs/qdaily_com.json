@@ -1,0 +1,69 @@
+{
+  "qdaily.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "params": {
+            "selector": "div.author > span.name"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "h2.title"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "p.excerpt"
+            }, 
+            "method": "select"
+          }, 
+          {
+            "params": {
+              "selector": "div.detail"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "好奇心日报",
+        "editor": null, 
+        "clean": [
+          {
+            "params": {
+              "selector": "p.lazylood"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "date": {
+          "attribute": "data-origindate", 
+          "params": {
+            "selector": "span.date.smart-date"
+          }, 
+          "method": "select"
+        }, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        }, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "qdaily.com": [
+        "0"
+      ]
+    }
+  }
+}

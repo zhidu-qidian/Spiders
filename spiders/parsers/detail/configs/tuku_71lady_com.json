@@ -1,0 +1,39 @@
+{
+  "tuku.71lady.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "name": "h1"
+          }
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "class_": "pic", 
+            "name": "div"
+          }
+        }, 
+        "source": "奇丽女性网", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "class_": "inne-tab", 
+            "name": "div"
+          }
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "tuku.71lady.com": [
+        "0"
+      ]
+    }
+  }
+}

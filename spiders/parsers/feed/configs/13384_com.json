@@ -1,0 +1,32 @@
+{
+  "domain": "13384.com", 
+  "list": [
+    {
+      "publish_time": null, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": null, 
+      "title": {
+        "attribute": "title", 
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "div.box.cat-area > div.content > ul > li"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "13384_com"
+    }
+  ]
+}

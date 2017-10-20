@@ -1,0 +1,17 @@
+{
+  "domain": "cndzys.com",
+  "conf": {
+    "START": 2,
+    "NUMBER": {
+      "params": {
+        "selector": "div.paging > a"
+      },
+      "type":"last",
+      "method": "select"
+    },
+    "TEMPLATE": {
+      "join": false,
+      "template": "_%s.html"
+    }
+  }
+}

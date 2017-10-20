@@ -1,0 +1,35 @@
+{
+  "zbjuran.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "div.tit"
+          }
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div.text"
+          }
+        },
+        "source": "居然搞笑网",
+        "editor": null,
+        "clean": null,
+        "date": null,
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "zbjuran.com": [
+        "0"
+      ]
+    }
+  }
+}

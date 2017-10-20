@@ -1,0 +1,60 @@
+{
+  "awwwards.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "params": {
+            "selector": "div.by > strong > a"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "h1"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.excerpt"
+            }, 
+            "method": "select"
+          }, 
+          {
+            "params": {
+              "selector": "div.grid.photo-large"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "awwwards.com", 
+        "editor": null, 
+        "clean": [
+          {
+            "params": {
+              "selector": "div.box-share"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "date": {
+          "params": {
+            "selector": "div.date"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "awwwards.com": [
+        "0"
+      ]
+    }
+  }
+}

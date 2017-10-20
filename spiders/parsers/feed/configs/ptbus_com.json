@@ -1,0 +1,41 @@
+{
+  "domain": "ptbus.com", 
+  "list": [
+    {
+      "publish_time": {
+        "params": {
+          "selector": "dl.subs > span"
+        }, 
+        "method": "select"
+      }, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "dl.ecst > a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": {
+        "params": {
+          "selector": "sl.subs > p"
+        }, 
+        "method": "select"
+      }, 
+      "title": {
+        "params": {
+          "selector": "dl.ecst > a"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "ul.column > li"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "ptbus_com"
+    }
+  ]
+}

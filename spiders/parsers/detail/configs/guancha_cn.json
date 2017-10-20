@@ -1,0 +1,50 @@
+{
+  "guancha.cn": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h3"
+          }
+        },
+        "summary": null,
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "div.all-txt"
+            }
+          }
+        ],
+        "source": "观察者网",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "div.time > span"
+          }
+        },
+        "tags": {
+          "attribute": "content",
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        },
+        "before": null
+      }
+    },
+    "match": {
+      "guancha.cn": [
+        "0"
+      ]
+    }
+  }
+}

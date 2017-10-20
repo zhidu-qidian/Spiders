@@ -1,0 +1,55 @@
+{
+  "gov.cn": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "selector": "h1"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.pages_content"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "中国政府网",
+        "editor": {
+          "params": {
+            "selector": "div.editor"
+          }, 
+          "method": "select"
+        }, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "div.pages-date"
+          }, 
+          "method": "select"
+        }, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        }, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "gov.cn": [
+        "0"
+      ]
+    }
+  }
+}

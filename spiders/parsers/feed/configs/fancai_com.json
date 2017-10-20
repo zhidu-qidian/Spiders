@@ -1,0 +1,27 @@
+{
+  "domain": "fancai.com",
+  "list": [
+    {
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "h5 > a"
+        },
+        "method": "select"
+      },
+      "crawler": "fancai_com",
+      "list": {
+        "params": {
+          "selector": "div.infor_listcot > ul > li"
+        },
+        "method":"select"
+      },
+      "title": {
+        "params": {
+          "selector": "h5 > a"
+        },
+        "method": "select"
+      }
+    }
+  ]
+}

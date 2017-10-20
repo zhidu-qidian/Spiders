@@ -1,0 +1,142 @@
+{
+  "toutiao.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "class_": "article-title", 
+            "name": "h1"
+          }
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "class_": "article-content", 
+            "name": "div"
+          }
+        }, 
+        "source": {
+          "params": {
+            "class_": "src", 
+            "name": "span"
+          }
+        }, 
+        "editor": null, 
+        "clean": [
+          {
+            "params": {
+              "class_": "mp-vote-box mp-vote-outer", 
+              "name": "div"
+            }
+          }, 
+          {
+            "params": {
+              "class_": "footnote", 
+              "name": "p"
+            }
+          }, 
+          {
+            "params": {
+              "class_": "hide", 
+              "name": "i"
+            }
+          }
+        ], 
+        "date": {
+          "params": {
+            "class_": "time", 
+            "name": "span"
+          }
+        }, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        }, 
+        "before": null
+      }, 
+      "1": {
+        "extractor": "toutiaogallery",
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "name": "h2"
+          }
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "selector": "div#tt-slide"
+          }, 
+          "method": "select"
+        }, 
+        "source": null, 
+        "editor": null, 
+        "clean": {
+          "params": {
+            "class_": "hide", 
+            "name": "i"
+          }
+        }, 
+        "date": {
+          "params": {
+            "class_": "time", 
+            "name": "span"
+          }
+        }, 
+        "tags": null, 
+        "before": null
+      },
+      "2": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {"params": {"name": "h1"}},
+        "summary": null,
+        "content": {"params": {"name": "article"}},
+        "source": {"params": {"name": "a", "id": "source"}},
+        "editor": null,
+        "clean": [
+          {"params": {"name": "div", "id": "video_url"}},
+          {"params": {"name": "img", "attrs": {"src": "http://img.gmw.cn/pic/content_logo.png"}}},
+          {"params": {"name": "div", "id": "yuanweninfo"}},
+          {"params": {"name": "i", "class_": "hide"}}
+        ],
+        "date": {"params": {"name": "time"}},
+        "tags": null,
+        "before": null
+      },
+      "3": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {"params": {"name": "h1"}},
+        "summary": null,
+        "content": {"params": {"name": "div", "id": "gallery"}},
+        "source": {"params": {"name": "a", "id": "source"}},
+        "editor": null,
+        "clean": {"params": {"name": "i", "class_": "hide"}},
+        "date": {"params": {"name": "time"}},
+        "tags": null,
+        "before": {"params": {"name": "header"}}
+      }
+    },
+    "match": {"toutiao.com": ["0", "1"]},
+    "outer": {
+      "/toutiao/": ["2", "3"],
+      "/jrtt/": ["2", "3"],
+      "/toutiaonew/": ["2", "3"],
+      "_tt.html": ["2", "3"],
+      "tt_group_id": ["2", "3"],
+      "/ttc/": ["2", "3"]
+    }
+  }
+}

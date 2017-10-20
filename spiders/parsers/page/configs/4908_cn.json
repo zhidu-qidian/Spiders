@@ -1,0 +1,17 @@
+{
+  "domain": "4908.cn", 
+  "conf": {
+    "START": 2, 
+    "NUMBER": {
+      "params": {
+        "selector": "div.pager > ul > li > a"
+      }, 
+      "type": "sum", 
+      "method": "select"
+    }, 
+    "TEMPLATE": {
+      "join": false, 
+      "template": "p%s.html"
+    }
+  }
+}

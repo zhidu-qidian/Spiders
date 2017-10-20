@@ -1,0 +1,92 @@
+{
+  "72g.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "selector": "div.article > h1"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "selector": "div.article"
+          }, 
+          "method": "select"
+        }, 
+        "source": null, 
+        "editor": null, 
+        "clean": [
+          {
+            "params": {
+              "name": "div"
+            }
+          }, 
+          {
+            "params": {
+              "name": "h1"
+            }
+          }
+        ], 
+        "date": {
+          "params": {
+            "selector": "div.article-info > span.article-publish"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      }, 
+      "1": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "selector": "div.cont_box > h1"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "selector": "div.cont_box"
+          }, 
+          "method": "select"
+        }, 
+        "source": null, 
+        "editor": null, 
+        "clean": [
+          {
+            "params": {
+              "name": "div"
+            }
+          }, 
+          {
+            "params": {
+              "name": "h1"
+            }
+          }
+        ], 
+        "date": {
+          "params": {
+            "selector": "i.art-title"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "72g.com": [
+        "0", 
+        "1"
+      ]
+    }
+  }
+}

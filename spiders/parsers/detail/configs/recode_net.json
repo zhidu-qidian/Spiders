@@ -1,0 +1,53 @@
+{
+  "recode.net": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "params": {
+            "selector": "div.c-byline > span:nth-of-type(1) > a"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "h1.c-page-title"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.e-image e-image--hero"
+            }, 
+            "method": "select"
+          }, 
+          {
+            "params": {
+              "selector": "div.c-entry-content"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "recode.net", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "div.c-byline > span:nth-of-type(2) > a"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "recode.net": [
+        "0"
+      ]
+    }
+  }
+}

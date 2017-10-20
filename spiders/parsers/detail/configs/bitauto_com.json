@@ -1,0 +1,50 @@
+{
+  "bitauto.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": {
+          "method": "select",
+          "params": {
+            "selector": "div.txt-box > p.p-n > a"
+          }
+        },
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1.tit-h1"
+          }
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div.article-content"
+          }
+        },
+        "source": {
+          "method": "select",
+          "params": {
+            "selector": "div.gz-rig-box > div > a"
+          }
+        },
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "div.gz-box"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "bitauto.com": [
+        "0"
+      ]
+    }
+  }
+}

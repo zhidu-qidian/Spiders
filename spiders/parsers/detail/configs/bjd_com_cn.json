@@ -1,0 +1,63 @@
+{
+  "bjd.com.cn": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "class_": "tit", 
+            "name": "div"
+          }
+        }, 
+        "summary": {
+          "params": {
+            "class_": "lead", 
+            "name": "div"
+          }
+        }, 
+        "content": {
+          "params": {
+            "id": "sourceTxt", 
+            "name": "div"
+          }
+        }, 
+        "source": {
+          "params": {
+            "selector": "div.info > span:nth-of-type(2)"
+          }, 
+          "method": "select"
+        }, 
+        "editor": {
+          "params": {
+            "selector": "div.info > span:nth-of-type(3)"
+          }, 
+          "method": "select"
+        }, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "div.info > span:nth-of-type(1)"
+          }, 
+          "method": "select"
+        }, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        }, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "bjd.com.cn": [
+        "0"
+      ]
+    }
+  }
+}

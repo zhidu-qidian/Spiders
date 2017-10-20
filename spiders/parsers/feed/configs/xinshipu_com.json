@@ -1,0 +1,38 @@
+{
+  "domain": "xinshipu.com",
+  "list": [
+    {
+      "publish_time": null,
+      "author": null,
+      "thumb": {
+        "attribute": "src",
+        "params": {
+          "selector": "img"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+      "title": {
+        "params": {
+          "selector": "div.h-pw-w > p"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "ul.search-list > li"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "xinshipu_com"
+    }
+  ]
+}

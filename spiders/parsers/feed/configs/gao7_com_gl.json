@@ -1,0 +1,41 @@
+{
+  "domain": "gao7.com.gl", 
+  "list": [
+    {
+      "publish_time": {
+        "params": {
+          "selector": "p.gp-time"
+        }, 
+        "method": "select"
+      }, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "em > a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": {
+        "params": {
+          "selector": "p.gp-word"
+        }, 
+        "method": "select"
+      }, 
+      "title": {
+        "params": {
+          "selector": "em > a"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "div.main > div.gp-list > div.gov-list > ul > li"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "gao7_com_gl"
+    }
+  ]
+}

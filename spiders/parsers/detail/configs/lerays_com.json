@@ -1,0 +1,35 @@
+{
+  "lerays.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "div.content-wrap > h1"
+          }
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div#v-box"
+          }
+        },
+        "source": "微头条",
+        "editor": null,
+        "clean": null,
+        "date": null,
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "lerays.com": [
+        "0"
+      ]
+    }
+  }
+}

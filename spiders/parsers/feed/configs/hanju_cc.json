@@ -1,0 +1,28 @@
+{
+  "domain": "hanju.cc",
+  "list": [
+    {
+      "publish_time": null, 
+      "title": {
+        "attribute": "text"
+      }, 
+      "url": {
+        "attribute": "href"
+      }, 
+      "skip": null, 
+      "abstract": null, 
+      "author": null, 
+      "list": {
+        "params": {
+          "selector": "div.list > div.box a.title"
+        }, 
+        "method": "select"
+      }, 
+      "filter": null, 
+      "publish_site": null, 
+      "keywords": null, 
+      "type": "html", 
+      "crawler": "hanju_cc"
+    }
+  ]
+}

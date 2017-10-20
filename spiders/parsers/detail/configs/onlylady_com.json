@@ -1,0 +1,46 @@
+{
+  "onlylady.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "p#view_intro > div.detail_rel > div.detail_rel_c > a:nth-of-type(1)"
+          },
+          "attribute": "title"
+        },
+        "summary": null,
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "div#thumb > div > ul"
+            }
+          }
+        ],
+        "source": "OnlyLady",
+        "editor": null,
+        "clean": null,
+        "date": null,
+        "tags": {
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "keywords"
+            }
+          },
+          "attribute": "content"
+        },
+        "before": null
+      }
+    },
+    "match": {
+      "onlylady.com": [
+        "0"
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "domain": "bitauto.com",
+  "conf": {
+    "START": 1,
+    "NUMBER": {
+      "params": {
+        "selector": "div.page-new-sty > div > a"
+      },
+      "type":"last",
+      "method": "select"
+    },
+    "TEMPLATE": {
+      "minus":1,
+      "join": false,
+      "template": "-%s.html"
+    }
+  }
+}

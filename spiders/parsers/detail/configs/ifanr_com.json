@@ -1,0 +1,64 @@
+{
+  "ifanr.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "name": "h1"
+          }
+        }, 
+        "summary": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "description"
+            }
+          }
+        }, 
+        "content": {
+          "params": {
+            "name": "article"
+          }
+        }, 
+        "source": "爱范儿", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "property": "article:published_time"
+            }
+          }
+        }, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        }, 
+        "before": {
+          "params": {
+            "name": "img", 
+            "attrs": {
+              "alt": "zaodu"
+            }
+          }
+        }
+      }
+    }, 
+    "match": {
+      "ifanr.com": [
+        "0"
+      ]
+    }
+  }
+}

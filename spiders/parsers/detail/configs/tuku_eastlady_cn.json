@@ -1,0 +1,39 @@
+{
+  "tuku.eastlady.cn": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "name": "h1"
+          }
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "id": "picBody", 
+            "name": "div"
+          }
+        }, 
+        "source": null, 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "div.articleTitle > center"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "tuku.eastlady.cn": [
+        "0"
+      ]
+    }
+  }
+}

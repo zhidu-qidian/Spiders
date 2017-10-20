@@ -1,0 +1,40 @@
+{
+  "fawan.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": {
+          "method": "select",
+          "params": {
+            "selector": "div.Mpm459"
+          }
+        },
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "title"
+          }
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div#articleContnet"
+          }
+        },
+        "source": null,
+        "editor": null,
+        "clean": null,
+        "date": null,
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "fawan.com": [
+        "0"
+      ]
+    }
+  }
+}

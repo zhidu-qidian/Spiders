@@ -1,0 +1,71 @@
+{
+  "xiachufang.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": {
+          "params": {
+            "selector": "div.print"
+          },
+          "method": "select"
+        },
+        "author": {
+          "params": {
+            "itemprop": "author"
+          },
+          "method": "find"
+        },
+        "title": {
+          "params": {
+            "selector": "h1.page-title"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": {
+          "params": {
+            "selector": "div.recipe-show"
+          },
+          "method": "select"
+        },
+        "source": "下厨房",
+        "editor": null,
+        "clean": [
+          {
+            "params": {
+              "selector": "div.container"
+            },
+            "method": "select"
+          },
+          {
+            "params": {
+              "selector": "div.rate-dialog"
+            },
+            "method": "select"
+          },
+          {
+            "params": {
+              "selector": "div.author"
+            },
+            "method": "select"
+          }
+        ],
+        "date": {
+          "params": {
+            "itemprop": "datePublished"
+          },
+          "method": "find"
+        },
+        "tags": null,
+        "before": null,
+        "method": "select"
+      }
+    },
+    "match": {
+      "xiachufang.com": [
+        "0"
+      ]
+    }
+  }
+}
+

@@ -1,0 +1,39 @@
+{
+  "sportscn.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+            "params": {
+              "selector": "ul.title > h1"
+            },
+            "method": "select"
+          },
+        "summary": null,
+        "content": [
+          {
+            "params": {
+              "selector": "div#article"
+            },
+            "method": "select"
+          }
+        ],
+        "source": "华体网",
+        "editor": null,
+        "clean": null,
+        "date": {
+            "params": {
+              "selector": "ol.date"
+            },
+            "method": "select"
+          }
+      }},
+      "match": {
+        "sportscn.com": [
+          "0"
+        ]
+      }
+    }
+  }

@@ -1,0 +1,48 @@
+{
+  "pintu360.com": {
+    "configs": {
+            "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "h1.title"
+          },
+          "method": "select"
+        },
+        "summary": {
+          "params": {
+            "selector": "pre.note-text"
+          },
+          "method": "select"
+        },
+        "content": [
+          {
+            "params": {
+              "selector": "div.article-content div.text"
+            },
+            "method": "select"
+          }
+        ],
+        "source":"品途",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "params": {
+            "selector": "div.article-date"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": null
+      }
+
+    },
+    "match": {
+      "pintu360.com": [
+        "0"
+      ]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "cifnews.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "div.leftcont > h1"
+          }
+        },
+        "summary": null,
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "div.leftcont > div:nth-of-type(2)"
+            }
+          }
+        ],
+        "source": {
+          "method": "select",
+          "params": {
+            "selector": "a.usname > span"
+          }
+        },
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "div.leftcont > div span:nth-of-type(3)"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "cifnews.com": [
+        "0"
+      ]
+    }
+  }
+}

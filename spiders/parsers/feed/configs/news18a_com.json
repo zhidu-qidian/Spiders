@@ -1,0 +1,42 @@
+{
+  "domain": "news18a.com",
+  "list": [
+    {
+      "publish_time": {
+
+        "params": {
+          "selector": "div.ina_model"
+        },
+        "method": "select"
+      },
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "h3 > a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": {
+        "params": {
+          "selector": "dd > p > a"
+        },
+        "method": "select"
+      },
+      "title": {
+        "params": {
+          "selector": "h3 > a"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "div.ina_leftnr > dl"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "news18a_auto"
+    }
+  ]
+}

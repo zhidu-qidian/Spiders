@@ -1,0 +1,48 @@
+{
+  "baidu.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": {"params": {"selector": "div.rights"}, "method": "select"},
+        "author": {"params": {"selector": "span.author"}, "method": "select"},
+        "title": {
+          "params": {
+            "selector": "h1.title"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": {
+          "params": {
+            "selector": "section.news-content"
+          },
+          "method": "select"
+        },
+        "source": {
+          "params": {
+            "selector": "span.author"
+          },
+          "method": "select"
+        },
+        "editor": null,
+        "clean": null,
+        "date": {
+          "params": {
+            "selector": "span.time"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "baijia.baidu.com": [
+        "0"
+      ],
+      "baijiahao.baidu.com": [
+        "0"
+      ]
+    }
+  }
+}

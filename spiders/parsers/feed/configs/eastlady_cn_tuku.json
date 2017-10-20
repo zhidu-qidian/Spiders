@@ -1,0 +1,32 @@
+{
+  "domain": "eastlady.cn.tuku", 
+  "list": [
+    {
+      "publish_time": null, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": null, 
+      "title": {
+        "attribute": "title", 
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "ul.liL > li"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "eastlady_cn_tuku"
+    }
+  ]
+}

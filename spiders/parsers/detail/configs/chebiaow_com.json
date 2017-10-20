@@ -1,0 +1,40 @@
+{
+  "chebiaow.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": {
+          "method": "select",
+          "params": {
+            "selector": "div.page"
+          }
+        },
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1"
+          }
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div.pic-art-cont"
+          }
+        },
+        "source": "车标网",
+        "editor": null,
+        "clean": null,
+        "date": null,
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "chebiaow.com": [
+        "0"
+      ]
+    }
+  }
+}

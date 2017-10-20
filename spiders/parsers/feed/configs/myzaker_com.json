@@ -1,0 +1,31 @@
+{
+  "domain": "myzaker.com", 
+  "list": [
+    {
+      "publish_time": null, 
+      "title": {
+        "params": {
+          "selector": "div.title"
+        }, 
+        "method": "select"
+      }, 
+      "url": {
+        "attribute": "href"
+      }, 
+      "skip": null, 
+      "abstract": null, 
+      "author": null, 
+      "list": {
+        "params": {
+          "selector": "div#infinite_scroll > a"
+        }, 
+        "method": "select"
+      }, 
+      "filter": null, 
+      "publish_site": null, 
+      "keywords": null, 
+      "type": "html", 
+      "crawler": "myzaker"
+    }
+  ]
+}

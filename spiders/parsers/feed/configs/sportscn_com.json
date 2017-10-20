@@ -1,0 +1,41 @@
+{
+  "domain": "sportscn.com",
+  "list": [
+        {
+      "publish_time":null,
+      "title": {
+        "params": {
+          "selector": "ol > a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "ol > a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": {
+        "params": {
+          "selector": "li"
+        },
+        "method": "select"
+      },
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "div.wdls,div.wdlx a "
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "sportscn_com"
+    }
+
+  ]
+}

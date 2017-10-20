@@ -1,0 +1,52 @@
+{
+  "hexun.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "name": "h1"
+          }
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "class_": "art_contextBox", 
+            "name": "div"
+          }
+        }, 
+        "source": {
+          "params": {
+            "selector": "div.tip > a"
+          }, 
+          "method": "select"
+        }, 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "class_": "pr20", 
+            "name": "span"
+          }
+        }, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        }, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "hexun.com": [
+        "0"
+      ]
+    }
+  }
+}

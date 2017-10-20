@@ -1,0 +1,45 @@
+{
+  "rtz.cc": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1"
+          }
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div.pp"
+          }
+        },
+        "source": null,
+        "editor": null,
+        "clean": {
+          "method": "select",
+          "params": {
+            "selector": "div"
+          }
+        },
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "div.type"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "rtz.cc": [
+        "0"
+      ]
+    }
+  }
+}

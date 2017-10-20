@@ -1,0 +1,35 @@
+{
+  "guinnessworldrecords.cn": {
+    "configs": {
+      "0": {
+        "extractor": "guinness",
+        "after":null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1.page-title"
+          }
+        },
+        "summary": null,
+        "content":null,
+        "source": "吉尼斯中国官网",
+        "editor": null,
+        "clean":null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "div.page-meta-published"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "guinnessworldrecords.cn": [
+        "0"
+      ]
+    }
+  }
+}

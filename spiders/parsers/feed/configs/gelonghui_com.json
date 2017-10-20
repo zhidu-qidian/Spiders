@@ -1,0 +1,22 @@
+{
+  "domain": "gelonghui.com",
+  "list": [
+    {
+      "publish_time": "postLatestUpdateTime",
+      "title": "articleTitle",
+      "url": "http://www.gelonghui.com/api/post/{0}",
+      "skip": null,
+      "abstract": "articleSummary",
+      "author": "author",
+      "list": "result",
+      "filter": null,
+      "fields": [
+        "postId"
+      ],
+      "publish_site": null,
+      "keywords": null,
+      "type": "ajax",
+      "crawler": "gelonghui_com"
+    }
+  ]
+}

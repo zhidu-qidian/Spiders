@@ -1,0 +1,47 @@
+{
+  "kdnet.net": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": {
+          "params": {
+            "selector": "div.posts-posted > span:nth-of-type(1) > a "
+          },
+          "method": "select"
+        },
+        "title": {
+          "params": {
+            "selector": "div.posts-title"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": [
+          {
+            "params": {
+              "selector": "div.posts-cont"
+            },
+            "method": "select"
+          }
+        ],
+        "source": "凯迪社区",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "params": {
+            "selector": "div.posts-posted"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "kdnet.net": [
+        "0"
+      ]
+    }
+  }
+}

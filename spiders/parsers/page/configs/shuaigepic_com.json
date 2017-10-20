@@ -1,0 +1,17 @@
+{
+  "domain": "shuaigepic.com",
+  "conf": {
+    "NUMBER": {
+      "type": "last",
+      "method": "select",
+      "params": {
+        "selector": "div.pagelist > a"
+      }
+    },
+    "TEMPLATE": {
+      "join": false,
+      "template": "_%s.html"
+    },
+    "START": 2
+  }
+}

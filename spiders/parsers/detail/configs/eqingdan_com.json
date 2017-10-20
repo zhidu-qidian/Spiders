@@ -1,0 +1,56 @@
+{
+  "eqingdan.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "params": {
+            "selector": "span.name"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "h1.title"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.featured-image-wrapper"
+            }, 
+            "method": "select"
+          }, 
+          {
+            "params": {
+              "selector": "article > div"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "eqingdan.com", 
+        "editor": null, 
+        "clean": null, 
+        "date": null, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        }, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "eqingdan.com": [
+        "0"
+      ]
+    }
+  }
+}

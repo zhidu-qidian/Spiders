@@ -1,0 +1,47 @@
+{
+  "autor.com.cn": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "div.article-title"
+          }
+        },
+        "summary": {
+          "method": "select",
+          "params": {
+            "selector": "div.summary-text"
+          }
+        },
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "div.aritcle-text"
+            }
+          }
+        ],
+        "source": "AutoR",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "div.article-info"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "autor.com.cn": [
+        "0"
+      ]
+    }
+  }
+}

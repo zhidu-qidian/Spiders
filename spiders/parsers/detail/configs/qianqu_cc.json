@@ -1,0 +1,47 @@
+{
+  "qianqu.cc": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "div.head > h1"
+          }
+        },
+        "summary": null,
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "article#articleContent"
+            }
+          }
+        ],
+        "source": {
+          "method": "select",
+          "params": {
+            "selector": "div.head > div.bottom > span.laiyun > a"
+          }
+        },
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "span.time"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "qianqu.cc": [
+        "0"
+      ]
+    }
+  }
+}

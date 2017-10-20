@@ -1,0 +1,47 @@
+{
+  "news.mtime.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "name": "h2"
+          }
+        },
+        "summary": null,
+        "content": [
+          {
+            "params": {
+              "name": "div",
+              "class_": "newsvmcover"
+            }
+          },
+          {
+            "params": {
+              "name": "div",
+              "id": "newsContent"
+            }
+          }
+        ],
+        "source": "Mtime时光网",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "params": {
+            "selector": "div.newsheader > p"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "news.mtime.com": [
+        "0"
+      ]
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "domain": "ptbus.com.blzz", 
+  "list": [
+    {
+      "publish_time": {
+        "params": {
+          "selector": "div.licon_r > div.info > span.time"
+        }, 
+        "method": "select"
+      }, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "div.licon_r > h2 > a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": {
+        "params": {
+          "selector": "div.licon_r > p"
+        }, 
+        "method": "select"
+      }, 
+      "title": {
+        "params": {
+          "selector": "div.licon_r > h2 > a"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "div.list > ul > li"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "ptbus_com_blzz"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "120ask.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1"
+          }
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div.articleCont"
+          }
+        },
+        "source": null,
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "span.time"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "120ask.com": [
+        "0"
+      ]
+    }
+  }
+}

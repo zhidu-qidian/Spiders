@@ -1,0 +1,40 @@
+{
+  "domain": "4908.cn", 
+  "list": [
+    {
+      "publish_time": {
+        "params": {
+          "class_": "soc-buttons right", 
+          "name": "div"
+        }
+      }, 
+      "title": {
+        "params": {
+          "selector": "h3 a"
+        }, 
+        "method": "select"
+      }, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "h3 a"
+        }, 
+        "method": "select"
+      }, 
+      "skip": null, 
+      "abstract": null, 
+      "author": null, 
+      "list": {
+        "params": {
+          "selector": "div.summary"
+        }, 
+        "method": "select"
+      }, 
+      "filter": null, 
+      "publish_site": null, 
+      "keywords": null, 
+      "type": "html", 
+      "crawler": "4908"
+    }
+  ]
+}

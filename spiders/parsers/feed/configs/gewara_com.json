@@ -1,0 +1,105 @@
+{
+  "domain": "gewara.com",
+  "list": [
+    {
+      "publish_time": null,
+      "author":{
+        "attribute": "title",
+        "params": {
+          "selector": "h3 > a"
+        },
+        "method": "select"
+      },
+      "thumb": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "h2 > a"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+      "title": {
+        "params": {
+          "selector": "h2 > a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "div#walaList > div > div"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "gewara_com"
+    },
+       {
+      "publish_time": {
+        "params": {
+          "selector": "div.bbox"
+        },
+        "method": "select"
+      },
+      "author":null,
+      "thumb": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "div.tbox > a"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+      "title": {
+        "attribute": "title",
+        "params": {
+          "selector": "div.tbox > a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "div#newsList div.newsbox"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "gewara_com_zf"
+    },
+    {
+      "publish_time": null,
+      "author": null,
+      "thumb": {
+        "attribute": "src",
+        "params": {
+          "selector": "img"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+      "title": {
+        "attribute": "title",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "div#imgView  ul > li"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "gewara_com_banner"
+    }
+  ]
+}

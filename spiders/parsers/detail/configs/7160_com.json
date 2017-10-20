@@ -1,0 +1,37 @@
+{
+  "7160.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1"
+          }
+        },
+        "summary": null,
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "div.picsbox > p > a"
+            }
+          }
+        ],
+        "source": "7160美女",
+        "editor": null,
+        "clean": null,
+        "date": null,
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "7160.com": [
+        "0"
+      ]
+    }
+  }
+}

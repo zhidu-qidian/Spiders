@@ -1,0 +1,39 @@
+{
+  "jiecao.fm": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "name": "h3"
+          }
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "class_": "artcontent pd5", 
+            "name": "div"
+          }
+        }, 
+        "source": "节操精选", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "class_": "artname pd5", 
+            "name": "div"
+          }
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "jiecao.fm": [
+        "0"
+      ]
+    }
+  }
+}

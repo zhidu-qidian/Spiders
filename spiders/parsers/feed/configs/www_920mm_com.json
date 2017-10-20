@@ -1,0 +1,31 @@
+{
+  "domain": "www.920mm.com", 
+  "list": [
+    {
+      "publish_time": null, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": null, 
+      "title": {
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "ul.photo > li"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "920mm_com"
+    }
+  ]
+}

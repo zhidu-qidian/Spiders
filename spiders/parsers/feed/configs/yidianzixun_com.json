@@ -1,0 +1,19 @@
+{
+  "domain": "yidianzixun.com", 
+  "list": [
+    {
+      "publish_time": "date", 
+      "title": "title", 
+      "url": "url", 
+      "skip": null, 
+      "abstract": "summary", 
+      "author": null, 
+      "list": "result", 
+      "filter": null, 
+      "publish_site": "source", 
+      "keywords": null, 
+      "type": "ajax", 
+      "crawler": "yidianzixun"
+    }
+  ]
+}

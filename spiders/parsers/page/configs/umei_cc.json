@@ -1,0 +1,17 @@
+{
+  "domain": "umei.cc",
+  "conf": {
+    "START": 2,
+    "NUMBER": {
+      "params": {
+        "selector": "div.NewPages > ul > li:nth-of-type(1)"
+      },
+      "type":"last",
+      "method": "select"
+    },
+    "TEMPLATE": {
+      "join": false,
+      "template": "_%s.htm"
+    }
+  }
+}

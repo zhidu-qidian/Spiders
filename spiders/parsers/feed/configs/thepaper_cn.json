@@ -1,0 +1,40 @@
+{
+  "domain": "thepaper.cn", 
+  "list": [
+    {
+      "publish_time": null, 
+      "title": {
+        "params": {
+          "selector": "h2 > a"
+        }, 
+        "method": "select"
+      }, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "h2 > a"
+        }, 
+        "method": "select"
+      }, 
+      "skip": null, 
+      "abstract": null, 
+      "author": null, 
+      "list": {
+        "params": {
+          "selector": "div.news_li"
+        }, 
+        "method": "select"
+      },
+      "thumb":{
+        "attribute":"src",
+        "params":{"selector":"img"},
+        "method":"select"
+      },
+      "filter": null, 
+      "publish_site": null, 
+      "keywords": null, 
+      "type": "html", 
+      "crawler": "thepaper"
+    }
+  ]
+}

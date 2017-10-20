@@ -1,0 +1,66 @@
+{
+  "ign.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": {
+          "params": {
+            "selector": "div.review-bottom"
+          }, 
+          "method": "select"
+        }, 
+        "author": {
+          "params": {
+            "selector": "span.author-name > a"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "h1 > span.title-hover-link"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div#article-content"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "ign.com", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "attribute": "content", 
+          "params": {
+            "selector": "span.article-publish-date > meta"
+          }, 
+          "method": "select"
+        }, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        }, 
+        "before": {
+          "params": {
+            "selector": "div.article-subhead"
+          }, 
+          "method": "select"
+        }
+      }
+    }, 
+    "match": {
+      "ign.com": [
+        "0"
+      ]
+    }
+  }
+}

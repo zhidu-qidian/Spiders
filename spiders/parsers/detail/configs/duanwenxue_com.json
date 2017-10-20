@@ -1,0 +1,47 @@
+{
+  "duanwenxue.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1"
+          }
+        },
+        "summary": null,
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "div.article-content"
+            }
+          }
+        ],
+        "source": "锐派游戏",
+        "editor": null,
+        "clean": {
+          "method": "select",
+          "params": {
+            "selector": "div.wxh"
+          }
+        },
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "div.article-writer"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "duanwenxue.com": [
+        "0"
+      ]
+    }
+  }
+}

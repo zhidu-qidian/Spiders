@@ -1,0 +1,144 @@
+{
+  "caixin.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "name": "h1"
+          }
+        }, 
+        "summary": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "description"
+            }
+          }
+        }, 
+        "content": {
+          "params": {
+            "name": "div", 
+            "id": "Main_Content_Val"
+          }
+        }, 
+        "source": "财新网", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "name": "div", 
+            "id": "artInfo"
+          }
+        }, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        }, 
+        "before": null
+      }, 
+      "1": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "params": {
+            "selector": " div.widget.author_detail > div > p:nth-of-type(2) > strong > a"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "head > title"
+          }, 
+          "method": "select"
+        }, 
+        "summary": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "description"
+            }
+          }
+        }, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.blog_content"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "财新网：博客", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "span.post_date"
+          }, 
+          "method": "select"
+        }, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        }, 
+        "before": null
+      }, 
+      "2": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "class_": "news-title", 
+            "name": "h1"
+          }
+        }, 
+        "summary": {
+          "params": {
+            "class_": "news-lead", 
+            "name": "div"
+          }
+        }, 
+        "content": {
+          "params": {
+            "id": "Main_Content_Val"
+          }
+        }, 
+        "source": "财新网", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "class_": "news-date", 
+            "name": "div"
+          }
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "caixin.com": [
+        "0", 
+        "1"
+      ], 
+      "caixin.com/m/": [
+        "2"
+      ]
+    }
+  }
+}

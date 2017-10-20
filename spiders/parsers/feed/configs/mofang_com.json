@@ -1,0 +1,46 @@
+{
+  "domain": "mofang.com", 
+  "list": [
+    {
+      "publish_time": {
+        "params": {
+          "selector": "dd.public-tabs-crumbs > span.public-tabs-date"
+        }, 
+        "method": "select"
+      }, 
+      "author": {
+        "params": {
+          "selector": "dd.public-tabs-crumbs > span.public-tabs-author"
+        }, 
+        "method": "select"
+      }, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "dd.public-tabs-title > a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": {
+        "params": {
+          "selector": "dd.public-tabs-word"
+        }, 
+        "method": "select"
+      }, 
+      "title": {
+        "params": {
+          "selector": "dd.public-tabs-title > a"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "dl.public-mb20"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "mofang_com"
+    }
+  ]
+}

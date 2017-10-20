@@ -1,0 +1,35 @@
+{
+  "92mntu.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "h1"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": {
+          "params": {
+            "selector": "div#bigpic > a:nth-of-type(2)"
+          },
+          "method": "select"
+        },
+        "source": null,
+        "editor": null,
+        "clean": null,
+        "date": null,
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "92mntu.com": [
+        "0"
+      ]
+    }
+  }
+}

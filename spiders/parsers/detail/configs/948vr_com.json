@@ -1,0 +1,43 @@
+{
+  "948vr.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1"
+          }
+        },
+        "summary": null,
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "div#article-text"
+            }
+          }
+        ],
+        "source": "948VR资源网",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "p.author > span.date"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "948vr.com": [
+        "0"
+      ]
+    }
+  }
+}
+

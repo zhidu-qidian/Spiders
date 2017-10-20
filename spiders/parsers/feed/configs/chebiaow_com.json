@@ -1,0 +1,38 @@
+{
+  "domain": "chebiaow.com",
+  "list": [
+    {
+      "publish_time": null,
+      "author": null,
+      "thumb":{
+        "attribute": "src",
+        "params": {
+          "selector": "img"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+      "title": {
+        "params": {
+          "selector": "a > span"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "ul.pic-list > li"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "chebiaow_com"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "domain": "kankanews.com",
+  "list": [
+    {
+      "publish_time": {
+        "params": {
+          "selector": "div.infor > span"
+        },
+        "method": "select"
+      },
+      "title" : {
+        "params": {
+          "selector": "div.infor > h1 > a"
+        },
+        "method": "select"
+      },
+      "url": {
+         "attribute": "href",
+        "params": {
+          "selector": "div.infor > h1 > a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": {
+        "params": {
+          "selector": "div.infor > p"
+        },
+        "method": "select"
+      },
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "ul.conlist > li"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "kankanews_com"
+    }
+  ]
+}

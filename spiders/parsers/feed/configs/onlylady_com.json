@@ -1,0 +1,31 @@
+{
+  "domain": "onlylady.com", 
+  "list": [
+    {
+      "publish_time": null, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": null, 
+      "title": {
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "div.li_l > ul.li_lu > li"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "onlylady_com"
+    }
+  ]
+}

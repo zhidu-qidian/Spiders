@@ -1,0 +1,133 @@
+{
+  "domain": "eastday.com",
+  "list": [
+    {
+      "publish_time": "date",
+      "title" : "topic",
+      "url": "http://mini.eastday.com/a/{0}",
+      "skip": [5,-1],
+      "abstract": null,
+      "author": null,
+      "list": "data",
+      "filter": null,
+      "publish_site": "source",
+      "keywords": null,
+      "type": "ajax",
+      "crawler": "eastday_com",
+      "fields": [
+        "url"
+      ]
+    },
+    {
+      "publish_time": "vdt",
+      "title" : "title",
+      "url": "http://miniimg.eastday.com/detail/{0}",
+      "skip": [5,-1],
+      "abstract": null,
+      "author": null,
+      "list": "data",
+      "filter": null,
+      "publish_site": "source",
+      "keywords": null,
+      "type": "ajax",
+      "crawler": "eastday_com_pic",
+      "fields": [
+        "htmlname"
+      ]
+    },
+    {
+      "publish_time": null,
+      "title": {
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "ul#hoursListNews > li"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "eastday_hot"
+    },
+        {
+      "publish_time": null,
+      "title": {
+        "attribute": "title",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "ul.top_news > li"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "eastday_top"
+    },
+            {
+      "publish_time": null,
+      "title": {
+        "attribute": "title",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "div.mcts > div"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "eastday_slide"
+    }
+
+
+  ]
+}

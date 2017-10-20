@@ -1,0 +1,40 @@
+{
+  "7kmn.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1"
+          }
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div.pp"
+          }
+        },
+        "source": "7K美女图片",
+        "editor": null,
+        "clean": {
+          "method": "select",
+          "params": {
+            "selector": "div"
+          }
+        },
+        "date": null,
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "7kmn.com": [
+        "0"
+      ]
+    }
+  }
+}

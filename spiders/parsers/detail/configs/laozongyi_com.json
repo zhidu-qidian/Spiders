@@ -1,0 +1,45 @@
+{
+  "laozongyi.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1.article-title"
+          }
+        },
+        "summary": null,
+        "content": [{
+          "method": "select",
+          "params": {
+            "selector": "div.article-guide"
+          }
+        },{
+          "method": "select",
+          "params": {
+            "selector": "div.article-content"
+          }
+        }],
+        "source": "老宗意养生膳食",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "span.uptime"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "laozongyi.com": [
+        "0"
+      ]
+    }
+  }
+}

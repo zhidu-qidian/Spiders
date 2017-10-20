@@ -1,0 +1,53 @@
+{
+  "appinn.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": {
+            "method": "select",
+            "params": {
+              "selector": "div.open_social_box , div.share_box"
+            }
+          },
+        "author": {
+          "method": "select",
+          "params": {
+            "selector": "div.entry-meta > strong > a"
+          }
+        },
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h2.entry-title"
+          }
+        },
+        "summary": null,
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "div.entry-content"
+            }
+          }
+        ],
+        "source": "小众软件",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "div.entry-meta > cite"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "appinn.com": [
+        "0"
+      ]
+    }
+  }
+}
+

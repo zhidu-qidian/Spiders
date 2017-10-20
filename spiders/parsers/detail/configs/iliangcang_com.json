@@ -1,0 +1,54 @@
+{
+  "iliangcang.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": {
+          "params": {
+            "selector": "div.topic_cont > div.topic_left > div > div.content-05"
+          }, 
+          "method": "select"
+        }, 
+        "author": {
+          "params": {
+            "selector": "div.topic_cont > div.topic_left > div > div:nth-of-type(3)"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "div.topic_cont > div.topic_left > div > div.content-11"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.topic_cont > div.topic_left > div"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "www.iliangcang.com", 
+        "editor": null, 
+        "clean": [
+          {
+            "params": {
+              "selector": "div.topic_cont > div.topic_left > div > div.content-08"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "date": null, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "iliangcang.com": [
+        "0"
+      ]
+    }
+  }
+}

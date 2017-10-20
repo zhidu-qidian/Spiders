@@ -1,0 +1,45 @@
+{
+  "fancai.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after":  {
+          "params": {
+            "selector": "div.pages"
+          },
+          "method": "select"
+        },
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "h1"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": {
+          "params": {
+            "selector": "div.infor_acticl"
+          },
+          "method": "select"
+        },
+        "source": null,
+        "editor": null,
+        "clean": null,
+        "date": {
+          "params": {
+            "selector": "div.infor_acthd > div.fl > span"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "fancai.com": [
+        "0"
+      ]
+    }
+  }
+}

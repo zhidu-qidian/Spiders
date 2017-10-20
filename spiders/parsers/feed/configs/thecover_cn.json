@@ -1,0 +1,23 @@
+{
+  "domain": "thecover.cn", 
+  "list": [
+    {
+      "publish_time": "happen_time", 
+      "title": "news_title", 
+      "url": "http://www.thecover.cn/news/{0}",
+      "skip": null, 
+      "abstract": "brief",
+      "thumb": "img_url",
+      "author": null, 
+      "list": "data|list", 
+      "filter": null, 
+      "publish_site": "source", 
+      "fields": [
+        "news_id"
+      ], 
+      "keywords": null, 
+      "type": "ajax", 
+      "crawler": "thecover_cn"
+    }
+  ]
+}

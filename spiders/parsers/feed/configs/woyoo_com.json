@@ -1,0 +1,41 @@
+{
+  "domain": "woyoo.com", 
+  "list": [
+    {
+      "publish_time": {
+        "params": {
+          "selector": "div.tips"
+        }, 
+        "method": "select"
+      }, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "h2 > a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": {
+        "params": {
+          "selector": "div.intro > p.text"
+        }, 
+        "method": "select"
+      }, 
+      "title": {
+        "params": {
+          "selector": "h2 > a"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "ul.news_ul > li"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "woyoo_com"
+    }
+  ]
+}

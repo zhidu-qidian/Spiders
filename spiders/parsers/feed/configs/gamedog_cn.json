@@ -1,0 +1,36 @@
+{
+  "domain": "gamedog.cn", 
+  "list": [
+    {
+      "publish_time": {
+        "params": {
+          "selector": "div.zt_hr"
+        }, 
+        "method": "select"
+      }, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "div.zt_hl > a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": null, 
+      "title": {
+        "params": {
+          "selector": "div.zt_hl > a"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "ul.newslist > li"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "gamedog_cn"
+    }
+  ]
+}

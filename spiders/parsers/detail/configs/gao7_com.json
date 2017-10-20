@@ -1,0 +1,98 @@
+{
+  "gao7.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "nth": 2, 
+          "params": {
+            "selector": "div.article-meta > span"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "h1.article-title"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.gao7-article"
+            }, 
+            "method": "select"
+          }, 
+          {
+            "params": {
+              "selector": "div.article-body"
+            }, 
+            "method": "select"
+          }, 
+          {
+            "params": {
+              "selector": "div.ui-article-content"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": null, 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "nth": 0, 
+          "params": {
+            "selector": "div.article-meta > span"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      }, 
+      "1": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "nth": 2, 
+          "params": {
+            "selector": "div.article-meta > span"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "h1"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "selector": "div.info-main-c"
+          }, 
+          "method": "select"
+        }, 
+        "source": null, 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "nth": 0, 
+          "params": {
+            "selector": "div.info-main-t > span"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "gao7.com": [
+        "0", 
+        "1"
+      ]
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "domain": "pcgames.com.cn", 
+  "list": [
+    {
+      "publish_time": {
+        "params": {
+          "selector": "div.media-body > div.media-body-meta > p.date"
+        }, 
+        "method": "select"
+      }, 
+      "author": {
+        "params": {
+          "selector": "div.media-body > div.media-body-meta > p.author"
+        }, 
+        "method": "select"
+      }, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "div.media-body > div.media-body-title > h3 > a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": {
+        "params": {
+          "selector": "div.media-body > div.media-body-content"
+        }, 
+        "method": "select"
+      }, 
+      "title": {
+        "params": {
+          "selector": "div.media-body > div.media-body-title > h3 > a"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "ul > li.media"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "pcgames_com_cn"
+    }
+  ]
+}

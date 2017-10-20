@@ -1,0 +1,17 @@
+{
+  "domain": "mtu5.com",
+  "conf": {
+    "START": 2,
+    "NUMBER": {
+      "params": {
+        "selector": "ul.cPage > li:nth-of-type(1)"
+      },
+      "type": "last",
+      "method": "select"
+    },
+    "TEMPLATE": {
+      "join": false,
+      "template": "_%s.html"
+    }
+  }
+}

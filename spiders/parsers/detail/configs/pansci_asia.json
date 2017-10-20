@@ -1,0 +1,45 @@
+{
+  "pansci.asia": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": {
+          "params": {
+            "class_": "wpbcap wpbcap-97965 wpbcap-", 
+            "name": "div"
+          }
+        }, 
+        "author": null, 
+        "title": {
+          "params": {
+            "class_": "post", 
+            "name": "h2"
+          }
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "class_": "pure_content", 
+            "name": "div"
+          }
+        }, 
+        "source": "PanSc泛科学", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "class_": "the_date", 
+            "name": "div"
+          }
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "pansci.asia": [
+        "0"
+      ]
+    }
+  }
+}

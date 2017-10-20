@@ -1,0 +1,16 @@
+{
+  "domain": "www.4493.com", 
+  "conf": {
+    "START": 2, 
+    "NUMBER": {
+      "params": {
+        "id": "allnum", 
+        "name": "span"
+      }
+    }, 
+    "TEMPLATE": {
+      "join": true, 
+      "template": "%s.htm"
+    }
+  }
+}

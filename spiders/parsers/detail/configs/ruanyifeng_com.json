@@ -1,0 +1,55 @@
+{
+  "ruanyifeng.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "params": {
+            "selector": "p.vcard.author > a"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "h1#page-title"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div#main-content"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "阮一峰的网络日志", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "abbr.published"
+          }, 
+          "method": "select"
+        }, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        }, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "ruanyifeng.com": [
+        "0"
+      ]
+    }
+  }
+}

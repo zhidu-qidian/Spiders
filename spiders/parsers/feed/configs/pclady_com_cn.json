@@ -1,0 +1,54 @@
+{
+  "domain": "pclady.com.cn",
+  "list": [
+    {
+      "publish_time": null,
+      "title": "title",
+      "url": "link",
+      "thumb": "img",
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": "data",
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "ajax",
+      "crawler": "pclady_com_cn"
+    },
+    {
+      "publish_time": null,
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+      "title": {
+        "attribute": "title",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "thumb":{
+        "attribute": "src",
+        "params": {
+          "selector": "img"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "ul.pics > li"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "pclady_health_pic"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "b12.cn": {
+    "configs": {
+            "0": {
+        "extractor": null,
+        "after": null,
+        "author": {
+          "params": {
+            "selector": "span.author"
+          },
+          "method": "select"
+        },
+        "title": {
+          "params": {
+            "selector": "h1.title"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": [
+          {
+            "params": {
+              "selector": "section.article-info"
+            },
+            "method": "select"
+          }
+        ],
+        "source":"B12",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "params": {
+            "selector": "span.date"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": null
+      }
+
+    },
+    "match": {
+      "b12.cn": [
+        "0"
+      ]
+    }
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "qianzhan.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "name": "h1",
+            "id": "h_title"
+          }
+        },
+        "summary": {
+          "attribute": "content",
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "Description"
+            }
+          }
+        },
+        "content": {
+          "params": {
+            "name": "div",
+            "id": "div_content"
+          }
+        },
+        "source": "前瞻网",
+        "editor": null,
+        "clean": [
+          {
+            "params": {
+              "class_": "endicon",
+              "name": "a"
+            }
+          },
+          {
+            "params": {
+              "text": "本文来源前瞻网，转载请注明来源！（图片来源互联网，版权归原作者所有）",
+              "name": "p"
+            }
+          }
+        ],
+        "date": {
+          "params": {
+            "name": "span",
+            "id": "pubtime_baidu"
+          }
+        },
+        "tags": {
+          "attribute": "content",
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "Keywords"
+            }
+          }
+        },
+        "before": null
+      },
+      "1": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "name": "h1",
+            "id": "h_title"
+          }
+        },
+        "summary": {
+          "attribute": "content",
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "Description"
+            }
+          }
+        },
+        "content": {
+          "params": {
+            "class_": "art",
+            "name": "div"
+          }
+        },
+        "source": "前瞻网",
+        "editor": null,
+        "clean": [
+          {
+            "params": {
+              "class_": "endicon",
+              "name": "a"
+            }
+          },
+          {
+            "params": {
+              "text": "本文来源前瞻网，转载请注明来源！（图片来源互联网，版权归原作者所有）",
+              "name": "p"
+            }
+          }
+        ],
+        "date": {
+          "params": {
+            "name": "span",
+            "id": "pubtime_baidu"
+          }
+        },
+        "tags": {
+          "attribute": "content",
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "Keywords"
+            }
+          }
+        },
+        "before": null
+      },
+      "2": {
+        "extractor": null,
+        "after": null,
+        "author": {
+          "method": "select",
+          "params": {
+            "selector": "div.art-shits_sns.clf > p > span:nth-of-type(1) > em"
+          }
+        },
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1.art-shits_tit"
+          }
+        },
+        "summary": {
+          "attribute": "content",
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "Description"
+            }
+          }
+        },
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "div.art-shits_con"
+            }
+          }
+        ],
+        "source": "前瞻网",
+        "editor": null,
+        "clean": [
+          {
+            "params": {
+              "class_": "endicon",
+              "name": "a"
+            }
+          },
+          {
+            "params": {
+              "text": "本文来源前瞻网，转载请注明来源！（图片来源互联网，版权归原作者所有）",
+              "name": "p"
+            }
+          }
+        ],
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "span.date.smart-date"
+          },
+          "attribute": "data-origindate"
+        },
+        "tags": {
+          "attribute": "content",
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "Keywords"
+            }
+          }
+        },
+        "before": null
+      }
+    },
+    "match": {
+      "t.qianzhan.com": [
+        "1"
+      ],
+      "qiye.qianzhan.com": [
+        "2"
+      ],
+      "qianzhan.com": [
+        "0"
+      ],
+      "ent.qianzhan.com": [
+        "0"
+      ],
+      "mil.qianzhan.com": [
+        "0"
+      ]
+    }
+  }
+}

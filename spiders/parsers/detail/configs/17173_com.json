@@ -1,0 +1,121 @@
+{
+  "17173.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": {
+          "params": {
+            "name": "div",
+            "attrs": {
+              "href": "http://upload.zj.17173.com/ggcount/go.php?g_id=2660&g_url=http://news.17173.com/"
+            }
+          }
+        },
+        "author": null,
+        "title": {
+          "params": {
+            "name": "h1"
+          }
+        },
+        "summary": null,
+        "content": {
+          "params": {
+            "name": "div",
+            "id": "mod_article"
+          }
+        },
+        "source": "17173游戏第一门户",
+        "editor": null,
+        "clean": {
+          "params": {
+            "class_": "gb-final-comm-case2 gb-final-box-about1",
+            "name": "div"
+          }
+        },
+        "date": {
+          "params": {
+            "class_": "gb-final-date",
+            "name": "span"
+          }
+        },
+        "tags": null,
+        "before": null
+      },
+      "1": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "name": "h1"
+          }
+        },
+        "summary": {
+          "params": {
+            "class_": "col-02",
+            "name": "div"
+          }
+        },
+        "content": {
+          "params": {
+            "selector": "div.article > div.content"
+          },
+          "method": "select"
+        },
+        "source": "17173游戏第一门户",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "params": {
+            "class_": "col-01",
+            "name": "span"
+          }
+        },
+        "tags": null,
+        "before": null
+      },
+      "2": {
+        "extractor": null,
+        "after": null,
+        "author": {
+          "method": "select",
+          "params": {
+            "selector": "span.author"
+          }
+        },
+        "title": {
+          "params": {
+            "name": "h1"
+          }
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div.vr-article-bd"
+          }
+        },
+        "source": "17173游戏第一门户",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "span.date"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "news.17173.com": [
+        "2"
+      ],
+      "17173.com": [
+        "0",
+        "1"
+      ]
+    }
+  }
+}

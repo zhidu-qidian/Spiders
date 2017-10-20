@@ -1,0 +1,40 @@
+{
+  "domain": "gq.com.cn", 
+  "list": [
+    {
+      "publish_time": null, 
+      "title": {
+        "params": {
+          "selector": "dd.title > h2 > a"
+        }, 
+        "method": "select"
+      }, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "dd.title > h2 > a"
+        }, 
+        "method": "select"
+      }, 
+      "skip": null, 
+      "abstract": {
+        "params": {
+          "selector": "dd.text"
+        }, 
+        "method": "select"
+      }, 
+      "author": null, 
+      "list": {
+        "params": {
+          "selector": "div.content > dl.articlelist"
+        }, 
+        "method": "select"
+      }, 
+      "filter": null, 
+      "publish_site": null, 
+      "keywords": null, 
+      "type": "html", 
+      "crawler": "gq_fun"
+    }
+  ]
+}

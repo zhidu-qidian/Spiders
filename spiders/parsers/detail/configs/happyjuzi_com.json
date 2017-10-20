@@ -1,0 +1,60 @@
+{
+  "happyjuzi.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "params": {
+            "selector": "div.juzi-author"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "h1"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.detail-content"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "橘子娱乐",
+        "editor": null, 
+        "clean":{
+          "params": {
+            "selector": ".replace-str-hidden"
+          },
+          "method": "select"
+        },
+        "date": {
+          "params": {
+            "selector": "div.juzi-time"
+          }, 
+          "method": "select"
+        }, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        }, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "happyjuzi.com": [
+        "0"
+      ]
+    }
+  }
+}

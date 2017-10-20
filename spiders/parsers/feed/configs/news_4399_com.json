@@ -1,0 +1,77 @@
+{
+  "domain": "news.4399.com", 
+  "list": [
+    {
+      "publish_time": {
+        "params": {
+          "selector": "div.top_t > span"
+        }, 
+        "method": "select"
+      }, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "div.top_t > a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": {
+        "params": {
+          "selector": "div.r_info > div.wz_info"
+        }, 
+        "method": "select"
+      }, 
+      "title": {
+        "params": {
+          "selector": "div.top_t > a"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "div.tabC1 > ul.clearfix > li"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "4399_com"
+    },
+    {
+      "publish_time": {
+        "params": {
+          "selector": "div.tl-tit > span"
+        },
+        "method": "select"
+      },
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "div.tl-tit > a"
+        },
+        "method": "select"
+      },
+      "abstract": {
+        "params": {
+          "selector": "div.tl-img > div.tl-wz > p"
+        },
+        "method": "select"
+      },
+      "title": {
+        "params": {
+          "selector": "div.tl-tit > a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "div.page-ll > ul.txt-list > li"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "4399_com_v2"
+    }
+  ]
+}

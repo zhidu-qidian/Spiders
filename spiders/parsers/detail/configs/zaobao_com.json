@@ -1,0 +1,57 @@
+{
+  "zaobao.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "selector": "div.body-content > h1"
+          }, 
+          "method": "select"
+        }, 
+        "summary": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "description"
+            }
+          }
+        }, 
+        "content": [
+          {
+            "params": {
+              "name": "div", 
+              "id": "FineDining"
+            }
+          }
+        ], 
+        "source": "联合早报网", 
+        "editor": null, 
+        "clean": [
+          {
+            "params": {
+              "name": "section", 
+              "id": "imu"
+            }
+          }
+        ], 
+        "date": {
+          "params": {
+            "class_": "datestamp", 
+            "name": "span"
+          }
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "zaobao.com": [
+        "0"
+      ]
+    }
+  }
+}

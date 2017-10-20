@@ -1,0 +1,45 @@
+{
+  "gaoshouyou.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "selector": "h1.text-show-title"
+          }, 
+          "method": "select"
+        }, 
+        "summary": {
+          "params": {
+            "selector": "div.text-show-sum"
+          }, 
+          "method": "select"
+        }, 
+        "content": {
+          "params": {
+            "selector": "div.text-show-body"
+          }, 
+          "method": "select"
+        }, 
+        "source": null, 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "div.text-show-info"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "gaoshouyou.com": [
+        "0"
+      ]
+    }
+  }
+}

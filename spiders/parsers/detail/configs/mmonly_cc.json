@@ -1,0 +1,60 @@
+{
+  "mmonly.cc": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "title"
+          }
+        },
+        "summary": null,
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "div#big-pic > p > a"
+            }
+          }
+        ],
+        "source": "唯一图库",
+        "editor": null,
+        "clean": {
+          "method": "select",
+          "params": {
+            "selector": "span#picnum"
+          }
+        },
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "div.photo-opts > span"
+          }
+        },
+        "tags": {
+          "attribute": "content",
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        },
+        "before": {
+          "params": {
+            "selector": "span.desc.meow-user"
+          },
+          "method": "select"
+        }
+      }
+    },
+    "match": {
+      "mmonly.cc": [
+        "0"
+      ]
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "cctv.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": {
+          "params": {
+            "selector": "div.cnt_pages"
+          },
+          "method": "select"
+        },
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "div.cnt_bd > h1"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": {
+          "params": {
+            "selector": "div.cnt_bd"
+          },
+          "method": "select"
+        },
+        "source": {
+          "params": {
+            "selector": "div.function > span.info > em > a"
+          },
+          "method": "select"
+        },
+        "editor": null,
+        "clean": null,
+        "date": {
+          "params": {
+            "selector": " div.cnt_bd > div.function > span.info > i"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": {
+          "params": {
+            "selector": "p.o-tit"
+          },
+          "method": "select"
+        }
+      }
+    },
+    "match": {
+      "cctv.com": [
+        "0"
+      ]
+    }
+  }
+}

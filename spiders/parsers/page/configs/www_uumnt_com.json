@@ -1,0 +1,16 @@
+{
+  "domain": "www.uumnt.com", 
+  "conf": {
+    "START": 2, 
+    "NUMBER": {
+      "params": {
+        "class_": "center", 
+        "name": "h1"
+      }
+    }, 
+    "TEMPLATE": {
+      "join": false, 
+      "template": "_%s.html"
+    }
+  }
+}

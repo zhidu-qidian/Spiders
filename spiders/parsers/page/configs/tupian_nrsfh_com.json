@@ -1,0 +1,16 @@
+{
+  "domain": "tupian.nrsfh.com", 
+  "conf": {
+    "START": 2, 
+    "NUMBER": {
+      "params": {
+        "selector": "div.pages > ul > li > a"
+      }, 
+      "method": "select"
+    }, 
+    "TEMPLATE": {
+      "join": false, 
+      "template": "_%s.html"
+    }
+  }
+}

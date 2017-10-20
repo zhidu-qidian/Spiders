@@ -1,0 +1,129 @@
+{
+  "domain": "vice.cn",
+  "list": [
+    {
+      "publish_time": {
+        "params": {
+          "selector": "span.published"
+        },
+        "method": "select"
+      },
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "h3.entry-title > a"
+        },
+        "method": "select"
+      },
+      "abstract": {
+        "params": {
+          "selector": "a.entry-summary"
+        },
+        "method": "select"
+      },
+      "title": {
+        "params": {
+          "selector": "h3.entry-title > a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "div.entry-grid > div.grid-item"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "vice_cn"
+    },
+    {
+      "publish_time": {
+        "params": {
+          "selector": "span.publish-time"
+        },
+        "method": "select"
+      },
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "h2.item-title > a"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+      "title": {
+        "params": {
+          "selector": "h2.item-title > a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "article.item"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "id_vice_cn"
+    },
+      {
+      "publish_time": {
+        "params": {
+          "selector": "span.published"
+        },
+        "method": "select"
+      },
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": ".entry-title > a"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+      "title": {
+        "params": {
+          "selector": ".entry-title > a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "article.entry-item"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "noisey_vice_cn"
+    },
+     {
+      "publish_time": null,
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": ".story-title > a"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+      "title": {
+        "params": {
+          "selector": ".story-title > a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "div.story-content"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "tcs_vice_cn"
+    }
+  ]
+}

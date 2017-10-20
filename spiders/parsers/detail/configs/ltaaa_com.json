@@ -1,0 +1,70 @@
+{
+  "ltaaa.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "div.post-body div strong"
+          },
+          "method": "select"
+        },
+        "summary": {
+          "attribute": "content",
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "description"
+            }
+          }
+        },
+        "content": [
+          {
+            "params": {
+              "class_": "post-content",
+              "name": "div"
+            }
+          },
+          {
+            "params": {
+              "name": "div",
+              "class_": "post-url"
+            }
+          },
+          {
+            "params": {
+              "class_": "post-comment",
+              "name": "div"
+            }
+          }
+        ],
+        "source": "龙腾网",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "params": {
+            "class_": "post-param",
+            "name": "div"
+          }
+        },
+        "tags": {
+          "attribute": "content",
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        },
+        "before": null
+      }
+    },
+    "match": {
+      "ltaaa.com": [
+        "0"
+      ]
+    }
+  }
+}

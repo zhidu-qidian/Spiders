@@ -1,0 +1,35 @@
+{
+  "umei.cc": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "div.ArticleTitle > strong"
+          }
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div.ImageBody"
+          }
+        },
+        "source": "7KK图片",
+        "editor": null,
+        "clean": null,
+        "date": null,
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "umei.cc": [
+        "0"
+      ]
+    }
+  }
+}

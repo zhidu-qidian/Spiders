@@ -1,0 +1,36 @@
+{
+  "domain": "youxiduo.com",
+  "list": [
+    {
+      "publish_time": null, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "a.listTitle"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": {
+        "params": {
+          "selector": "p.listText"
+        }, 
+        "method": "select"
+      }, 
+      "title": {
+        "params": {
+          "selector": "a.listTitle"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "ul.list > li"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "youxiduo_com"
+    }
+  ]
+}

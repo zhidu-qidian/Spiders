@@ -1,0 +1,39 @@
+{
+  "www.4493.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "name": "h1"
+          }
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "selector": "div.picsbox > p"
+          }, 
+          "method": "select"
+        }, 
+        "source": "4493美图", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "p.pleft > span:nth-of-type(1)"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "www.4493.com": [
+        "0"
+      ]
+    }
+  }
+}

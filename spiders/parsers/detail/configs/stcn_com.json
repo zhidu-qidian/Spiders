@@ -1,0 +1,47 @@
+{
+  "stcn.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": {
+            "method": "select",
+            "params": {
+              "selector": "p.pic "
+            }
+          },
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "div.tc_tit > p"
+          }
+        },
+        "summary": null,
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "div.tc_con_box > div.tc_con "
+            }
+          }
+        ],
+        "source": "证券时报",
+        "editor": null,
+        "clean": null,
+        "date": {
+            "method": "select",
+            "params": {
+              "selector": "div.time > span:nth-of-type(1)"
+            }
+          },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "epaper.stcn.com": [
+        "0"
+      ]
+    }
+  }
+}

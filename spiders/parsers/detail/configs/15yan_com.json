@@ -1,0 +1,47 @@
+{
+  "15yan.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "params": {
+            "selector": "ul.post-item-meta > li > a:nth-of-type(1) > span"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "h1#postTitle"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.section-inner"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "十五言", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "div.timer > strong"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "15yan.com": [
+        "0"
+      ]
+    }
+  }
+}

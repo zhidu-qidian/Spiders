@@ -1,0 +1,42 @@
+{
+  "replays.net": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "div.inside_main > h2"
+          }
+        },
+        "summary": null,
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "div.inside_text"
+            }
+          }
+        ],
+        "source": "锐派游戏",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "div.inside_main_tit > i:nth-of-type(1)"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "replays.net": [
+        "0"
+      ]
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "domain": "chinatimes", 
+  "list": [
+    {
+      "publish_time": {
+        "attribute": "datetime", 
+        "params": {
+          "selector": "time"
+        }, 
+        "method": "select"
+      }, 
+      "title": {
+        "params": {
+          "selector": "h2 > a"
+        }, 
+        "method": "select"
+      }, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "h2 > a"
+        }, 
+        "method": "select"
+      }, 
+      "skip": null, 
+      "abstract": null, 
+      "author": null, 
+      "list": {
+        "params": {
+          "selector": "div.listRight > ul > li"
+        }, 
+        "method": "select"
+      }, 
+      "filter": null, 
+      "publish_site": null, 
+      "keywords": null, 
+      "type": "html", 
+      "crawler": "chinatimes"
+    },
+        {
+      "publish_time": {
+        "attribute": "datetime",
+        "params": {
+          "selector": "time"
+        },
+        "method": "select"
+      },
+      "title": {
+        "params": {
+          "selector": "h3 > a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "h3 > a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "section.photo-list > ul > li"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "chinatimes_pho"
+    }
+
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "wshang.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "div.article-head > h2"
+          }
+        },
+        "summary": {
+            "method": "select",
+            "params": {
+              "selector": "div.article-cont-bg"
+            }
+          },
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "div.article-cont"
+            }
+          }
+        ],
+        "source": null,
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "div.article-head"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "wshang.com": [
+        "0"
+      ]
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "hollandone.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": {
+            "method": "select",
+            "params": {
+              "selector": "div.post-tags"
+            }
+          },
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1.post-tile ,h1.entry-title"
+          }
+        },
+        "summary": null,
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "div.entry-content"
+            }
+          }
+        ],
+        "source": "荷兰1网",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "time"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "hollandone.com": [
+        "0"
+      ]
+    }
+  }
+}
+

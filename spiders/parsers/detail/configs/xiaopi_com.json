@@ -1,0 +1,47 @@
+{
+  "xiaopi.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "nth": 1, 
+          "params": {
+            "selector": "div.top_others > span"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "div.article_top > div > h1"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "selector": "div.article_main"
+          }, 
+          "method": "select"
+        }, 
+        "source": null, 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "nth": 0, 
+          "params": {
+            "selector": "div.top_others > span"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "xiaopi.com": [
+        "0"
+      ]
+    }
+  }
+}

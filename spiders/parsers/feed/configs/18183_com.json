@@ -1,0 +1,130 @@
+{
+  "domain": "18183.com",
+  "list": [
+    {
+      "publish_time": null,
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "abstract": {
+        "params": {
+          "selector": "p"
+        },
+        "method": "select"
+      },
+      "title": {
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "div.news_list h4"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "18183_com_wd"
+    },
+    {
+      "publish_time": null,
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "h4 > a"
+        },
+        "method": "select"
+      },
+      "abstract": {
+        "params": {
+          "selector": "p"
+        },
+        "method": "select"
+      },
+      "title": {
+        "params": {
+          "selector": "h4 > a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "div.text_la_ls1,div.la_ls1 > dl > dd"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "18183_com_mhxy"
+    },
+    {
+      "publish_time": null,
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "h4 > a"
+        },
+        "method": "select"
+      },
+      "abstract": {
+        "params": {
+          "selector": "p"
+        },
+        "method": "select"
+      },
+      "title": {
+        "params": {
+          "selector": "h4 > a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "ul.m-text-list > li"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "18183_com"
+    },
+    {
+      "publish_time": null,
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "abstract": {
+        "params": {
+          "selector": "p"
+        },
+        "method": "select"
+      },
+      "title": {
+         "attribute": "title",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "ul.list-detail > li"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "18183_com_wzry"
+    }
+  ]
+}

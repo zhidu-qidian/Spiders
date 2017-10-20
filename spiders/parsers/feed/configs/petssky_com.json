@@ -1,0 +1,20 @@
+{
+  "domain": "petssky.com",
+  "list": [
+    {
+      "publish_time": {"params": {"selector": "span.entry-meta > span.date"}, "method": "select"},
+      "title": {"params": {"selector": "h2.entry-title > a"}, "method": "select"},
+      "url": {"params": {"selector": "h2.entry-title > a"}, "method": "select", "attribute": "href"},
+      "skip": null,
+      "thumb": {"params": {"selector": "figure.thumbnail > a > img"}, "method": "select", "attribute": "src"},
+      "abstract": {"params": {"selector": "div.entry-content > div.archive-content"}, "method": "select"},
+      "author": null,
+      "list": {"params": {"selector": "main#main > article"}, "method": "select"},
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "petssky"
+    }
+  ]
+}

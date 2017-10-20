@@ -1,0 +1,45 @@
+{
+  "yxlady.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "span.title > h1"
+          }
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div.ArtCon"
+          }
+        },
+        "source": "伊秀美体网",
+        "editor": null,
+        "clean":  {
+          "method": "select",
+          "params": {
+            "selector": "div.tagAbout"
+          }
+        },
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "div.ArtInfo"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "yxlady.com": [
+        "0"
+      ]
+    }
+  }
+}

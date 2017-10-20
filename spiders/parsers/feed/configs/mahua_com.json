@@ -1,0 +1,43 @@
+{
+  "domain": "mahua.com",
+  "list": [
+    {
+      "publish_time": null,
+      "author": {
+        "params": {
+          "selector": "p.joke-uname > a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "span.joke-title > a"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+      "title": {
+        "params": {
+          "selector": "span.joke-title > a"
+        },
+        "method": "select"
+      },
+      "thumb":{
+        "attribute": "src",
+        "params": {
+          "selector": "dd.content img"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "dl.mahua"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "mahua_com"
+    }
+  ]
+}

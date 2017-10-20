@@ -1,0 +1,19 @@
+{
+  "domain": "7zhan.com",
+  "list": [
+    {
+      "publish_time": null,
+      "title": "title",
+      "url": "url",
+      "skip": [1,-1],
+      "abstract": null,
+      "author": null,
+      "list": "html",
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "ajax",
+      "crawler": "7zhan_com"
+    }
+  ]
+}

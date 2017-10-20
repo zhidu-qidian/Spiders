@@ -1,0 +1,47 @@
+{
+  "quora.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "params": {
+            "selector": "span.anon_user"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "span.question_text > span"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.Answer > div > div > div > div > span.rendered_qtext"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "quora.com", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "span.datetime"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "quora.com": [
+        "0"
+      ]
+    }
+  }
+}

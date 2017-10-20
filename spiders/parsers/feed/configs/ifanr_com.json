@@ -1,0 +1,66 @@
+{
+  "domain": "ifanr.com", 
+  "list": [
+    {
+      "publish_time": null,
+      "title": {
+        "params": {
+          "selector": "h3,h1 > a"
+        }, 
+        "method": "select"
+      }, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "a.c-card-article__link,a.article-link"
+        }, 
+        "method": "select"
+      }, 
+      "skip": null, 
+      "abstract": null, 
+      "author": null, 
+      "list": {
+        "params": {
+          "selector": "div.o-matrix__row__unit"
+        }, 
+        "method": "select"
+      }, 
+      "filter": null, 
+      "publish_site": null, 
+      "keywords": null, 
+      "type": "html", 
+      "crawler": "ifanr"
+    },
+    {
+      "publish_time": null,
+      "title": {
+        "params": {
+          "selector": "h3 > a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "h3 > a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "div.article-item"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "ifanr_new"
+    }
+
+  ]
+}

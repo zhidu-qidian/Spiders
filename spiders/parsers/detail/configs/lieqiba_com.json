@@ -1,0 +1,45 @@
+{
+  "lieqiba.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": {
+          "params": {
+            "selector": "div.tjbox,div.pages2"
+          },
+          "method": "select"
+        },
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "h1"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": {
+          "params": {
+            "class_": "body",
+            "name": "div"
+          }
+        },
+        "source": null,
+        "editor": null,
+        "clean": null,
+        "date": null,
+        "tags": null,
+        "before": {
+          "params": {
+            "selector": "div.topdes"
+          },
+          "method": "select"
+        }
+      }
+    },
+    "match": {
+      "lieqiba.com": [
+        "0"
+      ]
+    }
+  }
+}

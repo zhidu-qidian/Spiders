@@ -1,0 +1,45 @@
+{
+  "cndzys.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1"
+          }
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div.content_text"
+          }
+        },
+        "source":  {
+          "method": "select",
+          "params": {
+            "selector": "div.info > span:nth-of-type(3) > a"
+          }
+        },
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "div.info"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "cndzys.com": [
+        "0"
+      ]
+    }
+  }
+}

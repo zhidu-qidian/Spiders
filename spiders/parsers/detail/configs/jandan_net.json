@@ -1,0 +1,49 @@
+{
+  "jandan.net": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": {
+          "params": {
+            "class_": "share-links", 
+            "name": "div"
+          }
+        }, 
+        "author": null, 
+        "title": {
+          "params": {
+            "selector": "div#content h1"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "class_": "post f", 
+            "name": "div"
+          }
+        }, 
+        "source": "煎蛋网", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "class_": "time_s", 
+            "name": "div"
+          }
+        }, 
+        "tags": null, 
+        "before": {
+          "params": {
+            "name": "h1"
+          }
+        }
+      }
+    }, 
+    "match": {
+      "jandan.net": [
+        "0"
+      ]
+    }
+  }
+}

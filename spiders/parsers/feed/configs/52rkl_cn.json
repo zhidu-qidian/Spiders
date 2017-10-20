@@ -1,0 +1,72 @@
+{
+  "domain": "52rkl.cn",
+  "list": [
+    {
+      "publish_time": {
+        "params": {
+          "selector": "time"
+        },
+        "method": "select"
+      },
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a:nth-of-type(2)"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+      "title": {
+        "params": {
+          "selector": "a:nth-of-type(2)"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "div.relates.panel > ul > li"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "52rkl_new"
+    },
+    {
+      "publish_time": {
+        "params": {
+          "selector": "time"
+        },
+        "method": "select"
+      },
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "h2 > a"
+        },
+        "method": "select"
+      },
+      "abstract": {
+        "params": {
+          "selector": "p.note > a"
+        },
+        "method": "select"
+      },
+      "title": {
+        "params": {
+          "selector": "h2 > a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "div.excerpts > article.excerpt"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "52rkl"
+    }
+  ]
+}

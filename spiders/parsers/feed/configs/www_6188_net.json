@@ -1,0 +1,31 @@
+{
+  "domain": "www.6188.net", 
+  "list": [
+    {
+      "publish_time": null, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": null, 
+      "title": {
+        "params": {
+          "selector": "a p"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "ul.product01 > li"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "6188_net"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "domain": "shuaigepic.com", 
+  "list": [
+    {
+      "publish_time": {
+        "params": {
+          "selector": "div.addtime"
+        }, 
+        "method": "select"
+      }, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": null, 
+      "title": {
+        "attribute": "title", 
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "ul#need > li"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "shuaigepic_com"
+    }
+  ]
+}

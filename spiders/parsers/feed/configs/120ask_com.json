@@ -1,0 +1,44 @@
+{
+  "domain": "120ask.com",
+  "list": [
+    {
+      "publish_time": null,
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "dd > a"
+        },
+        "method": "select"
+      },
+      "abstract": {
+        "attribute": "href",
+        "params": {
+          "selector": "dd > p"
+        },
+        "method": "select"
+      },
+      "title": {
+        "attribute": "title",
+        "params": {
+          "selector": "dd > a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "div.NewsListLeft > div.lsitPart > dl"
+        },
+        "method": "select"
+      },
+      "date": {
+        "params": {
+          "selector": "em"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "120ask_com"
+    }
+  ]
+}

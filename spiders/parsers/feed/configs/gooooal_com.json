@@ -1,0 +1,46 @@
+{
+  "domain": "gooooal.com",
+  "list": [
+        {
+      "publish_time":{
+        "params": {
+          "selector": "div.alert_time"
+        },
+        "method": "select"
+      },
+      "title": {
+        "params": {
+          "selector": "div.alert_right > h3 > a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "div.alert_right > h3 > a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": {
+        "params": {
+          "selector": "div.alert_right > p"
+        },
+        "method": "select"
+      },
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "div.alerts_main > div.alert"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "gooooal_com"
+    }
+
+  ]
+}

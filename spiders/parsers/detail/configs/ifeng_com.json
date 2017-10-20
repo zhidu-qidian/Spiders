@@ -1,0 +1,449 @@
+{
+  "ifeng.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "div.title_text > h3"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": {
+          "params": {
+            "name": "div",
+            "id": "mainText"
+          }
+        },
+        "source": "凤凰网",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "params": {
+            "selector": "div.title_text > p"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": null
+      },
+      "1": {
+        "extractor": null,
+        "after": {
+          "params": {
+            "name": "div",
+            "id": "acGood"
+          }
+        },
+        "author": {
+          "params": {
+            "selector": "div.acTxtTit > div > div > span:nth-of-type(3)"
+          },
+          "method": "select"
+        },
+        "title": {
+          "params": {
+            "name": "h1"
+          }
+        },
+        "summary": null,
+        "content": {
+          "params": {
+            "class_": "acTxt wrap",
+            "name": "div"
+          }
+        },
+        "source": {
+          "params": {
+            "selector": "div.acTxtTit > div > div > span:nth-of-type(3)"
+          },
+          "method": "select"
+        },
+        "editor": null,
+        "clean": [
+          {
+            "params": {
+              "class_": "look_alltext",
+              "name": "div"
+            }
+          },
+          {
+            "params": {
+              "class_": "acShare",
+              "name": "div"
+            }
+          },
+          {
+            "params": {
+              "class_": "zrbj",
+              "name": "div"
+            }
+          }
+        ],
+        "date": {
+          "params": {
+            "selector": "div.acTxtTit > div > div"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": {
+          "params": {
+            "class_": "acTxtTit",
+            "name": "div"
+          }
+        }
+      },
+      "2": {
+        "extractor": null,
+        "after": {
+          "params": {
+            "name": "a",
+            "attrs": {
+              "href": "http://www.ifeng.com/"
+            }
+          }
+        },
+        "author": {
+          "params": {
+            "selector": "span.ss04 > span"
+          },
+          "method": "select"
+        },
+        "title": {
+          "params": {
+            "name": "h1",
+            "id": "artical_topic"
+          }
+        },
+        "summary": {
+          "attribute": "content",
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "description"
+            }
+          }
+        },
+        "content": {
+          "params": {
+            "name": "div",
+            "id": "main_content"
+          }
+        },
+        "source": {
+          "params": {
+            "class_": "ss03",
+            "name": "span"
+          }
+        },
+        "editor": null,
+        "clean": null,
+        "date": {
+          "attribute": "content",
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "og:time"
+            }
+          }
+        },
+        "tags": {
+          "attribute": "content",
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        },
+        "before": null
+      },
+      "3": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "class_": "title",
+            "name": "h2"
+          }
+        },
+        "summary": null,
+        "content": {
+          "params": {
+            "class_": "main",
+            "name": "div"
+          }
+        },
+        "source": "凤凰网",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "params": {
+            "class_": "fromto",
+            "name": "h3"
+          }
+        },
+        "tags": null,
+        "before": {
+          "params": {
+            "class_": "fromto",
+            "name": "h3"
+          }
+        }
+      },
+      "4": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "class_": "n-title",
+            "name": "h3"
+          }
+        },
+        "summary": null,
+        "content": {
+          "params": {
+            "class_": "zw-real",
+            "name": "div"
+          }
+        },
+        "source": "凤凰网",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "params": {
+            "class_": "chuchu",
+            "name": "p"
+          }
+        },
+        "tags": null,
+        "before": null
+      },
+      "5": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "div.tit01 > a "
+          },
+          "attribute": "title"
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div#slidedesc2"
+          }
+        },
+        "source": "凤凰网",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "div.time01"
+          }
+        },
+        "tags": null,
+        "before": null
+      },
+      "6": {
+        "extractor": null,
+        "after": null,
+        "author": {
+          "method": "select",
+          "params": {
+            "selector": "div.yc_tit > p > span:nth-of-type(2)"
+          }
+        },
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1"
+          }
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div.yc_con_txt"
+          }
+        },
+        "source": {
+          "method": "select",
+          "params": {
+            "selector": "div.yc_tit > p > a:nth-of-type(1)"
+          }
+        },
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "div.yc_tit > p > span:nth-of-type(1)"
+          }
+        },
+        "tags": null,
+        "before": {
+          "method": "select",
+          "params": {
+            "selector": "div#slideNoInsertDefault"
+          }
+        }
+      },
+      "7": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1"
+          }
+        },
+        "summary": {
+          "method": "select",
+          "params": {
+            "selector": "div.Apoint.wrapIphone > p.f14"
+          }
+        },
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div.wrapIphone.AtxtType01"
+          }
+        },
+        "source": {
+          "method": "select",
+          "params": {
+            "selector": "p.cGray2 > span:nth-of-type(1) > a"
+          }
+        },
+        "editor": null,
+        "clean": {
+          "method": "select",
+          "params": {
+            "selector": "span.ifengLogo"
+          }
+        },
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "p.cGray2 > span:nth-of-type(2)"
+          }
+        },
+        "tags": null,
+        "before": null
+      },
+      "8": {
+        "extractor": "ifengphoto",
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "h1"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": null,
+        "source": null,
+        "editor": null,
+        "clean": null,
+        "date": {
+          "params": {
+            "selector": "div#titL > p:nth-of-type(1)"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": null
+      },
+      "9": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "div.arl-cont > h3"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": {
+          "params": {
+            "selector": "div.arl-c-txt"
+          },
+          "method": "select"
+        },
+        "source": {
+          "params": {
+            "selector": "span#source_baidu > a"
+          },
+          "method": "select"
+        },
+        "editor": null,
+        "clean": {
+          "params": {
+            "selector": "div#VideoPlayerDiv"
+          },
+          "method": "select"
+        },
+        "date": {
+          "params": {
+            "selector": "div#titL > p:nth-of-type(1)"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "ient.ifeng.com": [
+        "1"
+      ],
+      "inews.ifeng.com": [
+        "1"
+      ],
+      "istock.ifeng.com": [
+        "1"
+      ],
+      "isports.ifeng.com": [
+        "1"
+      ],
+      "i.ifeng.com": [
+        "0"
+      ],
+      "inba.ifeng.com": [
+        "1"
+      ],
+      "news.ifeng.com": [
+        "7"
+      ],
+      "auto.ifeng.com": [
+        "9"
+      ],
+      "ifeng.com": [
+        "2",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "ifeng.comsharenews.f$": [
+        "3",
+        "4"
+      ]
+    }
+  }
+}

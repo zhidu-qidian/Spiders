@@ -1,0 +1,261 @@
+{
+  "sina.com.cn": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": {
+          "attribute": "content",
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "property": "article:author"
+            }
+          }
+        },
+        "title": {
+          "params": {
+            "selector": "h1#j_title , h1"
+          },
+          "method": "select"
+        },
+        "summary": {
+          "attribute": "content",
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "description"
+            }
+          }
+        },
+        "content": {
+          "params": {
+            "id": "artibody"
+          }
+        },
+        "source": {
+          "attribute": "content",
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "mediaid"
+            }
+          }
+        },
+        "editor": null,
+        "clean": [
+          {
+            "params": {
+              "class_": "artical-player-wrap",
+              "name": "div"
+            }
+          },
+          {
+            "params": {
+              "class_": "video-list",
+              "name": "div"
+            }
+          },
+          {
+            "params": {
+              "selector": "p > strong > strong > strong > strong > strong > strong > strong > strong > strong > strong"
+            },
+            "method": "select"
+          },
+          {
+            "params": {
+              "text": "新浪军事：最多军迷首选的军事门户！",
+              "name": "strong"
+            }
+          },
+          {
+            "params": {
+              "class_": "xb_new_finance_app",
+              "name": "div"
+            }
+          },
+          {
+            "params": {
+              "name": "a",
+              "attrs": {
+                "href": "http://live.sina.com.cn/zt/f/v/finance/globalnews1"
+              }
+            }
+          },
+          {
+            "params": {
+              "name": "div",
+              "attrs": {
+                "data-sudaclick": "suda_1028_guba"
+              }
+            }
+          },
+          {
+            "params": {
+              "class_": "finance_app_zqtg",
+              "name": "div"
+            }
+          },
+          {
+            "params": {
+              "class_": "hqimg_related",
+              "name": "div"
+            }
+          },
+          {
+            "params": {
+              "name": "img",
+              "attrs": {
+                "title": "10.pic_hd.jpg"
+              }
+            }
+          }
+        ],
+        "date": [
+          {
+            "attribute": "content",
+            "params": {
+              "name": "meta",
+              "attrs": {
+                "property": "article:published_time"
+              }
+            }
+          },
+          {
+            "params": {
+              "id": "pub_date",
+              "name": "span"
+            }
+          }
+        ],
+        "tags": {
+          "attribute": "content",
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        },
+        "before": null
+      },
+      "1": {
+        "extractor": null,
+        "after": {
+          "method": "select",
+          "params": {
+            "selector": "div.into_bloger"
+          }
+        },
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "h1#j_title , h1"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div.articalContent"
+          }
+        },
+        "source": "新浪博客",
+        "editor": null,
+        "clean": {
+          "method": "select",
+          "params": {
+            "selector": "ins.hidden"
+          }
+        },
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "div.artinfo  > span.time"
+          }
+        },
+        "tags": null,
+        "before": null
+      },
+      "2": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "h1#j_title , h1"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div.mainSub"
+          }
+        },
+        "source": {
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "property": "article:author"
+            }
+          },
+          "attribute": "content"
+        },
+        "editor": null,
+        "clean": {
+          "method": "select",
+          "params": {
+            "selector": "ins.hidden"
+          }
+        },
+        "date": [
+          {
+            "params": {
+              "name": "meta",
+              "attrs": {
+                "property": "article:published_time"
+              }
+            },
+            "attribute": "content"
+          },
+          {
+            "params": {
+              "id": "pub_date",
+              "name": "span"
+            }
+          }
+        ],
+        "tags": null,
+        "before": null
+      },
+      "3": {
+        "extractor": "sinaphoto",
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "title"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": null,
+        "source": null,
+        "editor": null,
+        "clean": null,
+        "date": {"params": {"selector": "div#eData > dl:nth-of-type(1) > dd:nth-of-type(4)"}, "method": "select"},
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "blog.sina.com.cn": ["1"],
+      "sina.com.cn": ["0", "2", "3"],
+      "slide.news.sina.com.cn": ["3"],
+      "slide.games.sina.com.cn": ["3"]
+    }
+  }
+}

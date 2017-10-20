@@ -1,0 +1,39 @@
+{
+  "www.wmpic.me": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "name": "h1"
+          }
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "class_": "content-c", 
+            "name": "div"
+          }
+        }, 
+        "source": "唯美图片", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "div#content > span"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "www.wmpic.me": [
+        "0"
+      ]
+    }
+  }
+}

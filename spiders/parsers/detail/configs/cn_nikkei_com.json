@@ -1,0 +1,45 @@
+{
+  "cn.nikkei.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": {
+          "method":"select",
+          "params": {
+            "selector": "div.pagenavbar"
+          }
+        },
+        "author": null, 
+        "title":   {
+          "method":"select",
+          "params": {
+            "selector": "div.path > span"
+          }
+        },
+        "summary": null, 
+        "content": {
+          "params": {
+            "class_": "newsText fix", 
+            "name": "div"
+          }
+        }, 
+        "source": "日经中文网", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "class_": "time", 
+            "name": "p"
+          }
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "cn.nikkei.com": [
+        "0"
+      ]
+    }
+  }
+}

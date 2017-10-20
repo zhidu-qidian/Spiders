@@ -1,0 +1,57 @@
+{
+  "domain": "xilu.com",
+  "list": [
+    {
+      "publish_time": null,
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "h4 > a"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+      "title": {
+        "params": {
+          "selector": "h4 > a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "ul#f_inews_lis_ul > li"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "xilu_com"
+    },
+    {
+      "publish_time": null,
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+      "title": {
+        "params": {
+          "selector": "div.list_lt > dl.list_ld > dt"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "div.sbox > div.list_d"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "m_xilu_com"
+    }
+  ]
+}

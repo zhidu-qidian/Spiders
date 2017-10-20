@@ -1,0 +1,60 @@
+{
+  "www.infzm.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "params": {
+            "class_": "authorName", 
+            "name": "span"
+          }
+        }, 
+        "title": {
+          "params": {
+            "name": "h1"
+          }
+        }, 
+        "summary": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "description"
+            }
+          }
+        }, 
+        "content": {
+          "params": {
+            "name": "section", 
+            "id": "articleContent"
+          }
+        }, 
+        "source": "南方周末", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "class_": "pubTime", 
+            "name": "em"
+          }
+        }, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        }, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "www.infzm.com": [
+        "0"
+      ]
+    }
+  }
+}

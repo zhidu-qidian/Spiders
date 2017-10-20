@@ -1,0 +1,43 @@
+{
+  "gelonghui.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "div.title"
+          }
+        },
+        "summary": null,
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "div.main-article"
+            }
+          }
+        ],
+        "source": "格隆汇",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "div.dateAbout > p.date"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "gelonghui.com": [
+        "0"
+      ]
+    }
+  }
+}
+

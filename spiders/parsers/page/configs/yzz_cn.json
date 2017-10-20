@@ -1,0 +1,17 @@
+{
+  "domain": "yzz.cn",
+  "conf": {
+    "START": 2,
+    "NUMBER": {
+      "params": {
+        "selector": "div.page-number > ul > li:nth-of-type(1)"
+      },
+      "type": "last",
+      "method": "select"
+    },
+    "TEMPLATE": {
+      "join": false,
+      "template": "_%s.shtml"
+    }
+  }
+}

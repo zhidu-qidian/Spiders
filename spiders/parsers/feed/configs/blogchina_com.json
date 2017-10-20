@@ -1,0 +1,45 @@
+{
+  "domain": "blogchina.com",
+  "list": [
+    {
+      "publish_time": {
+        "params": {
+          "selector": "em"
+        },
+        "method": "select"
+      },
+      "title": {
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": {
+        "params": {
+          "selector": "span > a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "div.news_left > ul > li.tit.articlenumber"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "blogchina_com"
+    }
+  ]
+}

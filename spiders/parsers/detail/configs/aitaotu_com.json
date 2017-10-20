@@ -1,0 +1,48 @@
+{
+  "aitaotu.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "title"
+          }
+        },
+        "summary": null,
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "div.tsmaincont-main-cont-desc"
+            }
+          },
+          {
+            "method": "select",
+            "params": {
+              "selector": "div#big-pic"
+            }
+          }
+        ],
+        "source": "爱套图",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "div.tsmaincont-desc > span:nth-of-type(1)"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "aitaotu.com": [
+        "0"
+      ]
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "domain": "laoqianzhuang.com",
+  "list": [
+    {
+      "publish_time": {
+        "params": {
+          "selector": "span"
+        },
+        "method": "select"
+      },
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+      "title": {
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "span.arc-title , span.new-arc-title"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "laoqianzhuang_com"
+    },
+        {
+      "publish_time": null,
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+      "title": {
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "div.riTit"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "laoqianzhuang_com_mj"
+    },
+    {
+      "publish_time": {
+
+        "params": {
+          "selector": "span"
+        },
+        "method": "select"
+      },
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+      "title": {
+        "params": {
+          "selector": "a h2"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "ul.nav_one_fr > li"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "m_laoqianzhuang_com"
+    }
+
+  ]
+}

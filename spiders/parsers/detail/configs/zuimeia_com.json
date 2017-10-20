@@ -1,0 +1,58 @@
+{
+  "zuimeia.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "params": {
+            "selector": "li.pub-author"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "div.app-title > h1"
+          }, 
+          "method": "select"
+        }, 
+        "summary": {
+          "params": {
+            "selector": "div.short-des"
+          }, 
+          "method": "select"
+        }, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.short-des"
+            }, 
+            "method": "select"
+          }, 
+          {
+            "params": {
+              "selector": "div#article_content"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "最美应用", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "li.pub-time"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "zuimeia.com": [
+        "0"
+      ]
+    }
+  }
+}

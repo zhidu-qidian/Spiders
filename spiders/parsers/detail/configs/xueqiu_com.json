@@ -1,0 +1,41 @@
+{
+  "xueqiu.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "class_": "status-title", 
+            "name": "h4"
+          }
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "class_": "detail", 
+            "name": "div"
+          }
+        }, 
+        "source": "雪球", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "attribute": "data-created_at", 
+          "params": {
+            "selector": "div.subtitle > a"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "xueqiu.com": [
+        "0"
+      ]
+    }
+  }
+}

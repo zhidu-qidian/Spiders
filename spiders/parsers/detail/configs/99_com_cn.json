@@ -1,0 +1,50 @@
+{
+  "99.com.cn": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": {
+          "method": "select",
+          "params": {
+            "selector": "div.new_page"
+          }
+        },
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "div.title_box > h1"
+          }
+        },
+        "summary": null,
+        "content":[ {
+          "method": "select",
+          "params": {
+            "selector": "div.profile_box"
+          }
+        },{
+          "method": "select",
+          "params": {
+            "selector": "div.new_cont.detail_con"
+          }
+        }],
+        "source": "99健康网",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "div.title_text"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "99.com.cn": [
+        "0"
+      ]
+    }
+  }
+}

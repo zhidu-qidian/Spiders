@@ -1,0 +1,43 @@
+{
+  "ttpet.com": {
+    "configs": {
+            "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "h1"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": [
+          {
+            "params": {
+              "selector": "div.p_text"
+            },
+            "method": "select"
+          }
+        ],
+        "source":"天天宠物网",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "params": {
+            "selector": "div.fmtime"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": null
+      }
+
+    },
+    "match": {
+      "ttpet.com": [
+        "0"
+      ]
+    }
+  }
+}

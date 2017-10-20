@@ -1,0 +1,41 @@
+{
+  "domain": "hongzhoukan.com",
+  "list": [
+        {
+      "publish_time": {
+        "params": {
+          "selector": "span"
+        },
+        "method": "select"
+      },
+      "title": {
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "div.lists > div.list_one > ul > li"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "hongzhoukan_com"
+    }
+
+  ]
+}

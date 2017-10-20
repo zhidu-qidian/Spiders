@@ -1,0 +1,32 @@
+{
+  "domain": "baoxiaowo.com",
+  "list": [
+    {
+      "publish_time": null,
+      "title": {
+        "params": {
+          "selector": "em"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "div.section > div:nth-of-type(3) > div.list > a"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "baoxiaowo_com"
+    }
+  ]
+}

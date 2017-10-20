@@ -1,0 +1,45 @@
+{
+  "domain": "vrrb.cn",
+  "list": [
+    {
+      "publish_time": null,
+      "title" : {
+        "params": {
+          "selector": "div.xwt1_right > div.xwt1_right_a > a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "div.xwt1_right > div.xwt1_right_a > a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": {
+        "params": {
+          "selector": "div.xwt1_right > div.xwt1_right_b"
+        },
+        "method": "select"
+      },
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "div.left11 > div"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": {
+        "params": {
+          "selector": "div.feeds-item-info > a:nth-of-type(1)"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "type": "html",
+      "crawler": "vrrb_cn"
+    }
+  ]
+}

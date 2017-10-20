@@ -1,0 +1,88 @@
+{
+  "cnbeta.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": {
+          "params": {
+            "selector": "div.re_name > cite > a"
+          },
+          "method": "select"
+        },
+        "title": {
+          "params": {
+            "selector": "h2#news_title"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": {
+          "params": {
+            "selector": "section.article_content"
+          },
+          "method": "select"
+        },
+        "source": {
+          "params": {
+            "selector": "span.where"
+          },
+          "method": "select"
+        },
+        "editor": null,
+        "clean": null,
+        "date": {
+          "params": {
+            "selector": "div.title_bar > span.date"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": null
+      },
+      "1": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "header.title > h1"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": [
+          {
+            "params": {
+              "selector": "div.article-summary"
+            },
+            "method": "select"
+          },
+          {
+            "params": {
+              "selector": "div.article-content"
+            },
+            "method": "select"
+          }
+        ],
+        "source": null,
+        "editor": null,
+        "clean": null,
+        "date": {
+          "params": {
+            "selector": "div.meta > span:nth-of-type(1)"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "cnbeta.com": [
+        "0",
+        "1"
+      ]
+    }
+  }
+}

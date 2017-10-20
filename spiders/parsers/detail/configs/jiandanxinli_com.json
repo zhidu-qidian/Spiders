@@ -1,0 +1,52 @@
+{
+  "jiandanxinli.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "params": {
+            "selector": "div.common-detail-article__main > p:nth-of-type(2) > strong"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "h1.common-detail-article__title"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.common-detail-article__main"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "简单心理", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "div.info-actions"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": {
+          "params": {
+            "selector": "div.common-detail-article__main > p:nth-of-type(2)"
+          }, 
+          "method": "select"
+        }
+      }
+    }, 
+    "match": {
+      "jiandanxinli.com": [
+        "0"
+      ]
+    }
+  }
+}

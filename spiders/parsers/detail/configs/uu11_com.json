@@ -1,0 +1,52 @@
+{
+  "uu11.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": {
+          "params": {
+            "selector": "div#ArtPLink"
+          },
+          "method": "select"
+        },
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "div.post_title > h1"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": [
+          {
+            "params": {
+              "selector": "div#paragraph"
+            },
+            "method": "select"
+          }
+        ],
+        "source": "世界之最",
+        "editor": null,
+        "clean": {
+            "params": {
+              "selector": "p.content_copyright"
+            },
+            "method": "select"
+          },
+        "date": {
+          "params": {
+            "selector": "div.post_title > span.pt_info"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "uu11.com": [
+        "0"
+      ]
+    }
+  }
+}

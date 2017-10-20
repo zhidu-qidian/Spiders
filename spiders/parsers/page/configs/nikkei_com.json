@@ -1,0 +1,17 @@
+{
+  "domain": "nikkei.com",
+  "conf": {
+    "START": 1,
+    "NUMBER": {
+      "params": {
+        "selector": "span.article_pagination > a"
+      },
+      "type":"last",
+      "method": "select"
+    },
+    "TEMPLATE": {
+      "join": true,
+      "template": "?start=%s"
+    }
+  }
+}

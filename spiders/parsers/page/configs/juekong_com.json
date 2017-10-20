@@ -1,0 +1,17 @@
+{
+  "domain": "juekong.com",
+  "conf": {
+    "START": 2,
+    "NUMBER": {
+      "params": {
+        "selector": "#pages > ul > div"
+      },
+      "type": "sum",
+      "method": "select"
+    },
+    "TEMPLATE": {
+      "join": false,
+      "template": "_%s.htm"
+    }
+  }
+}

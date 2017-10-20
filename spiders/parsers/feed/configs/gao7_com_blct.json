@@ -1,0 +1,44 @@
+{
+  "domain": "gao7.com.blct", 
+  "list": [
+    {
+      "publish_time": {
+        "nth": 1, 
+        "params": {
+          "selector": "p.author > span"
+        }, 
+        "method": "select"
+      }, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "h3 > a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": {
+        "nth": 1, 
+        "params": {
+          "selector": "p"
+        }, 
+        "method": "select"
+      }, 
+      "title": {
+        "attribute": "title", 
+        "params": {
+          "selector": "h3 > a"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "div.m-list > ul > li"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "gao7_com_blct"
+    }
+  ]
+}

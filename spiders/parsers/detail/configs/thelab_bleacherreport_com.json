@@ -1,0 +1,47 @@
+{
+  "thelab.bleacherreport.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "params": {
+            "selector": "h3.author"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "h1.headline"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.content"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "thelab.bleacherreport.com", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "h4.publish-date"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "thelab.bleacherreport.com": [
+        "0"
+      ]
+    }
+  }
+}

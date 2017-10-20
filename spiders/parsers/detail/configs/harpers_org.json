@@ -1,0 +1,60 @@
+{
+  "harpers.org": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "params": {
+            "selector": "a.author"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "div.postdetailFull > h1"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.articlePost"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "harpers.org", 
+        "editor": null, 
+        "clean": {
+          "params": {
+            "selector": "div.fRight"
+          }, 
+          "method": "select"
+        }, 
+        "date": {
+          "params": {
+            "selector": "p.category"
+          }, 
+          "method": "select"
+        }, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        }, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "harpers.org": [
+        "0"
+      ]
+    }
+  }
+}

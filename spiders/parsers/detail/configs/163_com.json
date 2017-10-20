@@ -1,0 +1,255 @@
+{
+  "163.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "name": "h1"
+          }
+        },
+        "summary": {
+          "attribute": "content",
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "description"
+            }
+          }
+        },
+        "content": {
+          "params": {
+            "id": "ecLeft"
+          }
+        },
+        "source": "网易健康",
+        "editor": null,
+        "clean": {
+          "params": {
+            "name": "img",
+            "attrs": {
+              "alt": "你表达思想，我传递声音"
+            }
+          }
+        },
+        "date": null,
+        "tags": {
+          "attribute": "content",
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        },
+        "before": null
+      },
+      "1": {
+        "extractor": "news163",
+        "after": {
+          "params": {
+            "class_": "ep-source cDGray",
+            "name": "div"
+          }
+        },
+        "author": null,
+        "title": {
+          "params": {
+            "name": "h1"
+          }
+        },
+        "summary": {
+          "attribute": "content",
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "description"
+            }
+          }
+        },
+        "content": [
+          {
+            "params": {
+              "id": "endText"
+            }
+          },
+          {
+            "params": {
+              "class_": "hidden",
+              "name": "textarea"
+            }
+          },
+          {
+            "params": {
+              "class_": "end-text",
+              "id": "endText"
+            }
+          }
+        ],
+        "source": {
+          "params": {
+            "id": "ne_article_source"
+          }
+        },
+        "editor": null,
+        "clean": [
+          {
+            "params": {
+              "class_": "caijing_bq",
+              "name": "div"
+            }
+          },
+          {
+            "params": {
+              "name": "iframe"
+            }
+          },
+          {
+            "params": {
+              "class_": "demoBox",
+              "name": "div"
+            }
+          },
+          {
+            "params": {
+              "name": "p",
+              "class_": "otitle"
+            }
+          }
+        ],
+        "date": {
+          "params": {
+            "class_": "post_time_source",
+            "name": "div"
+          }
+        },
+        "tags": {
+          "attribute": "content",
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        },
+        "before": null
+      },
+      "2": {
+        "extractor": null,
+        "after": {
+          "params": {
+            "class_": "ep-source cDGray",
+            "name": "div"
+          }
+        },
+        "author": null,
+        "title": {
+          "params": {
+            "name": "h1"
+          }
+        },
+        "summary": {
+          "attribute": "content",
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "description"
+            }
+          }
+        },
+        "content": {
+          "params": {
+            "selector": "div.content_main div.article_content"
+          },
+          "method": "select"
+        },
+        "source": {
+          "params": {
+            "selector": "div.article_time_source > a"
+          },
+          "method": "select"
+        },
+        "editor": null,
+        "clean": [
+          {
+            "params": {
+              "class_": "caijing_bq",
+              "name": "div"
+            }
+          },
+          {
+            "params": {
+              "name": "iframe"
+            }
+          }
+        ],
+        "date": {
+          "params": {
+            "class_": "article_time_source",
+            "name": "div"
+          }
+        },
+        "tags": {
+          "attribute": "content",
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        },
+        "before": null
+      },
+      "3": {
+        "extractor": "g3163",
+        "after": null,
+        "author": null,
+        "title": null,
+        "summary": null,
+        "content": {},
+        "source": null,
+        "editor": null,
+        "clean": null,
+        "date": null,
+        "tags": null,
+        "before": null
+      },
+      "4": {
+        "extractor": "neteasepic",
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1"
+          }
+        },
+        "summary": null,
+        "content": {},
+        "source": "网易图片",
+        "editor": null,
+        "clean": null,
+        "date": null,
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "jiankang.163.com": [
+        "0",
+        "1",
+        "2"
+      ],
+      "163.com": [
+        "1",
+        "2",
+        "4"
+      ],
+      "3g.163.com": [
+        "3"
+      ]
+    }
+  }
+}

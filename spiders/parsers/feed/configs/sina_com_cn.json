@@ -1,0 +1,270 @@
+{
+  "domain": "sina.com.cn", 
+  "list": [
+    {
+      "publish_time": "time", 
+      "title": "title", 
+      "url": "url", 
+      "skip": [
+        15, 
+        -1
+      ], 
+      "abstract": null, 
+      "author": null, 
+      "list": "list", 
+      "filter": null, 
+      "publish_site": null, 
+      "keywords": null, 
+      "type": "ajax", 
+      "crawler": "sina_world"
+    }, 
+    {
+      "publish_time": "ctime", 
+      "title": "title", 
+      "url": "url", 
+      "skip": null, 
+      "abstract": "intro", 
+      "author": null, 
+      "list": "result|data", 
+      "filter": null, 
+      "publish_site": null, 
+      "keywords": null, 
+      "type": "ajax", 
+      "crawler": "sina_ajax"
+    }, 
+    {
+      "publish_time": null, 
+      "title": "title", 
+      "url": "link", 
+      "skip": null, 
+      "abstract": "intro", 
+      "author": null, 
+      "list": "data", 
+      "filter": null, 
+      "publish_site": null, 
+      "keywords": null, 
+      "type": "ajax", 
+      "crawler": "sina_fashion"
+    }, 
+    {
+      "publish_time": null, 
+      "title": {
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "skip": null, 
+      "abstract": null, 
+      "author": {
+        "params": {
+          "selector": "span.author > a"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "div.module_03 > div.bd > ul > li"
+        }, 
+        "method": "select"
+      }, 
+      "filter": null, 
+      "publish_site": null, 
+      "keywords": null, 
+      "type": "html", 
+      "crawler": "sina_history"
+    }, 
+    {
+      "publish_time": {
+        "params": {
+          "selector": "span"
+        }, 
+        "method": "select"
+      }, 
+      "title": {
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "skip": null, 
+      "abstract": null, 
+      "author": null, 
+      "list": {
+        "params": {
+          "selector": "div.listBlk > ul > li"
+        }, 
+        "method": "select"
+      }, 
+      "filter": null, 
+      "publish_site": null, 
+      "keywords": null, 
+      "type": "html", 
+      "crawler": "sina_roll"
+    }, 
+    {
+      "publish_time": "ctime", 
+      "title": "title", 
+      "url": "url", 
+      "skip": [
+        7, 
+        -2
+      ], 
+      "abstract": "summary", 
+      "author": null, 
+      "list": "result|data", 
+      "filter": null, 
+      "publish_site": null, 
+      "keywords": null, 
+      "type": "ajax", 
+      "crawler": "sina_sport"
+    }, 
+    {
+      "publish_time": {
+        "params": {
+          "selector": "span.new_time"
+        }, 
+        "method": "select"
+      }, 
+      "title": {
+        "params": {
+          "selector": "h2 > a"
+        }, 
+        "method": "select"
+      }, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "h2 > a"
+        }, 
+        "method": "select"
+      }, 
+      "skip": null, 
+      "abstract": {
+        "params": {
+          "selector": "div.new_body.body02"
+        }, 
+        "method": "select"
+      }, 
+      "author": {
+        "params": {
+          "selector": "span.new_edt"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "div.top_new"
+        }, 
+        "method": "select"
+      }, 
+      "filter": null, 
+      "publish_site": null, 
+      "keywords": null, 
+      "type": "html", 
+      "crawler": "sina_tec_zl"
+    },
+    {
+      "publish_time": null,
+      "title": {"params": {"selector": "a"}, "method": "select"},
+      "url": {"attribute": "href", "params": {"selector": "a"}, "method": "select"},
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {"params": {"selector": "div.blk00_c div.blk00_c h5"}, "method": "select"},
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "sina_fashion_hot"
+    },
+    {
+      "publish_time": null,
+      "title": "title",
+      "url": "url",
+      "skip": [11, -1],
+      "abstract": null,
+      "author": "author",
+      "list": "data",
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "ajax",
+      "crawler": "sina_top_hot"
+    },
+    {
+      "publish_time": null,
+      "title": "title",
+      "url": "url",
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "thumb": "thumb",
+      "list": "data",
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "ajax",
+      "crawler": "sina_picture_hot"
+    },
+    {
+      "publish_time": "createtime",
+      "title": "name",
+      "url": "url",
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "thumb": "img_url",
+      "list": null,
+      "filter": null,
+      "publish_site": "source",
+      "keywords": null,
+      "type": "ajax",
+      "crawler": "sina_picture_game"
+    },
+    {
+      "publish_time": "createtime",
+      "title": "name",
+      "url": "url",
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "thumb": "img_url",
+      "list": "data",
+      "filter": null,
+      "publish_site": "source",
+      "keywords": null,
+      "type": "ajax",
+      "crawler": "sina_picture_common"
+    },
+        {
+      "publish_time": {"params": {"selector": "span"}, "method": "select"},
+      "title": {"params": {"selector": "h2 a"}, "method": "select"},
+      "url": {"attribute": "href", "params": {"selector": "h2 a"}, "method": "select"},
+      "skip": null,
+      "abstract": null,
+      "author": null, "thumb": {"attribute": "src", "params": {"selector": "img"}, "method": "select"},
+
+      "list": {"params": {"selector": "div#picList > div.picBox"}, "method": "select"},
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "sina_game_beauty"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "domain": "petssky.com",
+  "conf": {
+    "START": 2,
+    "NUMBER": {
+      "params": {
+        "selector": "div.page-links"
+      },
+      "type": "last",
+      "method": "select"
+    },
+    "TEMPLATE": {
+      "separator": null,
+      "join": false,
+      "template": "/%s/"
+    }
+  }
+}

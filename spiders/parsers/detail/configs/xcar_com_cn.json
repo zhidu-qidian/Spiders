@@ -1,0 +1,39 @@
+{
+  "xcar.com.cn": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": {
+    "method": "select",
+    "params": {"selector": "span#author_baidu > a"}
+},
+        "title": {
+    "method": "select",
+    "params": {"selector": "h1"}
+},
+        "summary": null,
+        "content": [
+    {"method": "select","params": {"selector": "div#newsbody"}}
+],
+        "source": {
+    "method": "select",
+    "params": {"selector": "span#source_baidu > a"}
+},
+        "editor": null,
+        "clean": null,
+        "date": {
+    "method": "select",
+    "params": {"selector": "span#pubtime_baidu"}
+},
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "xcar.com.cn": [
+        "0"
+      ]
+    }
+  }
+}

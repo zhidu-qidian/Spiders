@@ -1,0 +1,16 @@
+{
+  "domain": "tuku.eastlady.cn", 
+  "conf": {
+    "START": 2, 
+    "NUMBER": {
+      "params": {
+        "selector": "div.pages > ul > li:nth-of-type(1)"
+      }, 
+      "method": "select"
+    }, 
+    "TEMPLATE": {
+      "join": false, 
+      "template": "_%s.html"
+    }
+  }
+}

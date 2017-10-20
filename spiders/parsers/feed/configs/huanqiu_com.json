@@ -1,0 +1,131 @@
+{
+  "domain": "huanqiu.com", 
+  "list": [
+    {
+      "publish_time": null, 
+      "title": {
+        "params": {
+          "selector": "div.lanmu_line_title > a"
+        }, 
+        "method": "select"
+      }, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "div.lanmu_line_title > a"
+        }, 
+        "method": "select"
+      }, 
+      "skip": null, 
+      "abstract": null, 
+      "author": null, 
+      "list": {
+        "params": {
+          "selector": "div#vis_listas > div.lanmu_line"
+        }, 
+        "method": "select"
+      }, 
+      "filter": null, 
+      "publish_site": null, 
+      "keywords": null, 
+      "type": "html", 
+      "crawler": "huanqiu_m"
+    },
+    {
+      "publish_time": null,
+      "title": {
+        "attribute": "title",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "div.newsFir ul > li"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "huanqiu_top"
+    },
+    {
+      "publish_time": null,
+      "title": {
+        "attribute": "title",
+        "params": {
+          "selector": "a:nth-of-type(1)"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a:nth-of-type(1)"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "div.societyHot ul > li"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "huanqiu_soci_hot"
+    },
+    {
+      "publish_time": null,
+      "title": {"attribute": "title"},
+      "url": {"attribute": "href"},
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "div.clickRank ul.ranking > li > a"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "huanqiu_ent_hot"
+    },
+    {
+      "publish_time": {"params": {"selector": "h6"}, "method": "select"},
+      "title": {"params": {"selector": "h3 a"}, "method": "select", "attribute": "title"},
+      "url": {"params": {"selector": "h3 a"}, "method": "select", "attribute": "href"},
+      "skip": null,
+      "thumb": {"params": {"selector": "a > img"}, "method": "select", "attribute": "src"},
+      "abstract": null,
+      "author": null,
+      "list": {"params": {"selector": "ul.listPicBox > li"}, "method": "select"},
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "huanqiu_picture_mil"
+    }
+  ]
+}

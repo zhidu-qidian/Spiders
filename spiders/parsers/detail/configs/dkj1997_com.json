@@ -1,0 +1,37 @@
+{
+  "dkj1997.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1 > a"
+          }
+        },
+        "summary": null,
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "div.article_content"
+            }
+          }
+        ],
+        "source": "大科技",
+        "editor": null,
+        "clean": null,
+        "date": null,
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "dkj1997.com": [
+        "0"
+      ]
+    }
+  }
+}

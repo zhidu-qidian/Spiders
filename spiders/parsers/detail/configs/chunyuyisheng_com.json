@@ -1,0 +1,52 @@
+{
+  "chunyuyisheng.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "nth": 1, 
+          "params": {
+            "selector": "div.sub-title-wrapper > span"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "ha.news-title"
+          }, 
+          "method": "select"
+        }, 
+        "summary": {
+          "params": {
+            "selector": "div.news-intro"
+          }, 
+          "method": "select"
+        }, 
+        "content": {
+          "params": {
+            "selector": "div.news-content"
+          }, 
+          "method": "select"
+        }, 
+        "source": "春雨医生", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "nth": 2, 
+          "params": {
+            "selector": "div.sub-title-wrapper > span"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "chunyuyisheng.com": [
+        "0"
+      ]
+    }
+  }
+}

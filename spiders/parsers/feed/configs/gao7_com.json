@@ -1,0 +1,31 @@
+{
+  "domain": "gao7.com", 
+  "list": [
+    {
+      "publish_time": null, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": null
+      }, 
+      "abstract": {
+        "params": {
+          "selector": "dd.news-content"
+        }, 
+        "method": "select"
+      }, 
+      "title": {
+        "attribute": "title", 
+        "params": null
+      }, 
+      "list": {
+        "params": {
+          "selector": "div.news-list > a"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "gao7_com"
+    }
+  ]
+}

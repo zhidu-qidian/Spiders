@@ -1,0 +1,40 @@
+{
+  "vrrb.cn": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "div.left521"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": {
+          "params": {
+            "selector": "div.left523"
+          },
+          "method": "select"
+        },
+        "source":null,
+        "editor": null,
+        "clean": null,
+        "date":{
+          "params": {
+            "selector": "div.left522 > span:nth-of-type(2)"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "vrrb.cn": [
+        "0"
+      ]
+    }
+  }
+}

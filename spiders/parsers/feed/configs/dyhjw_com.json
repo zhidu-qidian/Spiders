@@ -1,0 +1,41 @@
+{
+  "domain": "dyhjw.com",
+  "list": [
+        {
+      "publish_time": null,
+      "title": {
+        "params": {
+          "selector": "h2"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": {
+        "params": {
+          "selector": "p"
+        },
+        "method": "select"
+      },
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "ul.col > li"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "dyhjw_com"
+    }
+
+  ]
+}

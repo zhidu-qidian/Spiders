@@ -1,0 +1,54 @@
+{
+  "geekpark.net": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "params": {
+            "selector": "div.topic-info > a.author > span"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "div.top-section > h1"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.topic-cover"
+            }, 
+            "method": "select"
+          }, 
+          {
+            "params": {
+              "selector": "div.article-content"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "极客公园", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "attribute": "data-time", 
+          "params": {
+            "selector": "div.topic-info > span.release-date > span"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "geekpark.net": [
+        "0"
+      ]
+    }
+  }
+}

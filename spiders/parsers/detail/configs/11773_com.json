@@ -1,0 +1,46 @@
+{
+  "11773.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "selector": "div.article_list > h1"
+          }, 
+          "method": "select"
+        }, 
+        "summary": {
+          "params": {
+            "selector": "div.duan_dtal > p.indent"
+          }, 
+          "method": "select"
+        }, 
+        "content": {
+          "params": {
+            "selector": "div.article_cont"
+          }, 
+          "method": "select"
+        }, 
+        "source": null, 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "nth": 0, 
+          "params": {
+            "selector": "div.inforlist"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "11773.com": [
+        "0"
+      ]
+    }
+  }
+}

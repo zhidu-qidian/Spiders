@@ -1,0 +1,41 @@
+{
+  "domain": "laozongyi.com",
+  "list": [
+    {
+      "publish_time":{
+        "params": {
+          "selector": "span.time"
+        },
+        "method": "select"
+      },
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "a.liTitle"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": {
+        "params": {
+          "selector": "div.con"
+        },
+        "method": "select"
+      },
+      "title": {
+        "params": {
+          "selector": "a.liTitle"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "ul.list > li"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "laozongyi_com"
+    }
+  ]
+}

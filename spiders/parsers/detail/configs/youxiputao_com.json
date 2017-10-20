@@ -1,0 +1,48 @@
+{
+  "youxiputao.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "div.title-box > h2"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": [
+          {
+            "params": {
+              "selector": "div.cover"
+            },
+            "method": "select"
+          },
+          {
+            "params": {
+              "selector": "div.info-detail > div.info"
+            },
+            "method": "select"
+          }
+        ],
+        "source": "游戏葡萄",
+        "editor": null,
+        "clean": {
+          "params": {
+            "selector": "h4.title"
+          },
+          "method": "select"
+        },
+        "date": null,
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "youxiputao.com": [
+        "0"
+      ]
+    }
+  }
+}

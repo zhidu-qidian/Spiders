@@ -1,0 +1,42 @@
+{
+  "cnmo.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1"
+          }
+        },
+        "summary": null,
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "div.art_nr"
+            }
+          }
+        ],
+        "source": "手机中国",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "div.title_from > div.l > span:nth-of-type(4)"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "cnmo.com": [
+        "0"
+      ]
+    }
+  }
+}

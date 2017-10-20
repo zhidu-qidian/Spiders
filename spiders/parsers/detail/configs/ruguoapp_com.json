@@ -1,0 +1,72 @@
+{
+  "ruguoapp.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "selector": "head > title"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "section.post-content > ul "
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "即刻资讯", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "attribute": "content", 
+          "params": {
+            "property": "article:published_time"
+          }, 
+          "method": "find"
+        }, 
+        "tags": null, 
+        "before": null
+      }, 
+      "1": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "selector": "h1"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.article_text"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "即刻资讯", 
+        "editor": null, 
+        "clean": null, 
+        "date": null, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "post.ruguoapp.com": [
+        "1"
+      ], 
+      "medium.ruguoapp.com": [
+        "0"
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "myhaowai.cn": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+            "params": {
+              "selector": "title"
+            },
+            "method": "select"
+          },
+        "summary": null,
+        "content": [
+          {
+            "params": {
+              "selector": "div#content"
+            },
+            "method": "select"
+          }
+        ],
+        "source": null,
+        "editor": null,
+        "clean": null,
+        "date": null
+      }},
+      "match": {
+        "myhaowai.cn": [
+          "0"
+        ]
+      }
+    }
+  }

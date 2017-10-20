@@ -1,0 +1,83 @@
+{
+  "autohome.com.cn": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": {
+          "attribute": "title",
+          "method": "select",
+          "params": {
+            "selector": "ul.maxw > li:nth-of-type(1) a "
+          }
+        },
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "div.maxtitle"
+          }
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div.conttxt"
+          }
+        },
+        "source": "汽车之家",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "div.last_editer_and_date"
+          }
+        },
+        "tags": null,
+        "before": {
+          "method": "select",
+          "params": {
+            "selector": "div.w740 > p:nth-of-type(1)"
+          }
+        }
+      },
+      "1": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1"
+          }
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div#articleContent"
+          }
+        },
+        "source": "汽车之家",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "div.article-info"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "club.autohome.com.cn": [
+        "0"
+      ],
+      "autohome.com.cn": [
+        "1"
+      ]
+    }
+  }
+}

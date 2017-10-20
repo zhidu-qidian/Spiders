@@ -1,0 +1,71 @@
+{
+  "xilu.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "div.article > h2"
+          }
+        },
+        "summary": null,
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "div.article > div.art_co"
+            }
+          }
+        ],
+        "source": "西陆网",
+        "editor": null,
+        "clean": null,
+        "date": null,
+        "tags": null,
+        "before": null
+      },
+      "1": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "div.tagpagetitle > h1"
+          }
+        },
+        "summary": null,
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "div#xilucontentid"
+            }
+          }
+        ],
+        "source": "西陆网",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "div.newsinfo_con"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "m.xilu.com": [
+        "0"
+      ],
+      "xilu.com": [
+        "1"
+      ]
+    }
+  }
+}

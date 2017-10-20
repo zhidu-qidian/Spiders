@@ -1,0 +1,38 @@
+{
+  "domain": "zbjuran.com",
+  "list": [
+    {
+      "publish_time": null, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "h3 > a"
+        }, 
+        "method": "select"
+      }, 
+      "thumb":{
+        "attribute": "src",
+        "params": {
+          "selector": "img"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+      "title": {
+        "params": {
+          "selector": "h3"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "div.main > div.item"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "zbjuran_com"
+    }
+  ]
+}

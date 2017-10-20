@@ -1,0 +1,45 @@
+{
+  "domain": "shunwang.com",
+  "list": [
+    {
+      "publish_time": {
+        "params": {
+          "selector": "a > div.info > span.time"
+        },
+        "method": "select"
+      },
+      "title" : {
+        "params": {
+          "selector": "a > h3"
+        },
+        "method": "select"
+      },
+      "url": {
+         "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": {
+        "params": {
+          "selector": "a > div.des"
+        },
+        "method": "select"
+      },
+      "author": null,
+      "list": {
+        "params": {
+          "selector": " div.left > div.listWrap > ul.tabCtList > li"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "shunwang_com"
+    }
+  ]
+}

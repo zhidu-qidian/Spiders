@@ -1,0 +1,50 @@
+{
+  "chanpin100.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after":{
+          "params": {
+            "selector": "div.related"
+          },
+          "method": "select"
+        },
+        "author": {
+          "params": {
+            "selector": "li.author"
+          },
+          "method": "select"
+        },
+        "title": {
+          "params": {
+            "selector": "section.article-title > h2"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": {
+          "params": {
+            "selector": "div.article-content-container"
+          },
+          "method": "select"
+        },
+        "source": null,
+        "editor": null,
+        "clean": null,
+        "date": {
+          "params": {
+            "selector": "div.reporter > time"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "chanpin100.com": [
+        "0"
+      ]
+    }
+  }
+}

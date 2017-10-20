@@ -1,0 +1,40 @@
+{
+  "yinews.cn": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "h1.article-title"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": {
+          "params": {
+            "selector": "article.article-content"
+          },
+          "method": "select"
+        },
+        "source":{
+          "params": {
+            "selector": "div.meta > span:nth-of-type(1) > a"
+          },
+          "method": "select"
+        },
+        "editor": null,
+        "clean": null,
+        "date":null,
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "yinews.cn": [
+        "0"
+      ]
+    }
+  }
+}

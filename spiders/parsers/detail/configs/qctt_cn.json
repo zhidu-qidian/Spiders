@@ -1,0 +1,50 @@
+{
+  "qctt.cn": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": {
+          "params": {
+            "selector": "div.part2 > a"
+          },
+          "method": "select"
+        },
+        "title": {
+          "params": {
+            "selector": "div.title"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": {
+          "params": {
+            "selector": "div.y_text2"
+          },
+          "method": "select"
+        },
+        "source":{
+          "params": {
+            "selector": "span.p_mid"
+          },
+          "method": "select"
+        },
+        "editor": null,
+        "clean": null,
+        "date":{
+          "params": {
+            "selector": "div.part2 span:nth-of-type(2)"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "qctt.cn": [
+        "0"
+      ]
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "oushinet.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": {
+          "params": {
+            "class_": "mb-10", 
+            "name": "div"
+          }
+        }, 
+        "author": null, 
+        "title": {
+          "params": {
+            "name": "h1"
+          }
+        }, 
+        "summary": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "http-equiv": "description"
+            }
+          }
+        }, 
+        "content": {
+          "params": {
+            "name": "div", 
+            "id": "nc_con"
+          }
+        }, 
+        "source": "欧洲时报", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "class_": "info-nr",
+            "name": "div"
+          }
+        }, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "http-equiv": "keywords"
+            }
+          }
+        }, 
+        "before": {
+          "params": {
+            "class_": "t-center", 
+            "name": "div"
+          }
+        }
+      }
+    }, 
+    "match": {
+      "oushinet.com": [
+        "0"
+      ]
+    }
+  }
+}

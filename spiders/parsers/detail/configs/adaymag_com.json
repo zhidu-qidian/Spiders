@@ -1,0 +1,60 @@
+{
+  "adaymag.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": {"params": {"name": "div", "class_": "aday_content_A"}},
+        "author": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "author"
+            }
+          }
+        }, 
+        "title": {
+          "params": {
+            "class_": "entry-title", 
+            "name": "h1"
+          }
+        }, 
+        "summary": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "description"
+            }
+          }
+        }, 
+        "content": {
+          "params": {
+            "class_": "post-content",
+            "name": "div"
+          }
+        }, 
+        "source": "A Day Magazine", 
+        "editor": null, 
+        "clean": {"params": {"name": "div", "class_": "essb_links"}},
+        "date": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "property": "article:published_time"
+            }
+          }
+        }, 
+        "tags": null, 
+        "before": null,
+        "missing":{"params":{"name":"blockquote","class_":"instagram-media"}}
+      }
+    }, 
+    "match": {
+      "adaymag.com": [
+        "0"
+      ]
+    }
+  }
+}

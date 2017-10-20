@@ -1,0 +1,36 @@
+{
+  "domain": "gaoguai.com",
+  "list": [
+    {
+      "publish_time": null, 
+      "author":  {
+        "params": {
+          "selector": "p.joke-uname > a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "span.joke-title > a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": null, 
+      "title": {
+        "params": {
+          "selector": "span.joke-title > a"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "dl.mahua"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "gaoguai_com"
+    }
+  ]
+}

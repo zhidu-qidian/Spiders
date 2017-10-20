@@ -1,0 +1,103 @@
+{
+  "sina.cn": {
+    "configs": {
+      "1": {
+        "extractor": null, 
+        "after": {
+          "params": {
+            "class_": "art_share_btn", 
+            "name": "section"
+          }
+        }, 
+        "author": null, 
+        "title": {
+          "params": {
+            "class_": "art_title_h1", 
+            "name": "h1"
+          }
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "class_": "art_main_card j_article_main", 
+            "name": "section"
+          }
+        }, 
+        "source": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "property": "article:author"
+            }
+          }
+        }, 
+        "editor": null, 
+        "clean": [
+          {
+            "params": {
+              "name": "div", 
+              "id": "wx_pic"
+            }
+          }
+        ], 
+        "date": {
+          "params": {
+            "name": "time"
+          }
+        }, 
+        "tags": null, 
+        "before": {
+          "params": {
+            "class_": "art_title", 
+            "name": "section"
+          }
+        }
+      }, 
+      "2": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "selector": "div.art_title > h1"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "class_": "art_content", 
+            "name": "div"
+          }
+        }, 
+        "source": {
+          "params": {
+            "selector": "div.art_title > p.prot > span.from"
+          }, 
+          "method": "select"
+        }, 
+        "editor": null, 
+        "clean": [
+          {
+            "params": {
+              "name": "a", 
+              "attrs": {
+                "href": "http://tech.sina.cn/2014-09-10/detail-icfkptvx3472315.d.html?vt=4&wm=3185_1001"
+              }
+            }
+          }
+        ], 
+        "date": {
+          "params": {
+            "selector": "div.art_title > p.prot"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {"sina.cn": ["1", "2"]}
+  }
+}

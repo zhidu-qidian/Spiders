@@ -1,0 +1,38 @@
+{
+  "domain": "wixiang.com",
+  "list": [
+    {
+      "publish_time": {
+        "attribute": "div.nlph > p.news-info",
+        "method": "select"
+      },
+      "title" : {
+        "params": {
+          "selector": "h3 > a"
+        },
+        "method": "select"
+      },
+      "url": {
+         "attribute": "href",
+        "params": {
+          "selector": "h3 > a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": " div.news_list > div"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "wixiang_com"
+    }
+  ]
+}

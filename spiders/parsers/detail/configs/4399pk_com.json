@@ -1,0 +1,35 @@
+{
+  "4399pk.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "div.pic-intro.pic-tit"
+          }
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "ul#thumb-ul"
+          }
+        },
+        "source": "4399爆笑一刻",
+        "editor": null,
+        "clean": null,
+        "date": null,
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "4399pk.com": [
+        "0"
+      ]
+    }
+  }
+}

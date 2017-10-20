@@ -1,0 +1,191 @@
+{
+  "jiemian.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": {
+          "params": {
+            "class_": "user",
+            "name": "span"
+          }
+        },
+        "title": {
+          "params": {
+            "class_": "title",
+            "name": "h1"
+          }
+        },
+        "summary": {
+          "attribute": "content",
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "description"
+            }
+          }
+        },
+        "content": {
+          "params": {
+            "class_": "article-content",
+            "name": "div"
+          }
+        },
+        "source": "界面新闻",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "params": {
+            "class_": "date",
+            "name": "span"
+          }
+        },
+        "tags": {
+          "attribute": "content",
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        },
+        "before": null
+      },
+      "1": {
+        "extractor": null,
+        "after": {
+          "params": {
+            "class_": "article-source",
+            "name": "div"
+          }
+        },
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "div.article-header > h1"
+          },
+          "method": "select"
+        },
+        "summary": {
+          "attribute": "content",
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "description"
+            }
+          }
+        },
+        "content": [
+          {
+            "params": {
+              "class_": "article-img",
+              "name": "div"
+            }
+          },
+          {
+            "params": {
+              "class_": "article-content",
+              "name": "div"
+            }
+          }
+        ],
+        "source": {
+          "params": {
+            "selector": "span.author > a"
+          },
+          "method": "select"
+        },
+        "editor": null,
+        "clean": null,
+        "date": {
+          "params": {
+            "class_": "date",
+            "name": "span"
+          }
+        },
+        "tags": {
+          "attribute": "content",
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        },
+        "before": null
+      },
+      "2": {
+        "extractor": null,
+        "after": {
+          "params": {
+            "name": "div",
+            "class_": "article-source"
+          }
+        },
+        "author": {
+          "method": "select",
+          "params": {
+            "selector": "span.author > a"
+          }
+        },
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h3"
+          }
+        },
+        "summary": {
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "description"
+            }
+          },
+          "attribute": "content"
+        },
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "div.picture-header > p:nth-of-type(1) "
+            }
+          },
+          {
+            "method": "select",
+            "params": {
+              "selector": "ul.picture-list "
+            }
+          }
+        ],
+        "source": "界面",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "span.date-time"
+          }
+        },
+        "tags": {
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "keywords"
+            }
+          },
+          "attribute": "content"
+        },
+        "before": null
+      }
+    },
+    "match": {
+      "m.jiemian.com": [
+        "0"
+      ],
+      "jiemian.com": [
+        "1",
+        "2"
+      ]
+    }
+  }
+}

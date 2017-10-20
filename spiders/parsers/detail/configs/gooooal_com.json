@@ -1,0 +1,58 @@
+{
+  "gooooal.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": {
+          "method": "select",
+          "params": {
+            "selector": "div.share2"
+          }
+        },
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "div.news_main > h2"
+          }
+        },
+        "summary": {
+            "method": "select",
+            "params": {
+              "selector": "div.lt_zy"
+            }
+          },
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "div.news_main"
+            }
+          }
+        ],
+        "source": "雪缘网",
+        "editor": null,
+        "clean": null,
+        "date":{
+            "method": "select",
+            "params": {
+              "selector": "div.subtitle"
+            }
+          },
+        "tags": null,
+        "before": {
+          "method": "select",
+          "params": {
+            "selector": "div.subtitle"
+          }
+        }
+      }
+    },
+    "match": {
+      "gooooal.com": [
+        "0"
+      ]
+    }
+  }
+}
+

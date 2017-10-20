@@ -1,0 +1,45 @@
+{
+  "qiwen007.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1"
+          }
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div#textbody"
+          }
+        },
+        "source": "奇闻007",
+        "editor": null,
+        "clean":{
+          "method": "select",
+          "params": {
+            "selector": "div.picinfo"
+          }
+        },
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "span#pubtime_baidu"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "qiwen007.com": [
+        "0"
+      ]
+    }
+  }
+}

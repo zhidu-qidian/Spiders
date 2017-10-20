@@ -1,0 +1,34 @@
+{
+  "www.meitulu.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "name": "h1"
+          }
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "class_": "content", 
+            "name": "div"
+          }
+        }, 
+        "source": "美图录", 
+        "editor": null, 
+        "clean": null, 
+        "date": null, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "www.meitulu.com": [
+        "0"
+      ]
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "bohaishibei.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "params": {
+            "selector": "div.post-container > div.meta > a"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "h1.article-title > a"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "article.article-content"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "博海拾贝", 
+        "editor": null, 
+        "clean": null, 
+        "date": null, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "bohaishibei.com": [
+        "0"
+      ]
+    }
+  }
+}

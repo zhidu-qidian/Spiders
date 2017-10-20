@@ -1,0 +1,153 @@
+{
+  "gmw.cn": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": {
+          "params": {
+            "name": "div", 
+            "id": "displaypagenum"
+          }
+        }, 
+        "author": {
+          "params": {
+            "id": "author", 
+            "name": "span"
+          }
+        }, 
+        "title": {
+          "params": {
+            "id": "articleTitle", 
+            "name": "h1"
+          }
+        }, 
+        "summary": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "description"
+            }
+          }
+        }, 
+        "content": {
+          "params": {
+            "id": "contentMain", 
+            "name": "div"
+          }
+        }, 
+        "source": {
+          "params": {
+            "selector": "span#source > a"
+          }, 
+          "method": "select"
+        }, 
+        "editor": null, 
+        "clean": [
+          {
+            "params": {
+              "name": "div", 
+              "id": "contentLiability"
+            }
+          }, 
+          {
+            "params": {
+              "name": "div", 
+              "id": "mpagecount"
+            }
+          }, 
+          {
+            "params": {
+              "name": "div", 
+              "id": "mcurrentpage"
+            }
+          }, 
+          {
+            "params": {
+              "name": "div", 
+              "id": "pageNum"
+            }
+          }, 
+          {
+            "params": {
+              "src": "http://v.gmw.cn/tplimg/hand.gif", 
+              "name": "img"
+            }
+          }, 
+          {
+            "params": {
+              "href": "http://v.gmw.cn/", 
+              "name": "a"
+            }
+          }, 
+          {
+            "params": {
+              "href": "http://www.gmw.cn", 
+              "name": "a"
+            }
+          }
+        ], 
+        "date": {
+          "params": {
+            "id": "pubTime", 
+            "name": "span"
+          }
+        }, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        }, 
+        "before": null
+      }, 
+      "1": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "name": "h1"
+          }
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "name": "div", 
+            "id": "gallery"
+          }
+        }, 
+        "source": {
+          "params": {
+            "id": "source", 
+            "name": "a"
+          }
+        }, 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "name": "time"
+          }
+        }, 
+        "tags": null, 
+        "before": {
+          "params": {
+            "name": "header"
+          }
+        }
+      }
+    }, 
+    "match": {
+      "gmw.cn": [
+        "0"
+      ], 
+      "m.gmw.cn/gallery": [
+        "1"
+      ]
+    }
+  }
+}

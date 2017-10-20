@@ -1,0 +1,68 @@
+{
+  "domain": "chinaautonews.com.cn",
+  "list": [
+    {
+      "publish_time": null,
+      "title": {
+        "attribute": "title",
+        "params": {
+          "selector": "a,h3 > a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a,h3 > a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "div.top-list > div.topic-item,div.wrap > div:nth-of-type(4) div.bd-right > ul > li"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "chinaautonews_hot"
+    },
+    {
+      "publish_time": null,
+      "title": {
+        "attribute": "title",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "thumb": {"params": {"selector": "a > img"}, "method": "select", "attribute": "src"},
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "ul.banner > li"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "chinaautonews_picture_banner"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "domain": "www.15666.com", 
+  "list": [
+    {
+      "publish_time": null, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "h4 > a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": {
+        "params": {
+          "selector": "p"
+        }, 
+        "method": "select"
+      }, 
+      "title": {
+        "attribute": "title", 
+        "params": {
+          "selector": "h4 > a"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "ul.pic-txt > li"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "15666_com"
+    }
+  ]
+}

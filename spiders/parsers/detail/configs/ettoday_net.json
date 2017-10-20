@@ -1,0 +1,77 @@
+{
+  "ettoday.net": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": {
+          "params": {
+            "class_": "recom-events", 
+            "name": "div"
+          }
+        }, 
+        "author": null, 
+        "title": {
+            "params": {
+              "selector": "h1,h2"
+            },
+            "method": "select"
+          },
+        "summary": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "description"
+            }
+          }
+        }, 
+        "content": {
+          "params": {
+            "class_": "story", 
+            "name": "div"
+          }
+        }, 
+        "source": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "source"
+            }
+          }
+        }, 
+        "editor": null, 
+        "clean": [
+          {
+            "params": {
+              "class_": "test-keyword", 
+              "name": "div"
+            }
+          }, 
+          {
+            "params": {
+              "class_": "block", 
+              "name": "div"
+            }
+          }
+        ], 
+        "date": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "pubdate"
+            }
+          }
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "ettoday.net": [
+        "0"
+      ]
+    }
+  }
+}

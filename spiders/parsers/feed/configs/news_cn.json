@@ -1,0 +1,36 @@
+{
+  "domain": "news.cn", 
+  "list": [
+    {
+      "publish_time": {
+        "params": {
+          "selector": "div.info > span.time"
+        }, 
+        "method": "select"
+      }, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "h3 > a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": null, 
+      "title": {
+        "params": {
+          "selector": "h3 > a"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "li.clearfix"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "news_cn"
+    }
+  ]
+}

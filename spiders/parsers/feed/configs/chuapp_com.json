@@ -1,0 +1,35 @@
+{
+  "domain": "chuapp.com",
+  "list": [
+    {
+      "publish_time": null,
+      "title" : {
+        "attribute": "title",
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": {
+        "params": {
+          "selector": " em "
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": " div.category-list > a"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "chuapp_com"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "domain": "guancha.cn",
+  "conf": {
+    "START": 2,
+    "NUMBER": {
+      "type":"last",
+      "params": {
+        "selector": "div.module-page > a"
+      },
+      "method": "select"
+    },
+    "TEMPLATE": {
+      "join": false,
+      "template": "_%s.shtml"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "domain": "happyjuzi.com",
+  "list": [
+    {
+      "publish_time": null,
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+      "title": {
+        "attribute": "title",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "div.pc-detail-left > div.pc-item "
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "type":"html",
+      "crawler": "happyjuzi"
+    }
+  ]
+}

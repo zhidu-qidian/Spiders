@@ -1,0 +1,17 @@
+{
+  "domain": "juemei.com",
+  "conf": {
+    "START": 2,
+    "NUMBER": {
+      "params": {
+        "selector": "div.page > a"
+      },
+      "type": "sum",
+      "method": "select"
+    },
+    "TEMPLATE": {
+      "join": false,
+      "template": "_%s.html"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "www.youxiduo.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": {
+          "nth": 2,
+          "params": {
+            "selector": "div.contentTitle > p > span"
+          },
+          "method": "select"
+        },
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1"
+          }
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div.art , div.contBox  > div.contP"
+          }
+        },
+        "source": null,
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "div.contentTitle div.article > p > span:nth-of-type(1)"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "www.youxiduo.com": [
+        "0"
+      ]
+    }
+  }
+}

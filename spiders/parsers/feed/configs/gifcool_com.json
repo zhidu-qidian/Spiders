@@ -1,0 +1,37 @@
+{
+  "domain": "gifcool.com",
+  "list": [
+    {
+      "publish_time": {
+        "attribute": "title",
+        "params": {
+          "selector": "span.g9.ml50"
+        },
+        "method": "select"
+      },
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "div.title a"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+      "title": {
+        "params": {
+          "selector": "div.title a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "ul.list > li"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "gifcool_com"
+    }
+  ]
+}

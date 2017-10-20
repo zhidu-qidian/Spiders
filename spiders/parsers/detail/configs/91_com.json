@@ -1,0 +1,45 @@
+{
+  "91.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": {
+          "params": {
+            "selector": "div.pages_c"
+          }, 
+          "method": "select"
+        }, 
+        "author": null, 
+        "title": {
+          "params": {
+            "selector": "h1.arc-tit"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "selector": "div.arc-body"
+          }, 
+          "method": "select"
+        }, 
+        "source": null, 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "p.post-info-s > span.time"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "91.com": [
+        "0"
+      ]
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "shunwang.com": {
+    "configs": {
+            "0": {
+        "extractor": null,
+        "after": null,
+        "author": {
+          "params": {
+            "selector": "p.articleInfo > span:nth-of-type(2) > em"
+          },
+          "method": "select"
+        },
+        "title": {
+          "params": {
+            "selector": "div.articleMain > h2"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": [
+          {
+            "params": {
+              "selector": "div.article-content"
+            },
+            "method": "select"
+          }
+        ],
+        "source":{
+          "params": {
+            "selector": "p.articleInfo > span:nth-of-type(3) > em"
+          },
+          "method": "select"
+        },
+        "editor": null,
+        "clean": null,
+        "date": {
+          "params": {
+            "selector": "p.articleInfo > span:nth-of-type(1) > em"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": null
+      }
+
+    },
+    "match": {
+      "shunwang.com": [
+        "0"
+      ]
+    }
+  }
+}

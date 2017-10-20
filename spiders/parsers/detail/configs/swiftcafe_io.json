@@ -1,0 +1,60 @@
+{
+  "swiftcafe.io": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": {
+          "params": {
+            "selector": "hr"
+          }, 
+          "method": "select"
+        }, 
+        "author": {
+          "params": {
+            "selector": "article#post-wx-weather-app > header > span"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "h1.article-title.entry-title"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.entry-content"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "swiftcafe.io", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "article#post-wx-weather-app > header > time"
+          }, 
+          "method": "select"
+        }, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        }, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "swiftcafe.io": [
+        "0"
+      ]
+    }
+  }
+}

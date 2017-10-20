@@ -1,0 +1,47 @@
+{
+  "miaopai.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "params": {
+            "selector": "div.D_head_name > h1 > a"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "div.introduction > p"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.video_flash"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "秒拍", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "div.D_head_name > h2 > b"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "miaopai.com": [
+        "0"
+      ]
+    }
+  }
+}

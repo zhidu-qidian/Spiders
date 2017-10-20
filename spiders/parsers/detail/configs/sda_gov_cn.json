@@ -1,0 +1,42 @@
+{
+  "sda.gov.cn": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "selector": "td.articletitle3 > font"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "td.articlecontent3"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "国家视频药品监督管理总局官网", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "td.articletddate3"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "sda.gov.cn": [
+        "0"
+      ]
+    }
+  }
+}

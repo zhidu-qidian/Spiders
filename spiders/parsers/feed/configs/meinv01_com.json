@@ -1,0 +1,32 @@
+{
+  "domain": "meinv01.com", 
+  "list": [
+    {
+      "publish_time": null, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": null, 
+      "title": {
+        "attribute": "alt", 
+        "params": {
+          "selector": "a > img"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "div#conta > div.conlista div.starleft > ul > li > span"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "meinv01_com"
+    }
+  ]
+}

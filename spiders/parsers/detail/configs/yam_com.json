@@ -1,0 +1,50 @@
+{
+  "yam.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "h1"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": [
+          {
+            "params": {
+              "selector": "div.mainBox"
+            },
+            "method": "select"
+          }
+        ],
+        "source": "DQ地球图辑队",
+        "editor": null,
+        "clean": [
+          {
+            "params": {
+              "selector": "div.noteBar"
+            },
+            "method": "select"
+          },
+          {
+            "params": {
+              "selector": "header"
+            },
+            "method": "select"
+          }
+        ],
+        "date": null,
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "dq.yam.com": [
+        "0"
+      ]
+    }
+  }
+}

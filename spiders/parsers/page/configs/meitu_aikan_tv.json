@@ -1,0 +1,16 @@
+{
+  "domain": "meitu.aikan.tv", 
+  "conf": {
+    "START": 2, 
+    "NUMBER": {
+      "params": {
+        "id": "allnum", 
+        "name": "span"
+      }
+    }, 
+    "TEMPLATE": {
+      "join": false, 
+      "template": "_%s.html"
+    }
+  }
+}

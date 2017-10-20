@@ -1,0 +1,64 @@
+{
+  "chinatimes.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "params": {
+            "selector": "div.re_name > cite > a"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "article > header > h1"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "selector": "article > article"
+          }, 
+          "method": "select"
+        }, 
+        "source": "中时电子报", 
+        "editor": null, 
+        "clean": [
+          {
+            "params": {
+              "name": "div", 
+              "id": "div-inread-ad"
+            }
+          }, 
+          {
+            "params": {
+              "name": "div", 
+              "id": "admaru"
+            }
+          }, 
+          {
+            "params": {
+              "name": "div", 
+              "id": "div-mobile-inread"
+            }
+          }
+        ], 
+        "date": {
+          "params": {
+            "selector": "div.reporter > time"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "chinatimes.com": [
+        "0"
+      ]
+    }
+  }
+}

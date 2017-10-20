@@ -1,0 +1,32 @@
+{
+  "domain": "99.com.cn",
+  "list": [
+    {
+      "publish_time": null, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "h2 > a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": null, 
+      "title": {
+
+        "params": {
+          "selector": "h2 > a"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "div.a_list > div"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "99_com_cn"
+    }
+  ]
+}

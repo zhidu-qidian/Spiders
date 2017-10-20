@@ -1,0 +1,45 @@
+{
+  "gaoguai.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": {
+          "method": "select",
+          "params": {
+            "selector": "p.joke-uname > a"
+          }
+        },
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1.joke-title"
+          }
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "dd.content"
+          }
+        },
+        "source": "搞怪网",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "p.joke-uname > span"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "gaoguai.com": [
+        "0"
+      ]
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "blog.yitianshijie.net": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "params": {
+            "selector": "span.author.vcard > a"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "h1.entry-title"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.entry-content"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "blog.yitianshijie.net", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "time"
+          }, 
+          "method": "select"
+        }, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        }, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "blog.yitianshijie.net": [
+        "0"
+      ]
+    }
+  }
+}

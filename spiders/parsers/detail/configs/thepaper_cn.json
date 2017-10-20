@@ -1,0 +1,101 @@
+{
+  "thepaper.cn": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "class_": "news_title", 
+            "name": "h1"
+          }
+        }, 
+        "summary": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "Description"
+            }
+          }
+        }, 
+        "content": {
+          "params": {
+            "class_": "news_txt", 
+            "name": "div"
+          }
+        }, 
+        "source": "澎湃新闻", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "class_": "news_about", 
+            "name": "div"
+          }
+        }, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "Keywords"
+            }
+          }
+        }, 
+        "before": null
+      }, 
+      "1": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "params": {
+            "selector": "div.news_content > p:nth-of-type(1)"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "h1.t_newsinfo"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.news_part"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "m.thepaper.cn", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "div.news_content > p:nth-of-type(2)"
+          }, 
+          "method": "select"
+        }, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "Keywords"
+            }
+          }
+        }, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "thepaper.cn": [
+        "0", 
+        "1"
+      ]
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "hjzlg.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "div.side_right > center"
+          }
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div#size"
+          }
+        },
+        "source": "韩剧资料馆",
+        "editor": null,
+        "clean": null,
+        "date": null,
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "hjzlg.com": [
+        "0"
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "domain": "rtz.cc",
+  "conf": {
+    "START": 2,
+    "NUMBER": {
+      "params": {
+        "selector": "div.page-show > a"
+      },
+      "type": "last",
+      "method": "select"
+    },
+    "TEMPLATE": {
+      "join": false,
+      "template": "%s.htm"
+    }
+  }
+}

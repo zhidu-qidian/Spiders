@@ -1,0 +1,36 @@
+{
+  "domain": "pansci.asia", 
+  "list": [
+    {
+      "publish_time": null, 
+      "title": {
+        "attribute": "title", 
+        "params": {
+          "selector": "div > a"
+        }, 
+        "method": "select"
+      }, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "div > a"
+        }, 
+        "method": "select"
+      }, 
+      "skip": null, 
+      "abstract": null, 
+      "author": null, 
+      "list": {
+        "params": {
+          "selector": "div.content > div.list_category"
+        }, 
+        "method": "select"
+      }, 
+      "filter": null, 
+      "publish_site": null, 
+      "keywords": null, 
+      "type": "html", 
+      "crawler": "pansci"
+    }
+  ]
+}

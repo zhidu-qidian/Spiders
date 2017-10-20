@@ -1,0 +1,54 @@
+{
+  "xymens.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "params": {
+            "selector": "p.Author"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "div.arc_info > p"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.information"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "XY MENS", 
+        "editor": null, 
+        "clean": {
+          "params": {
+            "name": "section", 
+            "attrs": {
+              "style": "margin-bottom: 10px;margin-top: 25px;"
+            }
+          }
+        }, 
+        "date": {
+          "params": {
+            "selector": "div.time > span.t"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "xymens.com": [
+        "0"
+      ]
+    }
+  }
+}

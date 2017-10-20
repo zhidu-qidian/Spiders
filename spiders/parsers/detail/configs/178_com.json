@@ -1,0 +1,47 @@
+{
+  "178.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "div#content-header > h2"
+          }
+        },
+        "summary": null,
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "div#main-content"
+            }
+          }
+        ],
+        "source": {
+          "method": "select",
+          "params": {
+            "selector": "div.artInfo > a"
+          }
+        },
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "p#content-meta"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "178.com": [
+        "0"
+      ]
+    }
+  }
+}

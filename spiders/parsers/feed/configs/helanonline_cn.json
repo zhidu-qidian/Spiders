@@ -1,0 +1,36 @@
+{
+  "domain": "hhelanonline.cn",
+  "list": [
+        {
+      "publish_time": null,
+      "title": {
+        "params": {
+          "selector": "h2.node-title"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "div.teaser-content > a "
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "div.node-article > div.content"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "helanonline_cn"
+    }
+
+  ]
+}

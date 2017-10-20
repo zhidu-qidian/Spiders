@@ -1,0 +1,32 @@
+{
+  "domain": "www.15666.com.syzpc", 
+  "list": [
+    {
+      "publish_time": null, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": null, 
+      "title": {
+        "attribute": "title", 
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "ul.newslist > li"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "15666_com_syzpc"
+    }
+  ]
+}

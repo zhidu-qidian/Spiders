@@ -1,0 +1,68 @@
+{
+  "pclady.com.cn": {
+    "configs": {
+      "0": {
+        "extractor": "pclady",
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h2.pic-title"
+          }
+        },
+        "summary": null,
+        "content": null,
+        "source": "太平洋时尚网",
+        "editor": null,
+        "clean": null,
+        "date": null,
+        "tags": null,
+        "before": null
+      },
+      "1": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "div.artCon > h1"
+          }
+        },
+        "summary": null,
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "div.artSum"
+            }
+          },
+          {
+            "method": "select",
+            "params": {
+              "selector": "div#artText"
+            }
+          }
+        ],
+        "source": "太平洋时尚网",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "span.pubTime"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "pclady.com.cn": [
+        "0",
+        "1"
+      ]
+    }
+  }
+}

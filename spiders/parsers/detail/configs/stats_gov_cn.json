@@ -1,0 +1,55 @@
+{
+  "stats.gov.cn": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "params": {
+            "selector": "div.main > div.center > div.center_xilan > font > font > font"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "h2"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.TRS_Editor > div"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "中国国家统计局", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "div.main > div.center > div.center_xilan > font > font"
+          }, 
+          "method": "select"
+        }, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        }, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "stats.gov.cn": [
+        "0"
+      ]
+    }
+  }
+}

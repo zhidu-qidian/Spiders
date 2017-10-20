@@ -1,0 +1,36 @@
+{
+  "domain": "youxiputao.com",
+  "list": [
+    {
+      "publish_time": null,
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "div.right > h4 > a"
+        },
+        "method": "select"
+      },
+      "abstract": {
+        "params": {
+          "selector": "div.right > p:nth-of-type(1)"
+        },
+        "method": "select"
+      },
+      "title": {
+        "params": {
+          "selector": "div.right > h4 > a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "ul.news-list > li"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "youxiputao_com"
+    }
+  ]
+}

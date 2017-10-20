@@ -1,0 +1,44 @@
+{
+  "m.v4.cc": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "name": "h1"
+          }
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "id": "content", 
+            "name": "div"
+          }
+        }, 
+        "source": {
+          "params": {
+            "selector": "div.c2 > a"
+          }, 
+          "method": "select"
+        }, 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "class_": "c2", 
+            "name": "div"
+          }
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "m.v4.cc": [
+        "0"
+      ]
+    }
+  }
+}

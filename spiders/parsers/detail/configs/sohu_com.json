@@ -1,0 +1,301 @@
+{
+  "sohu.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": {
+          "params": {
+            "class_": "editShare clear",
+            "name": "div"
+          }
+        },
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "div#contentA h1"
+          },
+          "method": "select"
+        },
+        "summary": {
+          "attribute": "content",
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "description"
+            }
+          }
+        },
+        "content": {
+          "params": {
+            "name": "div",
+            "id": "contentText"
+          }
+        },
+        "source": {
+          "params": {
+            "id": "media_span",
+            "name": "span"
+          }
+        },
+        "editor": null,
+        "clean": null,
+        "date": {
+          "params": {
+            "class_": "time",
+            "name": "div"
+          }
+        },
+        "tags": {
+          "attribute": "content",
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        },
+        "before": null
+      },
+      "1": {
+        "extractor": null,
+        "after": {
+          "params": {
+            "class_": "pages",
+            "name": "div"
+          }
+        },
+        "author": null,
+        "title": {
+          "params": {
+            "name": "h1"
+          }
+        },
+        "summary": {
+          "attribute": "content",
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "description"
+            }
+          }
+        },
+        "content": {
+          "params": {
+            "name": "div",
+            "attrs": {
+              "itemprop": "articleBody"
+            }
+          }
+        },
+        "source": [
+          {
+            "params": {
+              "selector": "span#media_span > a > span:nth-of-type(1)"
+            },
+            "method": "select"
+          },
+          {
+            "params": {
+              "name": "span",
+              "attrs": {
+                "itemprop": "name"
+              }
+            }
+          }
+        ],
+        "editor": null,
+        "clean": [
+          {
+            "params": {
+              "name": "iframe"
+            }
+          },
+          {
+            "params": {
+              "name": "img",
+              "attrs": {
+                "src": "http://i0.itc.cn/20151211/30b2_f69c532d_99ca_2a3f_8f8b_a1300d846859_1.jpg"
+              }
+            }
+          },
+          {
+            "params": {
+              "name": "table"
+            }
+          },
+          {
+            "params": {
+              "selector": "p#mpCover"
+            },
+            "method": "select"
+          }
+        ],
+        "date": [
+          {
+            "params": {
+              "class_": "time-source",
+              "name": "div"
+            }
+          },
+          {
+            "params": {
+              "name": "span",
+              "id": "pubtime_baidu"
+            }
+          }
+        ],
+        "tags": {
+          "attribute": "content",
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        },
+        "before": {
+          "params": {
+            "class_": "sele-frag",
+            "name": "div"
+          }
+        }
+      },
+      "2": {
+        "extractor": null,
+        "after": {
+          "params": {
+            "name": "span",
+            "attrs": {
+              "id": "url"
+            }
+          }
+        },
+        "author": {"params": {"selector": "span#author_baidu"}, "method": "select"},
+        "title": {
+          "params": {
+            "name": "h1"
+          }
+        },
+        "summary": {
+          "attribute": "content",
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "description"
+            }
+          }
+        },
+        "content": {
+          "params": {
+            "name": "div",
+            "id": "contentText"
+          }
+        },
+        "source": {
+          "params": {
+            "itemprop": "name",
+            "name": "span"
+          }
+        },
+        "editor": null,
+        "clean": {
+          "params": {
+            "name": "iframe"
+          }
+        },
+        "date": {
+          "params": {
+            "name": "div",
+            "id": "pubtime_baidu"
+          }
+        },
+        "tags": {
+          "attribute": "content",
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        },
+        "before": null
+      },
+      "3": {
+        "extractor": null,
+        "after": null,
+        "author": {
+            "params": {
+              "selector": "div.article-info > span:nth-of-type(2) > a"
+            },
+            "method": "select"
+          },
+        "title":{
+            "params": {
+              "selector": "h1"
+            },
+            "method": "select"
+          },
+        "summary":null,
+        "content": {
+            "params": {
+              "selector": "article.article"
+            },
+            "method": "select"
+          },
+        "source": null,
+        "editor": null,
+        "clean":{
+          "params": {
+            "data-role": "original-title",
+            "name": "p"
+          }
+        },
+        "date":{
+            "attribute": "data-val",
+            "params": {
+              "selector": "span#news-time"
+            },
+            "method": "select"
+          },
+        "tags": null,
+        "before": null
+
+      },
+            "4": {
+        "extractor": "sohupic",
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1"
+          }
+        },
+        "summary": null,
+        "content": {},
+        "source": "搜狐",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "em.timt"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "auto.sohu.com": [
+        "0"
+      ],
+      "sohu.com": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ]
+    }
+  }
+}

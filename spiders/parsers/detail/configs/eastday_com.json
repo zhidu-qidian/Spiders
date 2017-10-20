@@ -1,0 +1,82 @@
+{
+  "eastday.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "h1 > span"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": {
+          "params": {
+            "selector": "div.J-contain_detail_cnt.contain_detail_cnt"
+          },
+          "method": "select"
+        },
+        "source":{
+          "params": {
+            "selector": "div.share_cnt_p > i:nth-of-type(2)"
+          },
+          "method": "select"
+        },
+        "editor": null,
+        "clean": null,
+        "date":{
+          "params": {
+            "selector": "div.share_cnt_p > i:nth-of-type(1)"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": null
+      },
+      "1": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "h1"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": {
+          "params": {
+            "selector": "ul#sliderList"
+          },
+          "method": "select"
+        },
+        "source":{
+          "params": {
+            "selector": "div.laiyuan > i:nth-of-type(2)"
+          },
+          "method": "select"
+        },
+        "editor": null,
+        "clean": null,
+        "date":{
+          "params": {
+            "selector": "div.laiyuan > i:nth-of-type(1)"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "mini.eastday.com": [
+        "0"
+      ],
+      "miniimg.eastday.com": [
+        "1"
+      ]
+    }
+  }
+}

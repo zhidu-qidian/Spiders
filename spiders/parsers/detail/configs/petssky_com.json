@@ -1,0 +1,30 @@
+{
+  "petssky.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "h1.entry-title"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": {"params": {"selector": "div.single-content"}, "method": "select"},
+        "source": "宠物天空",
+        "editor": null,
+        "clean": [{"params": {"selector": "span.abstract"}, "method": "select"}],
+        "date": null,
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "petssky.com": [
+        "0"
+      ]
+    }
+  }
+}

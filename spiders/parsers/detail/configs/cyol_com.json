@@ -1,0 +1,42 @@
+{
+  "cyol.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1"
+          }
+        },
+        "summary": null,
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "div.zhengwen"
+            }
+          }
+        ],
+        "source": "中青在线",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "h6"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "cyol.com": [
+        "0"
+      ]
+    }
+  }
+}

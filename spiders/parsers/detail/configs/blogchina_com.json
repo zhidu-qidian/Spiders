@@ -1,0 +1,50 @@
+{
+  "blogchina.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": {
+          "method": "select",
+          "params": {
+            "selector": "div#userimg > a > span.c"
+          }
+        },
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "div.title > div"
+          }
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div.article > div.editable"
+          }
+        },
+        "source": {
+          "method": "select",
+          "params": {
+            "selector": "div#userimg > a > span.c"
+          }
+        },
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "div.meta-top > span.time"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "blogchina.com": [
+        "0"
+      ]
+    }
+  }
+}

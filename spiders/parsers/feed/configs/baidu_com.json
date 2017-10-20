@@ -1,0 +1,49 @@
+{
+  "domain": "baidu.com",
+  "list": [
+    {
+      "publish_time": "created_at",
+      "title" : "title",
+      "url": "url",
+      "skip": null,
+      "abstract": "abstract",
+      "author": null,
+      "list": "data|items",
+      "filter": null,
+      "publish_site": "writer_name",
+      "keywords": null,
+      "type": "ajax",
+      "crawler": "baijia_baidu"
+    },
+    {
+      "publish_time": "sourcets",
+      "title" : "title",
+      "url": "url",
+      "skip": null,
+      "abstract": "long_abs",
+      "author": null,
+      "list": "data|list",
+      "filter": null,
+      "publish_site": "site",
+      "keywords": null,
+      "type": "ajax",
+      "crawler": "baidu_bjjx"
+    },
+    {
+      "publish_time": "sourcets",
+      "title" : "title",
+      "url": "url",
+      "skip": null,
+      "abstract": "long_abs",
+      "author": null,
+      "list": "data|list",
+      "filter": null,
+      "publish_site": "site",
+      "keywords": null,
+      "type": "ajax",
+      "crawler": "baidu_app"
+    }
+
+
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "meitu.aikan.tv": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": {
+          "params": {
+            "class_": "picpege", 
+            "name": "div"
+          }
+        }, 
+        "author": null, 
+        "title": {
+          "params": {
+            "name": "h1"
+          }
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "class_": "picsbox picsboxcenter", 
+            "name": "div"
+          }
+        }, 
+        "source": "爱看美图", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "p.pleft > span:nth-of-type(2)"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "meitu.aikan.tv": [
+        "0"
+      ]
+    }
+  }
+}

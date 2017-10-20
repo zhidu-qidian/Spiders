@@ -1,0 +1,58 @@
+{
+  "domain": "huxiu.com",
+  "list": [
+    {
+      "publish_time": null,
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "div.mob-ctt > h2 > a"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+      "title": {
+        "params": {
+          "selector": "div.mob-ctt > h2 > a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "div.mod-b.mod-art"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "huxiu_com"
+    },
+    {
+      "publish_time": null,
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+      "title": {
+        "attribute": "title",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "div.big-pic-box > div"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "huxiu_hot"
+    }
+  ]
+}

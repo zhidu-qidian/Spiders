@@ -1,0 +1,45 @@
+{
+  "www.weixinkd.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "class_": "rich_media_title", 
+            "name": "h2"
+          }
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "name": "div", 
+            "id": "box"
+          }
+        }, 
+        "source": {
+          "params": {
+            "class_": "rich_media_meta link nickname", 
+            "name": "a"
+          }
+        }, 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "class_": "rich_media_meta text", 
+            "name": "em"
+          }
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "www.weixinkd.com": [
+        "0"
+      ]
+    }
+  }
+}

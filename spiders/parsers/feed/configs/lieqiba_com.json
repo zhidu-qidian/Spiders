@@ -1,0 +1,42 @@
+{
+  "domain": "lieqiba.com",
+  "list": [
+    {
+      "publish_time": {
+        "params": {
+          "selector": "time"
+        },
+        "method": "select"
+      },
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "abstract": {
+        "params": {
+          "selector": "span > p"
+        },
+        "method": "select"
+      },
+      "title": {
+        "attribute": "title",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "div.box_list > ul > li"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "lieqiba_com"
+    }
+  ]
+}

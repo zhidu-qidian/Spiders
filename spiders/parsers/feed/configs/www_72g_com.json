@@ -1,0 +1,48 @@
+{
+  "domain": "www.72g.com", 
+  "list": [
+    {
+      "publish_time": {
+        "params": {
+          "selector": "div.news-brief > span.news-time"
+        }, 
+        "method": "select"
+      }, 
+      "author": {
+        "method": "select", 
+        "patams": {
+          "selector": "div.news-brief > span.news-editor"
+        }
+      }, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select", 
+        "nth": 2
+      }, 
+      "abstract": {
+        "params": {
+          "selector": "p"
+        }, 
+        "method": "select"
+      }, 
+      "title": {
+        "nth": 2, 
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "div.news-list > ul > li"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "72g_com"
+    }
+  ]
+}

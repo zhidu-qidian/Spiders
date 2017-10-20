@@ -1,0 +1,41 @@
+{
+  "domain": "xiaopi.com",
+  "list": [
+    {
+      "publish_time": {
+        "params": {
+          "selector": "p.p_time"
+        },
+        "method": "select"
+      },
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "p.p_title > a"
+        },
+        "method": "select"
+      },
+      "abstract": {
+        "params": {
+          "selector": "p.p_intro"
+        },
+        "method": "select"
+      },
+      "title": {
+        "params": {
+          "selector": "p.p_title > a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "div.main_md_lf > div.tab_list > ul > li"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "xiaopi_com"
+    }
+  ]
+}

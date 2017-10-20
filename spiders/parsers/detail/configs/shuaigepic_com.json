@@ -1,0 +1,35 @@
+{
+  "shuaigepic.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "dt.title"
+          }
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div#disappear"
+          }
+        },
+        "source": "帅哥图片网",
+        "editor": null,
+        "clean": null,
+        "date": null,
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "shuaigepic.com": [
+        "0"
+      ]
+    }
+  }
+}

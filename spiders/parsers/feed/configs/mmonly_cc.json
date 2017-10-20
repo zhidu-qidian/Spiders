@@ -1,0 +1,36 @@
+{
+  "domain": "mmonly.cc", 
+  "list": [
+    {
+      "publish_time": {
+        "params": {
+          "selector": "div.item_b > div.items_likes"
+        }, 
+        "method": "select"
+      }, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "div.item_b > div.title > span > a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": null, 
+      "title": {
+        "params": {
+          "selector": "div.item_b > div.title > span > a"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "div.item.masonry_brick.masonry-brick"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "mmonly_cc"
+    }
+  ]
+}

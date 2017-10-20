@@ -1,0 +1,683 @@
+{
+  "domain": "qq.com",
+  "list": [
+    {
+      "publish_time": {
+        "params": {
+          "selector": "h5"
+        },
+        "method": "select"
+      },
+      "title": {
+        "params": {
+          "selector": "h3 > a "
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "ul#LIST_LM > li"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": {
+        "params": {
+          "selector": "h5 > a"
+        },
+        "method": "select"
+      },
+      "type": "html",
+      "crawler": "qq_auto"
+    },
+    {
+      "publish_time": {
+        "params": {
+          "selector": "p.newsInfo > span.date"
+        },
+        "method": "select"
+      },
+      "title": {
+        "params": {
+          "selector": "h3 > a "
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "h3 > a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": {
+        "params": {
+          "selector": "div.nrP"
+        },
+        "method": "select"
+      },
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "div.nrC"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "qq_ent"
+    },
+    {
+      "publish_time": {
+        "params": {
+          "selector": "div.info > p.time > span.date"
+        },
+        "method": "select"
+      },
+      "title": {
+        "params": {
+          "selector": "div.info > h2.title > a "
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "div.info > h2.title > a "
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "div.item.clearfix"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "qq_ent_star"
+    },
+    {
+      "publish_time": {
+        "params": {
+          "selector": "p > em"
+        },
+        "method": "select"
+      },
+      "title": {
+        "params": {
+          "selector": "h5 > a "
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "h5 > a "
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "ul.newsList > li"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "qq_ent_view"
+    },
+    {
+      "publish_time": {
+        "params": {
+          "selector": "div.txt > p.timeSoc > span"
+        },
+        "method": "select"
+      },
+      "title": {
+        "params": {
+          "selector": "div.txt > h2 > a "
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "div.pic > a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": {
+        "params": {
+          "selector": "div.txt > p:nth-of-type(2)"
+        },
+        "method": "select"
+      },
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "li.cf"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": {
+        "params": {
+          "selector": "div.txt > p.bot > span.lanmu > a"
+        },
+        "method": "select"
+      },
+      "type": "html",
+      "crawler": "qq_fashion"
+    },
+    {
+      "publish_time": {
+        "params": {
+          "selector": "p.time"
+        },
+        "method": "select"
+      },
+      "title": {
+        "params": {
+          "selector": "em > a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "em > a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": {
+        "params": {
+          "selector": "p.intro"
+        },
+        "method": "select"
+      },
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "div#listZone > div.Q-tpWrap"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "qq_finance"
+    },
+    {
+      "publish_time": {
+        "params": {
+          "selector": "div.bd > p.info"
+        },
+        "method": "select"
+      },
+      "title": {
+        "params": {
+          "selector": "div.bd > h2 > a "
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "div.bd > h2 > a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": {
+        "params": {
+          "selector": "div.bd > p.text > span"
+        },
+        "method": "select"
+      },
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "div#listZone > div.sBox "
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": {
+        "params": {
+          "selector": "div.bd > p.info > span"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "type": "html",
+      "crawler": "qq_health"
+    },
+    {
+      "publish_time": null,
+      "title": "title",
+      "url": "url",
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": "newslist",
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "ajax",
+      "crawler": "kuaibao",
+      "comment_id": "commentid"
+    },
+    {
+      "publish_time": "time",
+      "title": "title",
+      "url": "url",
+      "skip": null,
+      "abstract": "abstract",
+      "author": null,
+      "list": "info|newsList",
+      "filter": null,
+      "publish_site": "source",
+      "keywords": null,
+      "type": "ajax",
+      "crawler": "kuaibao_hao",
+      "comment_id": "commentid"
+    },
+    {
+      "publish_time": null,
+      "title": "title",
+      "url": "url",
+      "skip": [
+        9,
+        -67
+      ],
+      "abstract": "intro",
+      "author": null,
+      "list": "item",
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "ajax",
+      "crawler": "qq_news"
+    },
+    {
+      "publish_time": null,
+      "title": {
+        "params": {
+          "selector": "div.text > em > a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "div.text > em > a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "div.list > div.Q-tpList > div.Q-tpWrap"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "qq"
+    },
+    {
+      "publish_time": {
+        "params": {
+          "selector": "span.pub_time"
+        },
+        "method": "select"
+      },
+      "title": {
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "ul.list01 > li"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "qq_sport"
+    },
+    {
+      "publish_time": {
+        "params": {
+          "selector": "span.pub_time"
+        },
+        "method": "select"
+      },
+      "title": {
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "div.newslist > ul > li"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "qq_sport_gjzq"
+    },
+    {
+      "publish_time": {
+        "params": {
+          "selector": "span.pub_time"
+        },
+        "method": "select"
+      },
+      "title": {
+        "params": {
+          "selector": "dd > strong > a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "dt > a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "div.styleOne > div.cf   "
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "qq_sport_nba"
+    },
+    {
+      "publish_time": {
+        "params": {
+          "selector": "span.aTime"
+        },
+        "method": "select"
+      },
+      "title": {
+        "params": {
+          "selector": "h3 > a "
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "div.list > div.Q-tpList > div.Q-tpListInner "
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": {
+        "params": {
+          "selector": "em"
+        },
+        "method": "select"
+      },
+      "type": "html",
+      "crawler": "qq_tec"
+    },
+    {
+      "publish_time": {
+        "params": {
+          "selector": "span.push-time"
+        },
+        "method": "select"
+      },
+      "title": {
+        "params": {
+          "selector": "div > div.detail > a > h2"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "div > div.detail > a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": {
+        "params": {
+          "selector": "div > div.detail > div.desc"
+        },
+        "method": "select"
+      },
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "ul#wz_div > li "
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "qq_dajia"
+    },
+    {
+      "publish_time": null,
+      "title": {
+        "params": {
+          "selector": "a > div.title > span:nth-of-type(2)"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": " a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": {
+        "params": {
+          "selector": "div.post-right > div.post-user"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": " div.left > div.post-wrap > ul.post-list > li"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "qq_buluo"
+    },
+    {
+      "publish_time": null,
+      "title": {
+        "params": {
+          "selector": "h3 > a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "h3 > a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "div.today_news > div.todaynews_cont > div.section0 > div"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": {
+        "params": {
+          "selector": "span.source"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "type": "html",
+      "crawler": "qq_game_hot"
+    },
+    {
+      "publish_time": null,
+      "title": {
+        "attribute": "title",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "div.ztab_bd > div:nth-of-type(2) > ul > li"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "qq_junshi_hot"
+    },
+    {
+      "publish_time": {
+        "params": {
+          "selector": "tr:nth-of-type(3)"
+        },
+        "method": "select"
+      },
+      "title": {
+        "params": {
+          "selector": "tr:nth-of-type(2) a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "params": {
+          "selector": "tr:nth-of-type(2) a"
+        },
+        "method": "select",
+        "attribute": "href"
+      },
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "ul#piclist > li"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "qq_picture_junshi"
+    }
+  ]
+}

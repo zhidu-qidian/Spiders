@@ -1,0 +1,62 @@
+{
+  "domain": "p5w.net",
+  "list": [
+    {
+      "publish_time": null,
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+      "title": {
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "div.newlist2,div.manlist3  h1,h2"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "p5w_net"
+    },
+    {
+      "publish_time": {
+        "params": {
+          "selector": "span.n3"
+        },
+        "method": "select"
+      },
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+      "title": {
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "div#docs li"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "zlzq_p5w_net"
+    }
+  ]
+}

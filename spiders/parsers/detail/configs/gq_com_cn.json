@@ -1,0 +1,56 @@
+{
+  "gq.com.cn": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "class_": "h1", 
+            "name": "h1"
+          }
+        }, 
+        "summary": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "Description"
+            }
+          }
+        }, 
+        "content": {
+          "params": {
+            "class_": "content", 
+            "name": "div"
+          }
+        }, 
+        "source": "GQ男士网", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "class_": "signature", 
+            "name": "p"
+          }
+        }, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "Keywords"
+            }
+          }
+        }, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "gq.com.cn": [
+        "0"
+      ]
+    }
+  }
+}

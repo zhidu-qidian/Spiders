@@ -1,0 +1,35 @@
+{
+  "yxdown.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "selector": "div.title > h1"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "selector": "div.detailTxt"
+          }, 
+          "method": "select"
+        }, 
+        "source": null, 
+        "editor": null, 
+        "clean": null, 
+        "date": null,
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "yxdown.com": [
+        "0"
+      ]
+    }
+  }
+}

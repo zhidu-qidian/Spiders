@@ -1,0 +1,20 @@
+{
+  "domain": "gao7.com.pc", 
+  "list": [
+    {
+      "publish_time": null, 
+      "title": "InfoTitle", 
+      "url": "TargetUrl", 
+      "skip": [
+        1, 
+        -1
+      ], 
+      "abstract": null, 
+      "author": null, 
+      "list": "Data|List", 
+      "keywords": null, 
+      "type": "ajax", 
+      "crawler": "gao7_com_pc"
+    }
+  ]
+}

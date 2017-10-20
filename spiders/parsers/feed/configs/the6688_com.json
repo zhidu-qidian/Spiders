@@ -1,0 +1,36 @@
+{
+  "domain": "the6688.com", 
+  "list": [
+    {
+      "publish_time": {
+        "params": {
+          "name": "p"
+        }, 
+        "method": "find_all"
+      }, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "name": "a"
+        }, 
+        "method": "find_all"
+      }, 
+      "abstract": null, 
+      "title": {
+        "params": {
+          "name": "a"
+        }, 
+        "method": "find_all"
+      }, 
+      "list": {
+        "params": {
+          "selector": "div.row > div > div.thumbnail > div.caption"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "the6688_com"
+    }
+  ]
+}

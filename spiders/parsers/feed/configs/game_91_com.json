@@ -1,0 +1,36 @@
+{
+  "domain": "game.91.com", 
+  "list": [
+    {
+      "publish_time": null, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "h4 > a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": {
+        "params": {
+          "selector": "p.m_one_info"
+        }, 
+        "method": "select"
+      }, 
+      "title": {
+        "params": {
+          "selector": "h4 > a"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "div.main_list > div.m_one"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "game_91_com"
+    }
+  ]
+}

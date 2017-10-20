@@ -1,0 +1,53 @@
+{
+  "itunes.apple.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": {
+          "params": {
+            "selector": "div.customer-reviews"
+          }, 
+          "method": "select"
+        }, 
+        "author": {
+          "params": {
+            "selector": "div#title > div.left > h2"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "div#title > div.left > h1"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.center-stack"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "itunes.apple.com", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "attribute": "content", 
+          "params": {
+            "itemprop": "datePublished"
+          }, 
+          "method": "find"
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "itunes.apple.com": [
+        "0"
+      ]
+    }
+  }
+}

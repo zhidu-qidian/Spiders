@@ -1,0 +1,46 @@
+{
+  "domain": "silver.org.cn",
+  "list": [
+        {
+      "publish_time":{
+        "params": {
+          "selector": "div"
+        },
+        "method": "select"
+      },
+      "title": {
+        "params": {
+          "selector": "h2"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "skip": null,
+      "abstract": {
+        "params": {
+          "selector": "p"
+        },
+        "method": "select"
+      },
+      "author": null,
+      "list": {
+        "params": {
+          "selector": "div.main_lt > div.lt_col > ul:nth-of-type(1) > li"
+        },
+        "method": "select"
+      },
+      "filter": null,
+      "publish_site": null,
+      "keywords": null,
+      "type": "html",
+      "crawler": "silver_org_cn"
+    }
+
+  ]
+}

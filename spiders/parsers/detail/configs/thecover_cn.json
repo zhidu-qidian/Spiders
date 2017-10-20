@@ -1,0 +1,45 @@
+{
+  "thecover.cn": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1"
+          }
+        },
+        "summary": null,
+        "content": {
+          "params": {
+            "selector": "section.article-content"
+          },
+          "method": "select"
+        },
+        "source": {
+          "params": {
+            "selector": "p.props-of-title > a > span"
+          },
+          "method": "select"
+        },
+        "editor": null,
+        "clean": null,
+        "date": {
+          "method": "select",
+          "params": {
+            "selector": "p.props-of-title > span:nth-of-type(1)"
+          }
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "thecover.cn": [
+        "0"
+      ]
+    }
+  }
+}

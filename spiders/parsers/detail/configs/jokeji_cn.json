@@ -1,0 +1,36 @@
+{
+  "jokeji.cn": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "attribute": "content",
+          "name": "description",
+          "params": {
+            "name": "meta"
+          }
+        },
+        "summary": null,
+        "content": {
+          "method": "select",
+          "params": {
+            "selector": "div.pic_pview > ul"
+          }
+        },
+        "source": "搞笑图集",
+        "editor": null,
+        "clean": null,
+        "date": null,
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "jokeji.cn": [
+        "0"
+      ]
+    }
+  }
+}

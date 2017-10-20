@@ -1,0 +1,57 @@
+{
+  "app.myzaker.com": {
+    "configs": {
+      "0": {
+        "extractor": "myzaker",
+        "after": {
+          "params": {
+            "name": "div", 
+            "id": "recommend_bottom"
+          }
+        }, 
+        "author": {
+          "params": {
+            "selector": "div#news_template_03_AuthorAndTime"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "name": "title"
+          }
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "name": "div", 
+            "id": "content"
+          }
+        }, 
+        "source": {
+          "params": {
+            "selector": "div#news_template_03_AuthorAndTime"
+          }, 
+          "method": "select"
+        }, 
+        "editor": null, 
+        "clean": null, 
+        "date": null, 
+        "tags": {
+          "attribute": "content", 
+          "params": {
+            "name": "meta", 
+            "attrs": {
+              "name": "keywords"
+            }
+          }
+        }, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "app.myzaker.com": [
+        "0"
+      ]
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "domain": "oushinet.com", 
+  "list": [
+    {
+      "publish_time": null, 
+      "title": {
+        "attribute": "title", 
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "skip": null, 
+      "abstract": {
+        "params": {
+          "selector": "a > p.n_txt"
+        }, 
+        "method": "select"
+      }, 
+      "author": null, 
+      "list": {
+        "params": {
+          "selector": "li"
+        }, 
+        "method": "select"
+      }, 
+      "filter": null, 
+      "publish_site": null, 
+      "keywords": null, 
+      "type": "html", 
+      "crawler": "oushinet"
+    }
+  ]
+}

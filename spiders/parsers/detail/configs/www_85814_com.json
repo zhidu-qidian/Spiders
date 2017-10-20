@@ -1,0 +1,47 @@
+{
+  "www.85814.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "name": "h1"
+          }
+        }, 
+        "summary": null, 
+        "content": {
+          "nth": 1, 
+          "params": {
+            "selector": "body > p"
+          }, 
+          "method": "select"
+        }, 
+        "source": "85814图库", 
+        "editor": null, 
+        "clean": {
+          "params": {
+            "name": "img", 
+            "attrs": {
+              "src": "http://tp.85814.com"
+            }
+          }
+        }, 
+        "date": {
+          "params": {
+            "selector": "dd.p > i > em"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "www.85814.com": [
+        "0"
+      ]
+    }
+  }
+}

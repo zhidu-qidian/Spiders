@@ -1,0 +1,71 @@
+{
+  "domain": "autohome.com.cn",
+  "list": [
+    {
+      "publish_time": null,
+      "author": {
+        "attribute": "href",
+        "params": {
+          "selector": "dt.user > a > span"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "div.pic-box > a"
+        },
+        "method": "select"
+      },
+      "thumb":{
+        "attribute": "data-original",
+        "params": {
+          "selector": "div.pic-box  img"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+      "title": {
+        "attribute": "title",
+        "params": {
+          "selector": "div.pic-box > a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "ul.content > li"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "autohome_club"
+    },
+        {
+      "publish_time": null,
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+      "title": {
+        "params": {
+          "selector": "h3"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "ul.article > li"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "autohome_com_cn"
+    }
+  ]
+}

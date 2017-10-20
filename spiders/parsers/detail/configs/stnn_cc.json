@@ -1,0 +1,45 @@
+{
+  "stnn.cc": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": null, 
+        "title": {
+          "params": {
+            "class_": "article-title", 
+            "name": "h1"
+          }
+        }, 
+        "summary": null, 
+        "content": {
+          "params": {
+            "selector": "div.article-content"
+          }, 
+          "method": "select"
+        }, 
+        "source": {
+          "params": {
+            "class_": "source", 
+            "name": "span"
+          }
+        }, 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "class_": "date", 
+            "name": "span"
+          }
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "stnn.cc": [
+        "0"
+      ]
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "domain": "guancha.cn", 
+  "list": [
+    {
+      "publish_time": null, 
+      "title": {
+        "params": {
+          "selector": "a "
+        }, 
+        "method": "select"
+      }, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "skip": null, 
+      "abstract": null, 
+      "author": null, 
+      "list": {
+        "params": {
+          "selector": "h4.module-title"
+        }, 
+        "method": "select"
+      }, 
+      "filter": null, 
+      "publish_site": null, 
+      "keywords": null, 
+      "type": "html", 
+      "crawler": "guancha"
+    }, 
+    {
+      "publish_time": null, 
+      "title": {
+        "params": {
+          "selector": "h4 > a "
+        }, 
+        "method": "select"
+      }, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "h4 > a"
+        }, 
+        "method": "select"
+      }, 
+      "skip": null, 
+      "abstract": {
+        "params": {
+          "selector": "p"
+        }, 
+        "method": "select"
+      }, 
+      "author": null, 
+      "list": {
+        "params": {
+          "selector": "div.left-side2 > div.item > div.item-bar02 > div.pull-left"
+        }, 
+        "method": "select"
+      }, 
+      "filter": null, 
+      "publish_site": null, 
+      "keywords": null, 
+      "type": "html", 
+      "crawler": "guancha_s"
+    }
+  ]
+}

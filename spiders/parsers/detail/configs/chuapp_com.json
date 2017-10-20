@@ -1,0 +1,92 @@
+{
+  "chuapp.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "params": {
+            "selector": "div.single-author > a.fn-left > em"
+          },
+          "method": "select"
+        },
+        "title": {
+          "params": {
+            "selector": "div.content-main-normal > h1"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.the-content.fn-clear"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "触乐",
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "div.single-author > span"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      },
+            "1": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "selector": "h1"
+          },
+          "method": "select"
+        },
+        "summary": {
+            "params": {
+              "selector": "p.head-excerpt,p.review-excerpt"
+            },
+            "method": "select"
+          },
+        "content": [
+          {
+            "params": {
+              "selector": "div.head-image"
+            },
+            "method": "select"
+          },
+          {
+            "params": {
+              "selector": "div.the-content"
+            },
+            "method": "select"
+          }
+        ],
+        "source": "触乐",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "attribute":"data-time",
+          "params": {
+            "selector": "span.friendly_time"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": null
+      }
+
+    }, 
+    "match": {
+      "chuapp.com": [
+        "0",
+        "1"
+      ]
+    }
+  }
+}

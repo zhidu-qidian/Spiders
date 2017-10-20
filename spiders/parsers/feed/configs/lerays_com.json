@@ -1,0 +1,20 @@
+{
+  "domain": "lerays.com",
+  "list": [
+    {
+      "publish_time": "pubtime",
+      "title": "title",
+      "url": "http://www.lerays.com/stream/view?{0}",
+      "skip": null,
+      "abstract": null,
+      "author": null,
+      "list": "data|list",
+      "filter": null,
+      "publish_site": "cate_title",
+      "keywords": null,
+      "fields":["query_string"],
+      "type": "ajax",
+      "crawler": "lerays_com"
+    }
+  ]
+}

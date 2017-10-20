@@ -1,0 +1,105 @@
+{
+  "domain": "ettoday.net", 
+  "list": [
+    {
+      "publish_time": null, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "div.pic > a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": {
+        "params": {
+          "selector": "p.summary"
+        }, 
+        "method": "select"
+      }, 
+      "title": {
+        "attribute": "title", 
+        "params": {
+          "selector": "div.pic > a"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "div.inner  > div.part_pictxt_4 > div.box_0"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "ettoday_net"
+    }, 
+    {
+      "publish_time": {
+        "params": {
+          "selector": "span"
+        }, 
+        "method": "select"
+      }, 
+      "author": null, 
+      "url": {
+        "attribute": "href", 
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "abstract": null, 
+      "title": {
+        "params": {
+          "selector": "a"
+        }, 
+        "method": "select"
+      }, 
+      "list": {
+        "params": {
+          "selector": "div.part_list_2 > h3"
+        }, 
+        "method": "select"
+      }, 
+      "keywords": null, 
+      "crawler": "ettoday_net_news"
+    },
+        {
+      "publish_time": {
+        "params": {
+          "selector": "p.date"
+        },
+        "method": "select"
+      },
+      "author": {
+        "params": {
+          "selector": "p.num > a"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "h4 > a"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+      "title": {
+        "params": {
+          "selector": "h4 > a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "div.part_pictxt_1 > div"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "ettoday_net_dal"
+    }
+
+  ]
+}

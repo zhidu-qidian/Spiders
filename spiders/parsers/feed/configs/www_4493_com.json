@@ -1,0 +1,70 @@
+{
+  "domain": "www.4493.com",
+  "list": [
+    {
+      "publish_time": {
+        "params": {
+          "selector": "b.b1"
+        },
+        "method": "select"
+      },
+      "author": null,
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+      "title": {
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "ul.clearfix li"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "4493_com"
+    },
+    {
+      "publish_time": null,
+      "author": null,
+      "thumb": {
+        "attribute": "lazysrc",
+        "params": {
+          "selector": "img"
+        },
+        "method": "select"
+      },
+      "url": {
+        "attribute": "href",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "abstract": null,
+      "title": {
+        "attribute": "title",
+        "params": {
+          "selector": "a"
+        },
+        "method": "select"
+      },
+      "list": {
+        "params": {
+          "selector": "div.hot-event > div.event-item"
+        },
+        "method": "select"
+      },
+      "keywords": null,
+      "crawler": "4493_com_top"
+    }
+  ]
+}

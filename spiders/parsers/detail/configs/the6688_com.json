@@ -1,0 +1,40 @@
+{
+  "the6688.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "params": {
+            "name": "meta",
+            "attrs": {
+              "name": "description"
+            }
+          },
+          "attribute": "content"
+        },
+        "summary": null,
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "section.contes"
+            }
+          }
+        ],
+        "source": "The6688",
+        "editor": null,
+        "clean": null,
+        "date": null,
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "the6688.com": [
+        "0"
+      ]
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "kejilie.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": null,
+        "author": null,
+        "title": {
+          "method": "select",
+          "params": {
+            "selector": "h1"
+          }
+        },
+        "summary": null,
+        "content": [
+          {
+            "method": "select",
+            "params": {
+              "selector": "div.so-content "
+            }
+          }
+        ],
+        "source": {
+          "method": "select",
+          "attribute": "title",
+          "params": {
+            "selector": "div.am_list_author > a:nth-of-type(1)"
+          }
+        },
+        "editor": null,
+        "clean": {
+          "method": "select",
+          "params": {
+            "selector": "div.ggyd"
+          }
+        },
+        "date": null,
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "kejilie.com": [
+        "0"
+      ]
+    }
+  }
+}

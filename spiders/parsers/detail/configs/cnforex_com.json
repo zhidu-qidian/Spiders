@@ -1,0 +1,50 @@
+{
+  "cnforex.com": {
+    "configs": {
+      "0": {
+        "extractor": null,
+        "after": {
+          "params": {
+            "selector": "span#exe_ding"
+          },
+          "method": "select"
+        },
+        "author": {
+          "params": {
+            "selector": "span.spanSource"
+          },
+          "method": "select"
+        },
+        "title": {
+          "params": {
+            "selector": "h1"
+          },
+          "method": "select"
+        },
+        "summary": null,
+        "content": {
+          "params": {
+            "selector": "div.divContent"
+          },
+          "method": "select"
+        },
+        "source": "环球外汇",
+        "editor": null,
+        "clean": null,
+        "date": {
+          "params": {
+            "selector": "span.spanShowTime"
+          },
+          "method": "select"
+        },
+        "tags": null,
+        "before": null
+      }
+    },
+    "match": {
+      "cnforex.com": [
+        "0"
+      ]
+    }
+  }
+}

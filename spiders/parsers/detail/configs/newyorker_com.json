@@ -1,0 +1,48 @@
+{
+  "newyorker.com": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": null, 
+        "author": {
+          "params": {
+            "selector": "hgroup#masthead > div.byline-and-date > h3 > span > a > span"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "h1.title"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div#content"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "www.newyorker.com", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "attribute": "content", 
+          "params": {
+            "selector": "time"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "newyorker.com": [
+        "0"
+      ]
+    }
+  }
+}

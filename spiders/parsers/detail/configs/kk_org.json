@@ -1,0 +1,52 @@
+{
+  "kk.org": {
+    "configs": {
+      "0": {
+        "extractor": null, 
+        "after": {
+          "params": {
+            "selector": "div.ctx-subscribe-container"
+          }, 
+          "method": "select"
+        }, 
+        "author": {
+          "params": {
+            "selector": "span.author-link"
+          }, 
+          "method": "select"
+        }, 
+        "title": {
+          "params": {
+            "selector": "div.content-title > h2"
+          }, 
+          "method": "select"
+        }, 
+        "summary": null, 
+        "content": [
+          {
+            "params": {
+              "selector": "div.content-body"
+            }, 
+            "method": "select"
+          }
+        ], 
+        "source": "KEVIN KELLY", 
+        "editor": null, 
+        "clean": null, 
+        "date": {
+          "params": {
+            "selector": "span.dates1"
+          }, 
+          "method": "select"
+        }, 
+        "tags": null, 
+        "before": null
+      }
+    }, 
+    "match": {
+      "kk.org": [
+        "0"
+      ]
+    }
+  }
+}
