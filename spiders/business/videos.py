@@ -23,9 +23,6 @@ from spiders.parsers.utils import extract_tag_attribute
 from spiders.parsers.utils import get_tag_attribute, get_tag_attribute_int
 from spiders.utilities import http, format_datetime_string, remove_url_query_params
 
-__author__ = "lixianyang"
-__email__ = "705834854@qq.com"
-__date__ = "2017-05-17 14:17"
 
 
 def g_tags(string):
